@@ -6,24 +6,24 @@ import PropTypes from "prop-types";
 //   nav: PropTypes.isRequired,
 // };
 
-const NavLink = ({ props }) => {
+const NavLink = ({ path, nav }) => {
   const location = useLocation();
 
   function setNav() {
     if (location.pathname === path) {
-      return "text-white bg-gradient-r from-[#430304] to-[#A90809]";
+      return "text-white rounded-full bg-gradient-to-r from-[#430304] to-[#A90809]";
     } else {
-      return "border-transparent text-slate-500 dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-200/20";
+      return "border-transparent rounded-full text-black hover:bg-[#E7E7E7]";
     }
   }
 
   return (
     <div>
       <Link
-        to={props.path}
+        to={path}
         className={`text-[0.90rem] font-medium rounded-box transition ease-in-out duration-300 px-3 py-1 ${setNav()}`}
       >
-        {props.nav}
+        {nav}
       </Link>
     </div>
   );
