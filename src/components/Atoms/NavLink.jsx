@@ -11,7 +11,7 @@ const NavLink = ({ props }) => {
 
   function setNav() {
     if (location.pathname === path) {
-      return "text-white bg-black dark:bg-white";
+      return "text-white bg-gradient-r from-[#430304] to-[#A90809]";
     } else {
       return "border-transparent text-slate-500 dark:text-slate-200 hover:bg-gray-200 dark:hover:bg-gray-200/20";
     }
