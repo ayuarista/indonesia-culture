@@ -3,7 +3,7 @@ import NavLink from "../Atoms/Navlink";
 import NavDropdown from "../Atoms/NavDropdown";
 const Header = () => {
   return (
-    <header className="w-full bg-white fixed p-4 text-black shadow-md">
+    <header className="w-full bg-white fixed p-5 text-black">
       <div className="flex justify-center items-center relative">
         <div className="absolute left-12">
           <h1 className="text-xl font-semibold">Culture</h1>
