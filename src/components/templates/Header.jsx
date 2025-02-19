@@ -10,9 +10,10 @@ const Header = () => {
         <nav>
           <ul className="flex items-center gap-3">
             <NavLink path="/" nav="Home" />
-            <NavLink path="/destination" nav="Destination" />
-            <NavLink path="/staycations" nav="Staycations" />
-            <NavLink path="/food-drinks" nav="Foods & Drinks" />
+            <NavLink path="/award" nav="Award" />
+            <NavLink path="/province" nav="Province" />
+            <NavLink path="/quiz" nav="Quiz" />
+            <NavLink path="/article" nav="Article" />
           </ul>
         </nav>
       </div>
