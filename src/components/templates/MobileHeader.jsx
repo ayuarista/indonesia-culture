@@ -1,5 +1,7 @@
 import { CgMenuLeftAlt } from "react-icons/cg";
 import { useState, useRef, useEffect } from "react";
+import NavDropdown from "../Atoms/NavDropdown";
+import NavLink from "../Atoms/Navlink";
 const MobileHeader = () => {
     const [activeNav, setNavActive] = useState(false);
     const menuRef = useRef(null);
@@ -24,9 +26,24 @@ const MobileHeader = () => {
     }, [activeNav])
 
     return(
-        <header>
-
-        </header>
+        <>
+        <button className="text-[27px] text-black" onClick={toggleNav}>
+            <CgMenuLeftAlt />
+        </button>
+        <div className="pt-24 p-4 flex flex-col gap-5">
+        <NavLink path="/" nav="Home" />
+            <NavDropdown
+              navLink="Award"
+              links={[
+                { path: "/award/national", label: "National" },
+                { path: "/award/international", label: "International" },
+              ]}
+            />
+            <NavLink path="/province" nav="Province" />
+            <NavLink path="/quiz" nav="Quiz" />
+            <NavLink path="/article" nav="Article" />
+        </div>
+        </>
     )
 }
 
