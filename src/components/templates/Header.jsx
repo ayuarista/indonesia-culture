@@ -8,7 +8,7 @@ const Header = () => {
         <div className="absolute left-12">
           <h1 className="text-xl font-semibold">Culture</h1>
         </div>
-        <nav>
+        <nav className="hidden md:hidden lg:block xl:block">
           <ul className="flex items-center gap-6">
             <NavLink path="/" nav="Home" />
             <NavDropdown
