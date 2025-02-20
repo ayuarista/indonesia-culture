@@ -65,8 +65,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <hr />
-      <p>© 2025 gatau we . All Rights Reserved.</p>
+      <hr className="w-full" />
+      <p className="text-center">© 2025 gatau we . All Rights Reserved.</p>
       </div>
     </div>
   );
