@@ -7,7 +7,7 @@ const Footer = () => {
   // bg-gradient-to-t from-[#430304] to-[#B20607]
   return (
     <div
-      className="w-full h-screen bg-cover bg-center flex justify-center items-center"
+      className="min-h-[80vh] bg-cover bg-center flex justify-center items-center"
       style={{
         backgroundImage: `url(${footer})`,
       }}
