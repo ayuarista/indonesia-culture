@@ -1,6 +1,6 @@
 const CardIndonesiaCulture = () => {
     return(
-    <div className="p-5 w-96 h-44 bg-gradient-to-r from-[#430304] to-[#A90809] rounded-tr-full rounded-br-full relative">
+    <div className="p-5 w-[26rem] h-44 bg-gradient-to-r from-[#430304] to-[#A90809] rounded-tr-full rounded-br-full relative">
         <div className="absolute left-14 -top-20">
             <div className="w-52 h-32">
             <img src="https://images.unsplash.com/photo-1740175919285-451699588f1b?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""  className="w-full object-cover border-white border-4 rounded-full"
