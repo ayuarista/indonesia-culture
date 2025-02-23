@@ -3,7 +3,7 @@ const AboutIndonesiaCulture = () => {
   return (
     <div className="text-black">
       <div className="flex flex-col gap-1">
-        <h1 className="font-bold text-2xl bg-gradient-to-r from-0% from-[#490303] to-40% to-[#  ] text-transparent bg-clip-text">
+        <h1 className="font-bold text-2xl bg-gradient-to-r from-0% from-[#490303] to-40% to-[#AF0808] text-transparent bg-clip-text">
           What do you know about
         </h1>
         <h1 className="font-bold text-4xl bg-gradient-to-r from-[#490303] from-0% to-[#AF0808] to-40% text-transparent bg-clip-text">
