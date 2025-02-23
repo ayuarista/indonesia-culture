@@ -2,9 +2,9 @@ import ViewAllNews from "./ViewAllNews"
 
 const AboutRekorMuri = () => {
     return (
-        <div>
+        <div className="mx-16">
             <div className="flex items-center gap-2">
-                <h1 className="bg-gradient-to-r font-bold text-4xl from-0% from-[#490303] to-40% to-[#AF0808] text-transparent bg-clip-text">Rekor Muri Indonesia</h1>
+                <h1 className="bg-gradient-to-r font-bold text-4xl from-0% from-[#490303] to-60% to-[#AF0808] text-transparent bg-clip-text">Rekor Muri Indonesia</h1>
                 <img src="" alt="" />
             </div>
             <div className="mt-3 max-w-[35rem]">
