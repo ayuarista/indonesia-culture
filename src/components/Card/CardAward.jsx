@@ -11,7 +11,7 @@ const CardAward = () => {
           January 8, 2025
         </div>
   
-        <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-red-700 via-black/10 to-transparent p-5 flex items-end">
+        <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-10% from-red-700 to-transparent to-90% p-5 flex items-end">
           <p className="text-white font-semibold text-[15px]/6 text-justify border-l-2 p-3 border-white">
             The First Person to Translate the Deuterocanonical Books and Part of
             the New Testament into Macapat

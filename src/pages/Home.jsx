@@ -12,7 +12,7 @@ const Home = () => {
             <div className="w-1/2">
             <CardIndonesiaCulture/>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 mx-10">
             <AboutIndonesiaCulture/>
             </div>
            </div>
