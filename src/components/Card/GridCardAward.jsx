@@ -4,9 +4,9 @@ const GridCardAward = (props) => {
         <img
           src={props.image}
           alt={props.title}
-          className="w-80 h-40 object-cover shadow-xl rounded-lg rounded-tl-4xl"
+          className="w-full h-42 object-cover shadow-xl rounded-lg rounded-tl-4xl"
         />
-        <div className="absolute top-0 left-0 bg-white text-red-700 font-semibold text-[13px] text-sm px-3 py-1 rounded-tl-4xl rounded-tr-4xl rounded-br-4xl shadow-lg">
+        <div className="absolute top-0 left-0 bg-white text-red-700 font-semibold text-[13px] text-sm px-3 py-1 rounded-tl-4xl rounded-tr-4xl rounded-br-4xl shadow-xl">
           {props.date}
         </div>
         <div className="relative">
