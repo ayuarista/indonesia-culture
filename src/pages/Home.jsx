@@ -3,8 +3,7 @@ import CardIndonesiaCulture from "../components/Card/CardIndonesiaCulture";
 import AboutIndonesiaCulture from "../components/Atoms/AboutIndonesiaCulture";
 import RekorMuri from "../components/Molecules/RekorMuri";
 import ArticleAwards from "../components/Molecules/ArticleAwards";
-import AboutGWR from "../components/Atoms/AboutGWR";
-import CardGWR from "../components/Card/CardGWR";
+import GuinnessWorldRecord from "../components/Molecules/GuinnessWorldRecord";
 const Home = () => {
     return (
         <div className="pt-16">
@@ -19,8 +18,7 @@ const Home = () => {
            </div>
            <RekorMuri/>
            <ArticleAwards/>
-           <AboutGWR/>
-           <CardGWR/>
+           <GuinnessWorldRecord/>
         </div>
     );
 }

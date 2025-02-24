@@ -4,7 +4,7 @@ const CardGWR = (props) => {
             <div className="relative">
             <img src={props.image} 
             alt={props.title}
-            className="w-full object-cover rounded-t-[21px]"
+            className="w-full h-52 object-cover rounded-t-[21px]"
             />
             <h1 className="absolute bottom-2 font-bold text-xl">
                 {props.title}
