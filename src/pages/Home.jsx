@@ -2,6 +2,7 @@ import HeroHome from "../components/Molecules/HeroHome";
 import CardIndonesiaCulture from "../components/Card/CardIndonesiaCulture";
 import AboutIndonesiaCulture from "../components/Atoms/AboutIndonesiaCulture";
 import RekorMuri from "../components/Molecules/RekorMuri";
+import CardAward from "../components/Card/CardAward";
 const Home = () => {
     return (
         <div className="pt-16">
@@ -15,6 +16,7 @@ const Home = () => {
             </div>
            </div>
            <RekorMuri/>
+           <CardAward/>
         </div>
     );
 }
