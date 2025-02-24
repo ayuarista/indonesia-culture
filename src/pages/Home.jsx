@@ -4,6 +4,7 @@ import AboutIndonesiaCulture from "../components/Atoms/AboutIndonesiaCulture";
 import RekorMuri from "../components/Molecules/RekorMuri";
 import ArticleAwards from "../components/Molecules/ArticleAwards";
 import AboutGWR from "../components/Atoms/AboutGWR";
+import CardGWR from "../components/Card/CardGWR";
 const Home = () => {
     return (
         <div className="pt-16">
@@ -19,6 +20,7 @@ const Home = () => {
            <RekorMuri/>
            <ArticleAwards/>
            <AboutGWR/>
+           <CardGWR/>
         </div>
     );
 }
