@@ -5,6 +5,7 @@ import GuinnessWorldRecord from "../components/Molecules/GuinnessWorldRecord";
 import Unesco from "../components/Molecules/Unesco";
 import IndonesiaCulture from "../components/Molecules/IndonesiaCulture";
 import PreserveCulture from "../components/Molecules/PreserveCulture";
+import CardLatestArticle from "../components/Card/CardLatestArticle";
 const Home = () => {
   return (
     <div className="pt-16">
@@ -15,6 +16,7 @@ const Home = () => {
       <GuinnessWorldRecord />
       <Unesco />
       <PreserveCulture/>
+      <CardLatestArticle/>
     </div>
   );
 };
