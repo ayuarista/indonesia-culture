@@ -2,13 +2,12 @@ import HeroHome from "../components/Molecules/HeroHome";
 import CardIndonesiaCulture from "../components/Card/CardIndonesiaCulture";
 import AboutIndonesiaCulture from "../components/Atoms/AboutIndonesiaCulture";
 import RekorMuri from "../components/Molecules/RekorMuri";
-import CardAward from "../components/Card/CardAward";
 import ArticleAwards from "../components/Molecules/ArticleAwards";
 const Home = () => {
     return (
         <div className="pt-16">
            <HeroHome/>
-           <div className="flex justify-between">
+           <div className="flex justify-between flex-col lg:flex-row">
             <div className="w-1/2">
             <CardIndonesiaCulture/>
             </div>
