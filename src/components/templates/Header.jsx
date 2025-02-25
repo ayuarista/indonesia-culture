@@ -16,7 +16,7 @@ const Header = () => {
           <ul className="flex items-center gap-6">
             <NavLink path="/" nav="Home" />
             <NavDropdown
-              navLink="Award"
+              navLink="Awards"
               links={[
                 { path: "/award/national", label: "National" },
                 { path: "/award/international", label: "International" },

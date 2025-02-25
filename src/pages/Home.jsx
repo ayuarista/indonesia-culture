@@ -7,7 +7,6 @@ import IndonesiaCulture from "../components/Molecules/IndonesiaCulture";
 import PreserveCulture from "../components/Molecules/PreserveCulture";
 import CardLatestArticle from "../components/Card/CardLatestArticle";
 import ProtectCulture from "../components/Molecules/ProtectCulture";
-import ProtectCultureMap from "../components/Molecules/ProtectCultureMap";
 const Home = () => {
   return (
     <div className="pt-16">
