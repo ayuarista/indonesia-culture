@@ -4,7 +4,7 @@ import AboutPreserveCulture from "../Atoms/AboutPreserveCulture";
 
 const PreserveCulture = () => {
     return (
-        <div className="mx-16 mt-32">
+        <div className="mx-16 mt-80">
             <AboutPreserveCulture/>
         <div className="grid grid-cols-3 gap-6 mt-10">
             {DataPreserveCulture.map((item) => (

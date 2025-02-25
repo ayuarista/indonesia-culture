@@ -1,7 +1,7 @@
 const DataPreserveCulture = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1524341661047-3a38ae8987f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGluZG9uZXNpYSUyMGN1bHR1cmV8ZW58MHx8MHx8fDA%3D",
+        image: "https://images.unsplash.com/photo-1704312507820-08d6165145df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjcwfHxpbmRvbmVzaWFuJTIwY3VsdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
         title: "Learning and Teaching Culture",
         desc: "Learning and Teaching Culture means the process of understanding, exploring, and passing on the values ​​and traditions of a society to others.",
     },

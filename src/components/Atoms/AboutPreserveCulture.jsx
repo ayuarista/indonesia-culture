@@ -2,7 +2,7 @@ const AboutPreserveCulture = () => {
     return (
         <div className="text-black">
       <div className="flex flex-col gap-1">
-        <h1 className="font-bold text-4xl bg-gradient-to-r from-0% from-[#490303] to-40% to-[#AF0808] text-transparent bg-clip-text">
+        <h1 className="font-bold text-4xl bg-gradient-to-r from-0% from-dark-red to-20% to-light-red text-transparent bg-clip-text">
         How to preserve <br /> Indonesian culture?
         </h1>
       </div>
