@@ -1,9 +1,10 @@
 import CardCulturalAwards from "../../components/Card/CardCulturalAwards";
+import NationalAwards from "../../components/Molecules/NationalAwards";
 
 const National = () => {
     return(
-        <div className="pt-16">
-            <CardCulturalAwards/>
+        <div className="pt-32">
+            <NationalAwards/>
         </div>
     )
 }
