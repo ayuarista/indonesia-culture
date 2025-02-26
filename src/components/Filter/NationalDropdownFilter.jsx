@@ -10,7 +10,9 @@ const NationalDropdownFilter = ({onSort}) => {
         setShowDropdown(false);
     }
     return(
-        <div className="relative w-64 mx-auto">
+        <div className="flex items-center justify-between">
+            <h1 className="font-bold text-xl text-light-red">{sortOption}</h1>
+        <div className="flex flex-row relative w-64 mx-auto">
             <button 
             onClick={() => setShowDropdown(!showDropdown)}
             className="border border-gray-200 text-black px-4 py-2
@@ -42,6 +44,7 @@ const NationalDropdownFilter = ({onSort}) => {
                     </button>
                 </div>
             )}
+        </div>
         </div>
     )
 }
