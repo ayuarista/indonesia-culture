@@ -33,7 +33,7 @@ const SortFilter = () => {
         <span className="text-gray-700 font-medium">Sort by:</span>
         <div className="relative">
           <select
-            className="px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm text-gray-700 focus:ring focus:ring-red-500"
+            className="px-4 py-2 border border-gray-300 rounded-md shadow-sm text-gray-700 focus:ring focus:ring-red-500"
             value={sortOption}
             onChange={(e) => handleSort(e.target.value)}
           >
