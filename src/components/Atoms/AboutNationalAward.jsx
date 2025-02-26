@@ -1,3 +1,5 @@
+import BtnDiscoverMore from "./BtnDiscoverMore";
+
 const AboutNationalAward = () => {
     return(
         <div className="text-black">
@@ -9,6 +11,9 @@ const AboutNationalAward = () => {
         <p className="font-medium mt-3 text-pretty text-justify">
         The Indonesian National Cultural Award is a form of appreciation from the government to individuals, groups, or communities who play an important role in preserving, developing, and advancing Indonesian culture.
         </p>
+        <div className="mt-5">
+          <BtnDiscoverMore/>
+        </div>
       </div>
     )
 }
