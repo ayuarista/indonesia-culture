@@ -1,5 +1,5 @@
-import DataProtectCulture from "../data/card/DataProtectCulture";
 import CardProtectCulture from "../Card/CardProtectCulture";
+import DataProtectCulture from "../../data/card/DataProtectCulture";
 const ProtectCultureMap = () => {
   return (
     <div className="grid grid-cols-4 gap-3">

@@ -1,6 +1,6 @@
 import CardPreserveCulture from "../Card/CardPreserveCulture";
-import DataPreserveCulture from "../data/card/DataPreserveCulture";
 import AboutPreserveCulture from "../Atoms/AboutPreserveCulture";
+import DataPreserveCulture from "../../data/card/DataPreserveCulture";
 
 const PreserveCulture = () => {
     return (
