@@ -1,6 +1,6 @@
 import AboutGWR from "../Atoms/AboutGWR";
 import CardGWR from "../Card/CardGWR";
-import DataCardGWR from "../data/card/DataCardGWR";
+import DataCardGWR from "../../data/card/DataCardGWR";
 const GuinnessWorldRecord = () => {
   return (
     <div className="flex flex-col items-center justify-between mt-24">

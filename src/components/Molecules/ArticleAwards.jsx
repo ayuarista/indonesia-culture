@@ -1,6 +1,6 @@
 import GridCardAward from "../Card/GridCardAward";
-import DataGridAwards from "../data/Card/DataGridAward";
 import CardAward from "../Card/CardAward";
+import DataGridAwards from "../../data/card/DataGridAward";
 const AricleAwards = () => {
   return (
     <div className="flex justify-center mt-20 mx-16 gap-6">
