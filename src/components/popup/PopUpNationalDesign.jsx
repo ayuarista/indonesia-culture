@@ -1,19 +1,55 @@
-const PopUpNationalDesign = () => {
-    return(
-        <div className="flex items-center w-full p-4 gap-4 bg-white rounded-md">
-            <div>
-                <img src="" alt="" className="max-w-sm rounded-lg"/>
-            </div>
+import { useEffect, useState } from "react";
+const PopUpNationalDesign = ({
+  isOpen,
+  closeModal,
+  image,
+  title,
+  date,
+  desc,
+}) => {
+  const [visible, setVisible] = useState(false);
+  const [animationClass, setAnimationClass] = useState("scale-0 opacity-0");
+
+  useEffect(() => {
+    if (isOpen) {
+      setVisible(true);
+      setAnimationClass("scale-100 opacity-100");
+    } else {
+      setVisible(false);
+      setAnimationClass("scale-0 opacity-0");
+    }
+  }, [isOpen]);
+
+  return (
+    visible && (
+      <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-30 transition-all duration-300 ease-in-out">
+        <div className={`bg-white rounded-lg p-6 relative w-[90%] md:w-[800px] transform transition-all duration-500 ease-in-out ${animationClass}`}>
+          <div>
+            <img src={image} alt="" className="max-w-sm rounded-lg" />
+          </div>
+          <div className="">
             <div className="">
-                <div className="">
-                <h1 className="bg-gradient-to-r from-dark-red to-light-red text-transparent bg-clip-text font-bold text-2xl">The First Person to Translate the Deuterocanonical Books and Part of the New Testament into Macapat</h1>
-                <p className="text-gray-400 text-xs border-l border-gray-400 px-2">Jakarta, 08 January, 2025</p>
-                </div>
-                <p className="font-medium text-black">Christ Srie Harinto (82), or Eyang Christ, is a TNI AL Marine veteran who wrote 16 books of macapat songs based on holy scriptures. Through macapatan at St. Yohanes Baptista Parish, Parung, Bogor, he invites the congregation to read holy scriptures and preserve culture.</p>
+              <h1 className="bg-gradient-to-r from-dark-red to-light-red text-transparent bg-clip-text font-bold text-2xl">{title}
+              </h1>
+              <p className="text-gray-400 text-xs border-l border-gray-400 px-2">
+                {date}
+              </p>
             </div>
-            <div className="absolute bottom-3 right-3">
-                <button className="px-5 py-2 bg-light-red rounded-full">Close</button>
-            </div>
+            <p className="font-medium text-black">
+              {desc}
+            </p>
+          </div>
+          <div className="absolute bottom-3 right-3">
+            <button 
+            onClick={closeModal}
+            className="px-5 py-2 bg-light-red rounded-full">
+              Close
+            </button>
+          </div>
         </div>
+      </div>
     )
-}
+  );
+};
+
+export default PopUpNationalDesign;
