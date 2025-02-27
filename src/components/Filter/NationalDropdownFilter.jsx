@@ -55,12 +55,6 @@ const NationalDropdownFilter = () => {
                 All
               </button>
               <button
-                onClick={() => handleSort("Popular")}
-                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
-              >
-                Popular
-              </button>
-              <button
                 onClick={() => handleSort("Latest")}
                 className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
               >
@@ -72,15 +66,22 @@ const NationalDropdownFilter = () => {
               >
                 Previous
               </button>
+              <button
+                onClick={() => handleSort("Popular")}
+                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
+              >
+                Popular
+              </button>
             </div>
           )}
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-16">
         {filteredData.map((item) => (
           <CardNational
             key={item.id}
+            id={item.id}
             image={item.image}
             date={item.date}
             views={item.views}

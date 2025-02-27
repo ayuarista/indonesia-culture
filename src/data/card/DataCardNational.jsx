@@ -5,7 +5,8 @@ const DataCardNational = [
         date: "Jakarta, 08 January, 2025",
         views: "566k",
         title: "The First Person to Translate the Deuterocanonical Books and Part of the New Testament into Macapat.", 
-        category: ['all', 'latest', 'popular']
+        category: ['all', 'latest', 'popular'],
+        desc: "Christ Srie Harinto (82), or Eyang Christ, is a TNI AL Marine veteran who wrote 16 books of macapat songs based on holy scriptures. Through macapatan at St. Yohanes Baptista Parish, Parung, Bogor, he invites the congregation to read holy scriptures and preserve culture.",
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ const DataCardNational = [
         date: "Dharmasraya, 03 January, 2025",
         views: "322k",
         title: "Talempong Pacik Performance by Most Women in Indonesia Cultural. ",
-        category: ['all', 'latest']
+        category: ['all', 'latest'],
+        desc: "Talempong pacik is a traditional Minangkabau musical instrument played by holding and hitting it, often used in traditional ceremonies. On the 21st Anniversary of Dharmasraya, Dewi Sutan Riska and 1,690 PKK Cadres played talempong pacik accompanying the Dharmasraya March.",
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ const DataCardNational = [
         date: "Sasono Langen Budoyo TMII, 31 December, 2024",
         views: "489k",
         title: "Karmina Anthology Book for General and Student Level with the Most Authors",
-        category: ['all', 'latest', 'popular']
+        category: ['all', 'latest', 'popular'],
+        desc: "Karmina is a two-line flash pantun used for advice, satire, or entertainment. In the 2024 Nusantara Pantun Festival, the Asnur Art House Association published the Karmina Anthology Book with 1,350 general writers and 1,400 student writers to promote literacy and preserve culture.",
     },
     {
         id: 4,
@@ -29,7 +32,8 @@ const DataCardNational = [
         date: "Jakarta, 22 December, 2024",
         views: "312k",
         title: "Cross-Generation Kebaya Fashion Show with Most Participants in Indonesia.",
-        category: ['all', 'latest']
+        category: ['all', 'latest'],
+        desc: "The Indonesian Ministry of Culture held “RAYA” Celebrate Indonesian Culture, including a cross-generation kebaya show with 2,414 participants from baby boomers to the alpha generation. This event has been recognized by UNESCO as an Indonesian cultural heritage.",
     },
     {
         id: 5,
@@ -37,7 +41,8 @@ const DataCardNational = [
         date: "Kupang, December 20, 2024",
         views: "456k",
         title: "Simultaneous Weaving Parade at the Most Locations and Motifs.",
-        category: ['all', 'latest', 'popular']
+        category: ['all', 'latest', 'popular'],
+        desc: "Indonesian woven fabrics are passed down from generation to generation with unique motifs in each region. In NTT, weaving has developed since the 3rd century. In the 66th anniversary, the people of NTT paraded wearing woven clothing with 737 different motifs.",
     },
     {
         id: 6,
@@ -45,7 +50,8 @@ const DataCardNational = [
         date: "Jakarta, 16 December, 2024",
         views: "374k",
         title: "Police Officer Who Founded the Most Bands and Created the Most Songs.",
-        category: ['all', 'popular', 'previous']
+        category: ['all', 'popular', 'previous'],
+        desc: "AKBP Dr. S.F. Aritonang founded Bendgo Eduband, a music group consisting of 4 personnel that carries an educational message. Since April 2024, they have released 7 albums with 155 songs in 7 months, bringing the spirit of nationalism and goodness to Indonesia.",
     },
     {
         id: 7,
@@ -53,36 +59,54 @@ const DataCardNational = [
         date: "Bali, January 10, 2024",
         views: "360k",
         title: "Dancing 'Joged Harmoni Bali' by the Most Female Dancers in Indonesia.",
-        category: ['all', 'previous', 'popular']
+        category: ['all', 'popular', 'previous'],
+        desc: "In the 31st Dies Natalis, Undiksha held a harmony dance with 1,131 dancers. This dance reflects harmonious youth relationships according to the philosophy of Tri Hita Karana, namely balance in life for happiness.",
     },
-    // {
-    //     id: 8,
-    //     image: "",
-    //     date: "",
-    //     views: "",
-    //     title: ""
-    // },
-    // {
-    //     id: 9,
-    //     image: "",
-    //     date: "",
-    //     views: "",
-    //     title: ""
-    // },
-    // {
-    //     id: 10,
-    //     image: "",
-    //     date: "",
-    //     views: "",
-    //     title: ""
-    // },
-    // {
-    //     id: 11,
-    //     image: "",
-    //     date: "",
-    //     views: "",
-    //     title: ""
-    // },
+    {
+        id: 8,
+        image: "https://muri.org/assets/website/images/record/11481-1714028026.png",
+        date: "Borobudur, December 23, 2023",
+        views: "342k",
+        title: "Longest Relay Ethnic Dance Performance in Indonesia.",
+        category: ['all', 'previous', 'popular'],
+        desc: "Mahajava Aksata Group from 20 villages in Borobudur developed local wisdom-based tourism with the Tridaya concept. They held 39 Borobudur Menari Hours, featuring Borobudur's signature dances, classical, creative, dance dramas, and wayang orang by 36 groups in relay."
+    },
+    {
+        id: 9,
+        image: "https://muri.org/assets/website/images/record/11466-1703150560.png",
+        date: "Jakarta, December 16, 2023",
+        views: "317k",
+        title: "Wearing Traditional Head Coverings (Deta and Tikuluak) by the Most Academic Community.",
+        category: ['all', 'previous'],
+        desc: "Padang State University set a record for the most academics wearing Deta and Tikuluak during Mufidah Jusuf Kalla's coronation as West Sumatra's Mother of Songket on December 20, 2023."
+    },
+    {
+        id: 10,
+        image: "https://muri.org/assets/website/images/record/11462-1704343224.png",
+        date: "Sorong, December 13, 2023",
+        views: "297k",
+        title: "The Tallest Christmas Tree Made of Sea Shells in Indonesia.",
+        category: ['all', 'previous'],
+        desc: "Welcoming Christmas 2023, the people of Doom Island, Sorong, made a 6.2-meter-tall Christmas tree from 15,028 shells weighing 209.7 kg. This tree symbolizes the richness of the sea and the hope of love and peace of Christmas."
+    },
+    {
+        id: 11,
+        image: "https://muri.org/assets/website/images/record/11439-1702272009.png",
+        date: "Jakarta, 05 December, 2023",
+        views: "353k",
+        title: "The Longest Series of Wayang Purwa Paintings in Indonesia.",
+        category: ['all', 'previous'],
+        desc: "Ki Gamblang painted 'Banjaran Bima' on a 17-meter canvas in 12 hours during the commemoration of National Wayang Day and the Living ICH Forum organized by SENAWANGI."
+    },
+    {
+        id: 12,
+        image: "https://muri.org/assets/website/images/record/11409-1702290189.png",
+        date: "Dairi, November 23, 2023",
+        views: "357k",
+        title: "Tor-tor Sawan Dance Performance by the Most Students in Indonesia.",
+        category: ['all', 'previous'],
+        desc: "Tor tor sawan dance, a sacred ritual of Batak Toba for purification from plague, has now developed into a performance dance. In the Aquabike Jetski Competition in Silalahi, 1,225 students from 129 schools in Dairi performed this dance."
+    },
 ]
 
 export default DataCardNational

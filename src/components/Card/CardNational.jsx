@@ -1,14 +1,18 @@
+import BtnNationalPopup from "../Atoms/BtnNationalPopup";
 import graphic from "/assets/awards/views.svg";
 
-const CardNational = ({ image, date, views, title, sortOption }) => {
+const CardNational = ({ image, date, views, title, sortOption, id }) => {
   return (
     <div className="flex flex-col relative">
-      <div className="max-w-sm p-3 rounded-t-3xl border border-gray-300 shadow-sm">
-        <img src={image} alt="" className="w-full object-cover rounded-2xl" />
+      <div className="max-w-sm h-full p-4 rounded-t-3xl border border-gray-300 shadow-sm overflow-hidden">
+      <div className="relative group bg-cover overflow-hidden">
+        <img src={image} alt="" className="w-full object-cover rounded-2xl transition duration-300 ease-in-out group-hover:scale-110"/>
+        </div>
         <div className="border-l-2 border-light-red ml-2 px-3 mt-3">
           <div className="flex items-center gap-3">
             <p className="text-gray-400 text-[13px]">{date}</p>
             <div className="flex items-center gap-2">
+              
               <img src={graphic} alt="" />
               <p className="text-light-red font-medium text-sm">{views}</p>
             </div>
@@ -23,6 +27,7 @@ const CardNational = ({ image, date, views, title, sortOption }) => {
               Most Viewed
             </div>
           )}
+          <BtnNationalPopup itemId={id}/>
     </div>
   );
 };
