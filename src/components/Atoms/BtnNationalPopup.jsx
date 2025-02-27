@@ -1,7 +1,8 @@
 import PopUpNationalDesign from "../popup/PopUpNationalDesign";
+import { useModal } from "./PopupLogic";
 
 const BtnNationalPopup = () => {
-    const {isOpen, openModal, closeModal} = this.props
+    const {isOpen, openModal, closeModal} = useModal();
     return(
         <div>
             <button onClick={openModal}
