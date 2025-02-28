@@ -35,7 +35,6 @@ const International = () => {
   
         {selectedFilter === "UNESCO" && <UNESCOCard data={unescoData} />}
         {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards/>}
-        {/* <AsiaAwards/> */}
       </div>
     );
   };
