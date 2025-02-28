@@ -1,16 +1,36 @@
 const CardTVRI = () => {
   return (
-    // <div className="flex items-center justify-center mt-16">
-
-      <div className="relative w-[40%] bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
-        <div className="absolute  right-12 -top-12">
+    <div className="flex flex-col lg:flex-row items-center justify-center mt-16 w-full">
+      <div className="flex flex-col w-1/2 mx-20">
+        <div className="flex items-center w-1/2">
+          <div className="flex-1 border-t-2 border-red-700"></div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/170px-TVRILogo2019.svg.png"
+            alt=""
+            className="mx-5 w-28"
+          />
+          <div className="flex-1 border-t-2 border-red-700"></div>
+        </div>
+        <h1 className="font-bold text-light-red text-3xl">
+          Republic of Indonesia Television (TVRI)
+        </h1>
+        <p className="font-medium text-black text-pretty mt-2">
+          RRI, established on September 11, 1945, is Indonesia's national radio
+          station that provides news, culture, and education. As a member of
+          ABU, RRI plays a role in international content exchange and
+          development of broadcasting technology.
+        </p>
+      </div>
+      <div className="relative w-[50%] bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
+        <div className="absolute  right-12 -top-10">
           <img
             src="https://cdn.antaranews.com/cache/1200x800/2023/11/23/WhatsApp-Image-2023-11-23-at-14.44.23.jpeg.webp"
             className="rounded-tr-full rounded-tl-full object-cover w-72 h-72 border-8 border-white rotate-6"
             alt=""
           />
+          <div className="absolute bg-white border-4 border-dashed -bottom-5 right-0 border-light-red p-7 rounded-full"></div>
         </div>
-        <div className="absolute -left-3 bottom-0 -rotate-6">
+        <div className="absolute -left-2 bottom-0">
           <img
             src="https://ambonews.com/sites/default/files/article/2024/12/WhatsApp%20Image%202024-12-20%20at%2009.37.09.jpeg"
             alt=""
@@ -18,7 +38,7 @@ const CardTVRI = () => {
           />
         </div>
       </div>
-    // </div>
+    </div>
   );
 };
 
