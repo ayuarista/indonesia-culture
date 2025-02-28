@@ -37,7 +37,7 @@ const NationalDropdownFilter = () => {
         <div className="relative text-black mx-16">
           <button
             onClick={() => setShowDropdown(!showDropdown)}
-            className="border cursor-pointer border-gray-200 text-black px-4 py-2 rounded-lg w-48 text-left flex items-center justify-between"
+            className="border cursor-pointer border-light-red text-light-red font-medium px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
           >
             {sortOption}
             <IoIosArrowDown
@@ -47,28 +47,28 @@ const NationalDropdownFilter = () => {
             />
           </button>
           {showDropdown && (
-            <div className="absolute bg-white border border-gray-300 rounded-lg mt-2 w-full shadow-lg z-10">
+            <div className="absolute text-[15px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
               <button
                 onClick={() => handleSort("All")}
-                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
+                className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"
               >
                 All
               </button>
               <button
                 onClick={() => handleSort("Latest")}
-                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
+                className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"
               >
                 Latest
               </button>
               <button
                 onClick={() => handleSort("Previous")}
-                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
+                className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"
               >
                 Previous
               </button>
               <button
                 onClick={() => handleSort("Popular")}
-                className="block w-full text-left px-4 py-2 cursor-pointer hover:bg-gray-200"
+                className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"
               >
                 Popular
               </button>

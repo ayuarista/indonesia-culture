@@ -1,6 +1,6 @@
 const CardAboutInternational = () => {
   return (
-    <div className="flex gap-7">
+    <div className="flex gap-7 mx-8">
       <div className="relative">
         <img
           src="https://images.unsplash.com/photo-1630929436231-91f4c6fe4884?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
