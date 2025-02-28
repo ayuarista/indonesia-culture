@@ -4,6 +4,7 @@ import ABUCard from "./ABUCard";
 import UNESCOCard from "./UNESCOCard";
 import { unescoData } from "./unescoData";
 import { abuData } from "./abuData";
+import CardAboutInternational from "../../components/Card/CardAboutInternational";
 
 const International = () => {
     const [selectedFilter, setSelectedFilter] = useState("unesco");
@@ -29,6 +30,7 @@ const International = () => {
   
         {selectedFilter === "unesco" && <UNESCOCard data={unescoData} />}
         {selectedFilter === "abu" && <ABUCard/>}
+        <CardAboutInternational/>
       </div>
     );
   };
