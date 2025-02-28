@@ -7,6 +7,7 @@ const Filter = ({ options, selectedOption, onSelect }) => (
         borderRadius: "4px",
         border: "1px solid #ccc",
         marginBottom: "20px",
+        color:"black"
       }}
     >
       <option value="">Pilih Filter</option>

@@ -11,11 +11,11 @@ import CardTVRI from "../../components/Card/CardTVRI";
 import AsiaAwards from "../../components/Molecules/AsiaAwards";
 
 const International = () => {
-    const [selectedFilter, setSelectedFilter] = useState("unesco");
+    const [selectedFilter, setSelectedFilter] = useState("UNESCO");
 
     const filterOptions = [
-      { value: "unesco", label: "UNESCO" },
-      { value: "abu", label: "ABU" },
+      { value: "UNESCO", label: "UNESCO" },
+      { value: "Asia Awards (ABU)", label: "Asia Awards (ABU)" },
     ];
   
     const handleFilterSelect = (value) => {
@@ -24,6 +24,7 @@ const International = () => {
   
     return (
       <div className="pt-32">
+      <TopInternationalSection/>
         <h1>Filter dan Card</h1>
         <h1 className="font-bold text-2xl text-black">{selectedFilter}</h1>
         <Filter
@@ -32,10 +33,9 @@ const International = () => {
           onSelect={handleFilterSelect}
         />
   
-        {selectedFilter === "unesco" && <UNESCOCard data={unescoData} />}
-        {selectedFilter === "abu" && <ABUCard/>}
-        <TopInternationalSection/>
-        <AsiaAwards/>
+        {selectedFilter === "UNESCO" && <UNESCOCard data={unescoData} />}
+        {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards/>}
+        {/* <AsiaAwards/> */}
       </div>
     );
   };

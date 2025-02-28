@@ -1,7 +1,7 @@
 const HeaderInternationalAwards = ({image, title, desc}) => {
   return (
     <div className="flex flex-col items-center justify-center my-6">
-      <div className="flex items-center w-full">
+      <div className="flex items-center w-[80%]">
         <div className="flex-1 border-t-2 border-red-700"></div>
         <img src={image} alt="" className="mx-5 w-1/3" />
         <div className="flex-1 border-t-2 border-red-700"></div>
