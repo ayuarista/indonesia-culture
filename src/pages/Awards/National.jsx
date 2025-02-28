@@ -8,7 +8,6 @@ const National = () => {
             <NationalAwards/>
             <AboutMuriAwards/>
             <NationalDropdownFilter/>
-            {/* <CardNationalMap/> */}
         </div>
     )
 }
