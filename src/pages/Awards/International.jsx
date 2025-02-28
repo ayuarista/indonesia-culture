@@ -8,6 +8,7 @@ import CardAboutInternational from "../../components/Card/CardAboutInternational
 import TopInternationalSection from "../../components/Molecules/TopInternationalSection";
 import CardRRI from "../../components/Card/CardRRI";
 import CardTVRI from "../../components/Card/CardTVRI";
+import AsiaAwards from "../../components/Molecules/AsiaAwards";
 
 const International = () => {
     const [selectedFilter, setSelectedFilter] = useState("unesco");
@@ -34,8 +35,7 @@ const International = () => {
         {selectedFilter === "unesco" && <UNESCOCard data={unescoData} />}
         {selectedFilter === "abu" && <ABUCard/>}
         <TopInternationalSection/>
-        <CardRRI/>
-        <CardTVRI/>
+        <AsiaAwards/>
       </div>
     );
   };
