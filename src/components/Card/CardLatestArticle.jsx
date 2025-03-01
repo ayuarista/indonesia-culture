@@ -4,7 +4,7 @@ const CardLatestArticle = () => {
   return (
     <div className="mt-24 mx-16">
       <ArticleTitle title="Latest Article" />
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
         <ArticleCard
           image="https://images.unsplash.com/photo-1666587128445-4623f8f8f033?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
           label="Latest"
