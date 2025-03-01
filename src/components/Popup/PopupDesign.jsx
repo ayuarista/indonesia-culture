@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const PopUpNationalDesign = ({
+const PopupDesign = ({
   isOpen,
   closeModal,
   image,
@@ -49,7 +49,7 @@ const PopUpNationalDesign = ({
             <div className="absolute bottom-4 right-3 text-sm">
               <button
                 onClick={closeModal}
-                className="px-5 cursor-pointer py-2 bg-light-red rounded-full"
+                className="px-5 cursor-pointer py-2 hover:bg-light-red/80 bg-light-red rounded-full"
               >
                 Close
               </button>
@@ -61,4 +61,4 @@ const PopUpNationalDesign = ({
   );
 };
 
-export default PopUpNationalDesign;
+export default PopupDesign;

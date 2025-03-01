@@ -1,5 +1,5 @@
 import AboutMuriAwards from "../../components/Atoms/AboutMuriAwards";
-import NationalDropdownFilter from "../../components/filter/NationalDropdownFilter";
+import NationalDropdownFilter from "../../components/Filter/NationalDropdownFilter";
 import NationalAwards from "../../components/Molecules/NationalAwards";
 
 const National = () => {

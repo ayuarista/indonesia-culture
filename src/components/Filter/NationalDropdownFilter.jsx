@@ -15,13 +15,13 @@ const NationalDropdownFilter = () => {
     let sortedData = [...data];
 
     if (option === "Latest") {
-      sortedData.sort((a, b) => new Date(b.date) - new Date(a.date)); // Urutkan berdasarkan tanggal paling awal
+      sortedData.sort((a, b) => new Date(b.date) - new Date(a.date)); 
       setFilteredData(sortedData.slice(0, 6));
     } else if (option === "Previous") {
-      sortedData.sort((a, b) => new Date(a.date) - new Date(b.date)); // Urutkan berdasarkan tanggal paling lama
+      sortedData.sort((a, b) => new Date(a.date) - new Date(b.date)); 
       setFilteredData(sortedData.slice(0, 6));
     } else if (option === "Popular") {
-      sortedData.sort((a, b) => b.views - a.views); // Urutkan berdasarkan views terbanyak
+      sortedData.sort((a, b) => b.views - a.views);
       setFilteredData(sortedData.slice(0, 6));
     } else {
       setFilteredData(data);

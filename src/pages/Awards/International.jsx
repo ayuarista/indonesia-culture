@@ -4,6 +4,7 @@ import { unescoData } from "./unescoData";
 import TopInternationalSection from "../../components/Molecules/TopInternationalSection";
 import AsiaAwards from "../../components/Molecules/AsiaAwards";
 import InternationalDropdownFilter from "../../components/Filter/InternationalDropdownFilter";
+import GuinnessWorldRecords from "../../components/Molecules/GuinnessWorldRecords";
 
 const International = () => {
   const [selectedFilter, setSelectedFilter] = useState(
@@ -40,9 +41,7 @@ const International = () => {
         </div>
       </div>
 
-      {selectedFilter === "Guinness World Records (GWR)" && (
-        <UNESCOCard data={unescoData} />
-      )}
+      {selectedFilter === "Guinness World Records (GWR)" && <GuinnessWorldRecords/>}
       {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards />}
     </div>
   );

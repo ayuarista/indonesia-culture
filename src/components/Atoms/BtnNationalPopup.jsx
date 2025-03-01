@@ -1,5 +1,5 @@
 import { useModal } from "./PopupLogic";
-import MapNationalPopup from "../Molecules/MapNationalPopup";
+import MapNationalPopup from "../Popup/MapNationalPopup";
 import { IoIosArrowForward } from "react-icons/io";
 import { useState } from "react";
 
@@ -42,9 +42,7 @@ const BtnNationalPopup = ({ itemId }) => {
         </h1>
         <span
           className={`p-2 rounded-full transition-all duration-500 ${
-            isHovered
-              ? "bg-white"
-              : "bg-white"
+            isHovered ? "bg-white" : "bg-white"
           }`}
         >
           <IoIosArrowForward
