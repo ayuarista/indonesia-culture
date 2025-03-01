@@ -31,10 +31,10 @@ const NationalDropdownFilter = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="flex items-center justify-between w-full">
-        <div className="mx-16">
-        <h1 className="font-bold text-3xl text-light-red">{sortOption}</h1>
+        <div className="mx-10 lg:mx-16">
+        <h1 className="font-semibold text-3xl text-light-red">{sortOption}</h1>
         </div>
-        <div className="relative text-black mx-16">
+        <div className="relative text-black mx-10 lg:mx-16">
           <button
             onClick={() => setShowDropdown(!showDropdown)}
             className="border cursor-pointer border-light-red text-light-red font-medium px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
@@ -77,7 +77,7 @@ const NationalDropdownFilter = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-10 lg:mx-16">
         {filteredData.map((item) => (
           <CardNational
             key={item.id}
