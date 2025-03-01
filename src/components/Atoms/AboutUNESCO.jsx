@@ -1,7 +1,7 @@
 import ViewAllNews from "./ViewAllNews";
 const AboutUNESCO = () => {
   return (
-    <div className="text-black">
+    <div className="text-black mt-28 lg:mt-0 mx-12">
       <div className="flex flex-col gap-1">
         <h1 className="font-bold text-2xl bg-gradient-to-r from-0% from-[#490303] to-40% to-[#AF0808] text-transparent bg-clip-text">
          Indonesian culture recognized
@@ -10,7 +10,7 @@ const AboutUNESCO = () => {
             by UNESCO?
         </h1>
       </div>
-      <p className="font-medium mt-3 text-pretty text-justify">
+      <p className="font-medium mt-3 text-pretty text-justify max-w-[30rem]">
       This recognition was given because the culture has historical, aesthetic and social value that is important for world civilization and needs to be preserved for future generations.
       </p>
       <div className="mt-5">

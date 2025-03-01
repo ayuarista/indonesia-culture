@@ -7,7 +7,7 @@ const HomeUnesco = () => {
             <div className="w-full">
             <CardUNESCO/>
             </div>
-            <div className="w-full mx-14">
+            <div className="w-full">
                 <AboutUNESCO/>
             </div>
         </div>
