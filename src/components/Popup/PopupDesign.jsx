@@ -35,9 +35,9 @@ const PopupDesign = ({
                 className="max-w-sm object-cover rounded-lg"
               />
             </div>
-            <div>
+            <div className="p-2">
               <div>
-                <h1 className="bg-gradient-to-r from-0% to-40% from-dark-red to-light-red text-transparent bg-clip-text font-bold text-2xl md:text-xl text-justify">
+                <h1 className="bg-gradient-to-r from-0% to-40% from-dark-red to-light-red text-transparent bg-clip-text font-bold text-xl lg:text-2xl md:text-xl text-justify">
                   {title}
                 </h1>
                 <p className="text-gray-400 text-xs border-l border-gray-400 px-2 mt-1">
@@ -45,15 +45,15 @@ const PopupDesign = ({
                 </p>
               </div>
               <p className="font-medium text-black mt-5 text-justify">{desc}</p>
-            </div>
-            <div className="absolute bottom-4 right-3 text-sm">
+            <div className="absolute bottom-2 lg:bottom-4 right-3 text-sm">
               <button
                 onClick={closeModal}
                 className="px-5 cursor-pointer py-2 hover:bg-light-red/80 bg-light-red rounded-full"
-              >
+                >
                 Close
               </button>
             </div>
+                </div>
           </div>
         </div>
       </div>
