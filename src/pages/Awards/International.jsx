@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import UNESCOCard from "./UNESCOCard";
-import { unescoData } from "./unescoData";
 import TopInternationalSection from "../../components/Molecules/TopInternationalSection";
 import AsiaAwards from "../../components/Molecules/AsiaAwards";
 import InternationalDropdownFilter from "../../components/Filter/InternationalDropdownFilter";
