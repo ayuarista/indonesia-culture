@@ -1,6 +1,6 @@
 const CardAward = () => {
     return (
-      <div className="relative max-w-sm rounded-lg overflow-hidden shadow-lg">
+      <div className="relative w-[24rem] h-[29.5rem] rounded-lg overflow-hidden shadow-lg">
         <img
           src="https://muri.org/assets/website/images/record/12084-1736936007.png"
           alt="Award"

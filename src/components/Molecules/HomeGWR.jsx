@@ -1,11 +1,11 @@
 import AboutGWR from "../Atoms/AboutGWR";
 import CardGWR from "../Card/CardGWR";
 import DataCardGWR from "../../data/card/DataCardGWR";
-const GuinnessWorldRecord = () => {
+const HomeGWR = () => {
   return (
     <div className="flex flex-col items-center justify-between mt-24">
         <AboutGWR/>
-      <div className="grid grid-cols-3 gap-5 mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-8">
         {DataCardGWR.map((item) => (
           <CardGWR
             key={item.id}
@@ -20,4 +20,4 @@ const GuinnessWorldRecord = () => {
   );
 };
 
-export default GuinnessWorldRecord;
+export default HomeGWR;

@@ -3,9 +3,9 @@ import CardAward from "../Card/CardAward";
 import DataGridAwards from "../../data/card/DataGridAward";
 const AricleAwards = () => {
   return (
-    <div className="flex justify-center mt-20 mx-16 gap-6">
+    <div className="flex flex-col lg:flex-row justify-center mt-20 mx-16 gap-6">
         <CardAward/>
-      <div className="grid grid-cols-2 grid-rows-2 gap-7">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
         {DataGridAwards.map((item) => (
           <GridCardAward
             key={item.id}

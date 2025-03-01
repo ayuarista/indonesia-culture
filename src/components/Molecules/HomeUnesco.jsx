@@ -1,7 +1,7 @@
 import AboutUNESCO from "../Atoms/AboutUNESCO";
 import CardUNESCO from "../Card/CardUNESCO";
 
-const Unesco = () => {
+const HomeUnesco = () => {
     return(
         <div className="flex items-center justify-center mt-32 flex-col lg:flex-row">
             <div className="w-full">
@@ -13,4 +13,4 @@ const Unesco = () => {
         </div>
     )
 }
-export default Unesco;
+export default HomeUnesco;
