@@ -4,9 +4,9 @@ import DataPreserveCulture from "../../data/card/DataPreserveCulture";
 
 const PreserveCulture = () => {
     return (
-        <div className="mx-16 mt-80">
+        <div className="mx-16 mt-96 lg:mt-80">
             <AboutPreserveCulture/>
-        <div className="grid grid-cols-3 gap-6 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-10">
             {DataPreserveCulture.map((item) => (
                 <CardPreserveCulture
                 key={item.id}
