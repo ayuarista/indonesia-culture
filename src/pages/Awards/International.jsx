@@ -1,42 +1,51 @@
 import React, { useState } from "react";
-import Filter from "./Filter";
-import ABUCard from "./ABUCard";
 import UNESCOCard from "./UNESCOCard";
 import { unescoData } from "./unescoData";
-import { abuData } from "./abuData";
-import CardAboutInternational from "../../components/Card/CardAboutInternational";
 import TopInternationalSection from "../../components/Molecules/TopInternationalSection";
-import CardRRI from "../../components/Card/CardRRI";
-import CardTVRI from "../../components/Card/CardTVRI";
 import AsiaAwards from "../../components/Molecules/AsiaAwards";
+import InternationalDropdownFilter from "../../components/Filter/InternationalDropdownFilter";
 
 const International = () => {
-    const [selectedFilter, setSelectedFilter] = useState("UNESCO");
+  const [selectedFilter, setSelectedFilter] = useState(
+    "Guinness World Records (GWR)"
+  );
 
-    const filterOptions = [
-      { value: "UNESCO", label: "UNESCO" },
-      { value: "Asia Awards (ABU)", label: "Asia Awards (ABU)" },
-    ];
-  
-    const handleFilterSelect = (value) => {
-      setSelectedFilter(value);
-    };
-  
-    return (
-      <div className="pt-32">
-      <TopInternationalSection/>
-        <h1>Filter dan Card</h1>
-        <h1 className="font-bold text-2xl text-black">{selectedFilter}</h1>
-        <Filter
+  const filterOptions = [
+    {
+      value: "Guinness World Records (GWR)",
+      label: "Guinness World Records (GWR)",
+    },
+    { value: "UNESCO Recognition", label: "UNESCO Recognition" },
+    { value: "Asia Awards (ABU)", label: "Asia Awards (ABU)" },
+  ];
+
+  const handleFilterSelect = (value) => {
+    setSelectedFilter(value);
+  };
+
+  return (
+    <div className="pt-32">
+      <TopInternationalSection />
+      <div className="flex justify-between mx-16 items-center gap-3 mt-10">
+        <h1 className="font-semibold text-2xl text-light-red">
+          {selectedFilter}
+        </h1>
+        <div className="flex items-center gap-3">
+        <p className="text-black">Sort by: </p>
+        <InternationalDropdownFilter
           options={filterOptions}
           selectedOption={selectedFilter}
           onSelect={handleFilterSelect}
         />
-  
-        {selectedFilter === "UNESCO" && <UNESCOCard data={unescoData} />}
-        {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards/>}
+        </div>
       </div>
-    );
-  };
+
+      {selectedFilter === "Guinness World Records (GWR)" && (
+        <UNESCOCard data={unescoData} />
+      )}
+      {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards />}
+    </div>
+  );
+};
 
 export default International;
