@@ -3,7 +3,7 @@ import CardUNESCO from "../Card/CardUNESCO";
 
 const HomeUnesco = () => {
     return(
-        <div className="flex items-center justify-center mt-32 flex-col lg:flex-row">
+        <div className="flex items-center justify-center mt-20 flex-col lg:flex-row">
             <div className="w-full">
             <CardUNESCO/>
             </div>

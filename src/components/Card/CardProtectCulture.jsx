@@ -5,7 +5,7 @@ const CardProtectCulture = (props) => {
           <img
             src={props.image}
             alt=""
-            className="w-80 h-80 object-cover"
+            className="w-68 h-68 lg:w-80 lg:h-80 object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 h-80 bg-gradient-to-t from-black/80 to-transparent p-5 flex items-end">
             <div className="flex flex-col">
