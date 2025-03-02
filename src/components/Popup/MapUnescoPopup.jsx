@@ -13,7 +13,7 @@ const MapUnescoPopup = ({isOpen, closeModal, selectedId}) => {
                 image={selectedItem.image}
                 date={selectedItem.date}
                 title={selectedItem.title}
-                place={selectedItem.place}
+                desc={selectedItem.desc}
             />
         )}
         </>

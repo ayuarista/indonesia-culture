@@ -4,7 +4,7 @@ const PopupDesign = ({
   isOpen,
   closeModal,
   image,
-  title,
+  title,  
   date,
   desc,
 }) => {

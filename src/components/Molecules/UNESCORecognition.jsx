@@ -15,9 +15,10 @@ const UNESCORecognition = () => {
         {DataUNESCOIntangible.map((item) => (
           <UNESCOIntangibleCard
             key={item.id}
+            id={item.id}
             image={item.image}
             title={item.title}
-            desc={item.desc}
+            info={item.info}
             year={item.year}
           />
         ))}

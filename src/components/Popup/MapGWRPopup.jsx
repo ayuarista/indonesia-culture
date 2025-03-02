@@ -2,7 +2,6 @@ import PopupDesign from "./PopupDesign";
 import { DataInternationalGWR } from "../../data/card/DataInternationalGWR";
 const MapGWRPopup = ({ isOpen, closeModal, selectedId }) => {
   const selectedItem = DataInternationalGWR.find((item) => item.id === selectedId);
-  C
 
   return (
     <>

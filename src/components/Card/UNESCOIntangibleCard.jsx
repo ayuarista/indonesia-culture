@@ -1,4 +1,6 @@
-const UNESCOIntangibleCard  = ({image, title, year, desc}) => {
+import BtnUnescoPopup from "../Atoms/BtnUnescoPopup";
+
+const UNESCOIntangibleCard  = ({image, title, year, info, id}) => {
     return(
         <div className="relative max-w-md lg:max-w-sm rounded-lg shadow-xl">
             <div className="relative">
@@ -16,8 +18,9 @@ const UNESCOIntangibleCard  = ({image, title, year, desc}) => {
                 {year}
             </div>
             <div className="p-4">
-                <p className="text-justify font-medium text-[15px] text-black">{desc}</p>
+                <p className="text-justify font-medium text-[15px] text-black">{info}</p>
             </div>
+            <BtnUnescoPopup itemId={id}/>
         </div>
     )
 }
