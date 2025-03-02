@@ -20,19 +20,19 @@ export const DataUNESCOHeritage = [
     {
         id: 3,
         image: "https://images.unsplash.com/photo-1667809938371-a29e3caac747?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHNhd2FofGVufDB8fDB8fHww",
-        title: "",
-        info: "",
-        year: "",
-        desc: "",
-        date: ""
+        title: "Balinese Subak System",
+        info: "Bali's unique rice field irrigation system is called Subak.",
+        year: "2012",
+        desc: "Subak is a traditional Balinese irrigation system based on the Tri Hita Karana philosophy. In addition to being an irrigation technique, Subak reflects social, cultural, and spiritual balance in rice farming.",
+        date: "Bali, 2012"
     },
     {
         id: 4,
         image: "https://images.unsplash.com/photo-1599756719094-9e28479389c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29hbCUyMG1pbmV8ZW58MHx8MHx8fDA%3D",
-        title: "",
-        info: "",
-        year: "",
-        desc: "",
-        date: ""
+        title: "Ombilin Coal Mine",
+        info: "A historic colonial mining site.",
+        year: "2019",
+        date: "West Sumatra, 2019 ",
+        desc: "Ombilin Coal Mine, a legacy of the Dutch colonial era since the 19th century, played a significant role in the coal industry in Southeast Asia. Today, the site is a development of mining technology in Indonesia."
     },
 ]
