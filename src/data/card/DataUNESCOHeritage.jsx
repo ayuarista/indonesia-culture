@@ -1,12 +1,12 @@
 export const DataUNESCOHeritage = [
     {
         id: 1,
-        image: "",
+        image: "https://images.unsplash.com/photo-1556375413-f6cdc5e17398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGJvcm9idWR1cnxlbnwwfHwwfHx8MA%3D%3D",
         title: "Borobudur Temple",
         info: "The largest Buddhist temple in the world.",
-        year: "",
-        desc: "",
-        date: ""
+        year: "1991",
+        desc: "Borobudur, the world's largest Buddhist temple, was built in the 8th century by the Syailendra Dynasty. This temple is a symbol of the glory of Nusantara civilization as well as a tourist and spiritual center.",
+        date: "Magelang, Central Java, 1991"
     },
     {
         id: 2,
