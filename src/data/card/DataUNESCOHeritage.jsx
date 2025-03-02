@@ -11,11 +11,11 @@ export const DataUNESCOHeritage = [
     {
         id: 2,
         image: "https://images.unsplash.com/photo-1733049919526-3ccf0ae8f6ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHByYW1iYW5hbnxlbnwwfHwwfHx8MA%3D%3D",
-        title: "",
-        info: "",
-        year: "",
-        desc: "",
-        date: ""
+        title: "Prambanan Temple",
+        info: "The largest Hindu temple complex in Indonesia.",
+        year: "1991",
+        desc: "Prambanan Temple, the largest Hindu temple complex in Indonesia, was built in the 9th century by the Sanjaya Dynasty. The temple features reliefs of the Ramayana story and is an icon of Hindu religious architecture.",
+        date: "Sleman, Yogyakarta and Klaten, Central Java, 1991"
     },
     {
         id: 3,
