@@ -5,6 +5,7 @@ export const DataUNESCOIntangible = [
         title: "Wayang",
         desc: "Traditional Indonesian Wayang Shadow and Wayang Golek performing arts.",
         year: "2003",
+        place: "Java, Sunda & Bali, 2003"
     },
     {
         id: 2,
@@ -12,13 +13,15 @@ export const DataUNESCOIntangible = [
         title: "Keris",
         desc: "Traditional weapons that have high philosophical value typical of Indonesia.",
         year: "2005",
+        place: "Java, Madura, Bali & Sumatra, 2005"
     },
     {
         id: 3,
-        image: "",
+        image: "https://images.unsplash.com/photo-1695306441929-0082158cfc27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmF0aWt8ZW58MHx8MHx8fDA%3D",
         title: "Batik",
         desc: "The art technique of coloring Indonesian batik cloth.",
         year: "2009",
+        place: "Java , Sumatra, Bali & Kalimantan, 2009"
     },
     {
         id: 4,
@@ -26,6 +29,7 @@ export const DataUNESCOIntangible = [
         title: "Pencak Silat",
         desc: "Pencak Silat is a traditional martial art that is very typical of Indonesia.",
         year: "2019",
+        place: "Throughout Indonesia, 2019"
     },
     {
         id: 5,
@@ -33,6 +37,7 @@ export const DataUNESCOIntangible = [
         title: "Gamelan",
         desc: "A traditional Indonesian music ensemble originating from Java and Bali.",
         year: "2021",
+        place: "Java, Bali & Lombok"
     },
     {
         id: 6,
@@ -40,5 +45,6 @@ export const DataUNESCOIntangible = [
         title: "Jamu",
         desc: "Traditional medicine based on Indonesian herbal concoctions.",
         year: "2023",
+        place: "Java, Sumatra & Bali"
     },
 ]
