@@ -3,7 +3,7 @@ export const DataUNESCOHeritage = [
         id: 1,
         image: "",
         title: "Borobudur Temple",
-        info: "",
+        info: "The largest Buddhist temple in the world.",
         year: "",
         desc: "",
         date: ""
