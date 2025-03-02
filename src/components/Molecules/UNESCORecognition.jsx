@@ -1,4 +1,6 @@
+import { DataUNESCOIntangible } from "../../data/card/DataUNESCOIntangible"
 import HeaderInternationalAwards from "../Atoms/HeaderInternationalAwards"
+import UNESCOIntangibleCard from "../Card/UNESCOIntangibleCard"
 import unesco from "/assets/awards/unesco.svg"
 
 const UNESCORecognition = () => {
@@ -9,6 +11,17 @@ const UNESCORecognition = () => {
         title={"UNESCO Recognition"}
         desc={"UNESCO (United Nations Educational, Scientific and Cultural Organization). This recognition shows that Indonesian culture has historical, artistic, and traditional values ​​that are important to the world."}
         />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-16">
+            {DataUNESCOIntangible.map((item) => (
+                <UNESCOIntangibleCard
+                key={item.id}
+                image={item.image}
+                title={item.title}
+                desc={item.desc}
+                year={item.year}
+                />
+            ))}
+        </div>
         </>
     )
 }

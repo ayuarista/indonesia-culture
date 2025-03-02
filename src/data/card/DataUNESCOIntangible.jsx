@@ -1,4 +1,4 @@
-export const UNESCOIntangible = [
+export const DataUNESCOIntangible = [
     {
         id: 1,
         image: "https://images.unsplash.com/photo-1662793524504-bd11271b4b56?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2F5YW5nfGVufDB8fDB8fHww",
