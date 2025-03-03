@@ -4,6 +4,7 @@ import AsiaAwards from "../../components/Molecules/AsiaAwards";
 import InternationalDropdownFilter from "../../components/Filter/InternationalDropdownFilter";
 import GuinnessWorldRecords from "../../components/Molecules/GuinnessWorldRecords";
 import UNESCORecognition from "../../components/Molecules/UNESCORecognition";
+import ASEAN from "../../components/Molecules/ASEAN";
 
 const International = () => {
   const [selectedFilter, setSelectedFilter] = useState(
@@ -16,6 +17,7 @@ const International = () => {
       label: "Guinness World Records (GWR)",
     },
     { value: "UNESCO Recognition", label: "UNESCO Recognition" },
+    { value: "ASEAN Cultural Awards", label: "ASEAN Cultural Awards" },
     { value: "Asia Awards (ABU)", label: "Asia Awards (ABU)" },
   ];
 
@@ -41,8 +43,9 @@ const International = () => {
       </div>
 
       {selectedFilter === "Guinness World Records (GWR)" && <GuinnessWorldRecords/>}
-      {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards />}
       {selectedFilter === "UNESCO Recognition" && <UNESCORecognition/>}
+      {selectedFilter === "ASEAN Cultural Awards" && <ASEAN/>}
+      {selectedFilter === "Asia Awards (ABU)" && <AsiaAwards />}
     </div>
   );
 };
