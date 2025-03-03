@@ -3,6 +3,7 @@ import wcc from "/assets/awards/wcc.svg";
 import AboutASEAN from "../Atoms/AboutASEAN";
 import CardWCC from "../Card/CardWCC";
 import GridCardWcc from "../Card/GridCardWcc";
+import AboutWcc from "../Atoms/AboutWcc";
 const WorldCraftsCouncil = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const WorldCraftsCouncil = () => {
         </div>
       </div>
       <GridCardWcc/>
+      <AboutWcc/>
     </>
   );
 };
