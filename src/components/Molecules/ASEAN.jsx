@@ -1,6 +1,7 @@
 import AboutASEAN from "../Atoms/AboutASEAN";
 import HeaderInternationalAwards from "../Atoms/HeaderInternationalAwards";
 import CardAseanCultural from "../Card/CardAseanCultural";
+import CardAseanTourism from "../Card/CardAseanTourism";
 import ImageSlider from "./ImageSlider";
 import asean from "/assets/awards/asean.svg";
 const ASEAN = () => {
@@ -27,6 +28,20 @@ const ASEAN = () => {
         </div>
       </div>
       <ImageSlider />
+      <div className="flex items-center justify-center">
+        <div className="w-[45%]">
+        <CardAseanTourism />
+        </div>
+        <div className="w-full">
+          <AboutASEAN
+            title={"ASEAN Tourism Award"}
+            desc={
+              "The purpose of this award is to recognize the efforts that have been made in improving the quality and competitiveness of tourist destinations in ASEAN member countries. Here are some of them :"
+            }
+          />
+        </div>
+      </div>
+        <ImageSlider />
     </>
   );
 };
