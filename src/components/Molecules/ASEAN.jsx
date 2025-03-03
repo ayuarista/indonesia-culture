@@ -3,6 +3,7 @@ import HeaderInternationalAwards from "../Atoms/HeaderInternationalAwards";
 import CardAseanCultural from "../Card/CardAseanCultural";
 import CardAseanTourism from "../Card/CardAseanTourism";
 import ImageSlider from "./ImageSlider";
+import ImageSliderAsean from "./ImageSliderAsean";
 import asean from "/assets/awards/asean.svg";
 const ASEAN = () => {
   return (
@@ -27,7 +28,7 @@ const ASEAN = () => {
         <CardAseanCultural />
         </div>
       </div>
-      <ImageSlider />
+      <ImageSliderAsean />
       <div className="flex items-center justify-center">
         <div className="w-[45%]">
         <CardAseanTourism />
