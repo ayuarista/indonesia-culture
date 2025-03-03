@@ -2,7 +2,7 @@
 
 const GridCardWcc = () => {
   return (
-    <div className="overflow-hidden w-full">
+    <div className="overflow-hidden w-full mt-10">
       <div className="flex gap-3 w-[200%] slider">
         <img
           src="https://images.unsplash.com/photo-1672716912467-fd99b71cf780?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"

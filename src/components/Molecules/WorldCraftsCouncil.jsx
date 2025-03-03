@@ -4,6 +4,7 @@ import AboutASEAN from "../Atoms/AboutASEAN";
 import CardWCC from "../Card/CardWCC";
 import GridCardWcc from "../Card/GridCardWcc";
 import AboutWcc from "../Atoms/AboutWcc";
+import ImageSliderWcc from "./ImageSliderWcc";
 const WorldCraftsCouncil = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const WorldCraftsCouncil = () => {
       </div>
       <GridCardWcc/>
       <AboutWcc/>
+      <ImageSliderWcc/>
     </>
   );
 };
