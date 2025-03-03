@@ -1,3 +1,5 @@
+import BtnUnescoHeritagePopup from "../Atoms/BtnUnescoHeritagePopup"
+
 const CardUnescoHeritage = ({image, title, year, info, id}) => {
     return(
         <div className="relative max-w-md lg:w-full rounded-lg shadow-xl">
@@ -17,8 +19,8 @@ const CardUnescoHeritage = ({image, title, year, info, id}) => {
             </div>
             <div className="p-4">
                 <p className="text-justify font-medium text-[15px] text-black">{info}</p>
+            <BtnUnescoHeritagePopup itemId={id}/>
             </div>
-            {/* <BtnUnescoPopup itemId={id}/> */}
         </div>
     )
 }

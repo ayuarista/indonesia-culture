@@ -19,7 +19,7 @@ export const DataUNESCOIntangible = [
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1695306441929-0082158cfc27?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmF0aWt8ZW58MHx8MHx8fDA%3D",
+        image: "https://images.unsplash.com/photo-1590251869641-dd94fb569954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D",
         title: "Batik",
         info: "The art technique of coloring Indonesian batik cloth.",
         year: "2009",

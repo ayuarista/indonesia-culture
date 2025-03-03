@@ -8,7 +8,7 @@ const CardRRI = () => {
       <div className="flex flex-col w-1/2">
         <div className="flex items-center w-1/2">
           <div className="flex-1 border-t-2 border-red-700"></div>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/170px-TVRILogo2019.svg.png" alt="" className="mx-5 w-28" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/RRI_Logo_2023.svg/1200px-RRI_Logo_2023.svg.png" alt="" className="mx-5 w-28" />
           <div className="flex-1 border-t-2 border-red-700"></div>
         </div>
         <h1 className="font-bold text-light-red text-3xl">Radio Republic of Indonesia (RRI)</h1>

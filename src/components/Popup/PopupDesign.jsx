@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
 
-const PopupDesign = ({
-  isOpen,
-  closeModal,
-  image,
-  title,  
-  date,
-  desc,
-}) => {
+const PopupDesign = ({ isOpen, closeModal, image, title, date, desc }) => {
   const [visible, setVisible] = useState(false);
   const [animationClass, setAnimationClass] = useState("scale-0 opacity-0");
 
@@ -28,14 +21,14 @@ const PopupDesign = ({
           className={`bg-white rounded-lg p-6 relative w-[80%] transform transition-all duration-500 ease-in-out ${animationClass}`}
         >
           <div className="flex flex-col md:flex-row gap-4">
-            <div>
+            <div className="w-[40%]">
               <img
                 src={image}
-                alt=""
-                className="max-w-sm object-cover rounded-lg"
+                alt={title}
+                className="w-96 h-60 object-cover rounded-lg"
               />
             </div>
-            <div className="p-2">
+            <div className="p-2 w-[60%]">
               <div>
                 <h1 className="bg-gradient-to-r from-0% to-40% from-dark-red to-light-red text-transparent bg-clip-text font-bold text-xl lg:text-2xl md:text-xl text-justify">
                   {title}
@@ -45,15 +38,15 @@ const PopupDesign = ({
                 </p>
               </div>
               <p className="font-medium text-black mt-5 text-justify">{desc}</p>
-            <div className="absolute bottom-2 lg:bottom-4 right-3 text-sm">
-              <button
-                onClick={closeModal}
-                className="px-5 cursor-pointer py-2 hover:bg-light-red/80 bg-light-red rounded-full"
+              <div className="absolute bottom-2 lg:bottom-2 right-3 text-sm">
+                <button
+                  onClick={closeModal}
+                  className="px-5 cursor-pointer py-2 hover:bg-light-red/80 bg-light-red rounded-full"
                 >
-                Close
-              </button>
+                  Close
+                </button>
+              </div>
             </div>
-                </div>
           </div>
         </div>
       </div>
