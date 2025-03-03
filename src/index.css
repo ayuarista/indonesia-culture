@@ -21,6 +21,25 @@
   --font-secondary: "IM Fell Great Primer", serif;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-15%);
+  }
+}
+
+.slider {
+  margin-top: 15px;
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.slider:hover {
+  animation-play-state: paused;
+}
+
 
 
 
