@@ -15,7 +15,7 @@ function App() {
         <Route path="/award/national" element={<National />} />
         <Route path="/award/international" element={<International />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   )
 }
