@@ -22,43 +22,28 @@ const BtnUnescoPopup = ({ itemId }) => {
   };
 
   return (
-    <div className="mt-2">
+    <div className="mt-3">
       <button
         onClick={handleOpen}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className={`relative w-full h-12 rounded-full flex items-center justify-between px-6 cursor-pointer overflow-hidden transition-all duration-500 ${
+        className={`relative w-full rounded-full flex items-center justify-between px-4 py-2 cursor-pointer overflow-hidden transition-all duration-500 ${
           isHovered
             ? "bg-light-red"
-            : "bg-gradient-to-r from-dark-red to to-light-red"
+            : "bg-gradient-to-r from-light-red to to-red-400"
         }`}
       >
-        <h1
-          className={`text-base font-medium transition-all duration-500 ${
-            isHovered ? "text-white" : "text-white"
-          }`}
-        >
-          Discover More
-        </h1>
         <span
-          className={`p-2 rounded-full transition-all duration-500 ${
-            isHovered ? "bg-white" : "bg-white"
+          className={`p-1.5 rounded-full transition-all duration-1000 ${
+            isHovered ? "translate-x-80" : "-translate-x-0 bg-white"
           }`}
         >
           <IoIosArrowForward
             className={`transition-all duration-500 ${
-              isHovered ? "text-light-red" : "text-black"
+              isHovered ? "text-light-red" : "text-light-red"
             }`}
           />
         </span>
-        <div
-          className={`absolute top-0
-                                   left-0 w-full h-full bg-dark-red transition-all duration-1000 ease-in-out ${
-                                     isHovered
-                                       ? "translate-x-96"
-                                       : "-translate-x-full"
-                                   }`}
-        />
       </button>
       <MapUnescoPopup
         isOpen={isOpen}
