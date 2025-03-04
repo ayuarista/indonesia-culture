@@ -41,7 +41,8 @@ const Quiz = () => {
       return;
     }
 
-    const isCorrect = selectedAnswer === QuizData[currentQuestion].correctAnswer;
+    const isCorrect =
+      selectedAnswer === QuizData[currentQuestion].correctAnswer;
     if (isCorrect) setCorrectAnswers(correctAnswers + 1);
 
     setAnswers([...answers, selectedAnswer]);
@@ -77,7 +78,7 @@ const Quiz = () => {
               {QuizData[currentQuestion].options.map((option, index) => (
                 <label
                   key={index}
-                  className="flex items-center space-x-3 cursor-pointer"
+                  className={`flex items-center space-x-3 cursor-pointer ${selectedAnswer === option ? "animate-bounce" : ""}`}
                 >
                   <input
                     type="radio"
@@ -87,7 +88,7 @@ const Quiz = () => {
                     onChange={handleAnswerChange}
                     className="hidden peer"
                   />
-                  <div className="w-5 h-5 border border-gray-300 rounded-full flex justify-center items-center peer-checked:bg-light-red peer-checked:border-light-red animate">
+                  <div className="w-5 h-5 border border-gray-300 rounded-full flex justify-center items-center peer-checked:bg-light-red peer-checked:border-light-red">
                     <span className="w-3 h-3 bg-white rounded-full"></span>
                   </div>
                   <span className="font-semibold text-black peer-checked-light-red text-sm md:text-lg">
@@ -97,8 +98,9 @@ const Quiz = () => {
               ))}
             </div>
             <button
-            onClick={handleNext}
-             className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full cursor-pointer">
+              onClick={handleNext}
+              className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full cursor-pointer"
+            >
               {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
           </>
@@ -127,7 +129,9 @@ const Quiz = () => {
                     </span>
                   </p>
                   {answers[index] !== question.correctAnswer && (
-                    <p className="text-black">Correct answer: {question.correctAnswer}</p>
+                    <p className="text-black">
+                      Correct answer: {question.correctAnswer}
+                    </p>
                   )}
                 </li>
               ))}
