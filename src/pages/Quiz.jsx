@@ -1,4 +1,5 @@
 import {useState} from "react";
+import { question } from "../data/QuizData";
 
 const Quiz = () => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -19,7 +20,26 @@ const Quiz = () => {
             return;
         }
 
-        const isCorrect = selectedAnswer === answers[currentQuestion].correct;
+        const isCorrect = selectedAnswer === question[currentQuestion].correct;
+        if(isCorrect) setCorrectAnswers(correctAnswers + 1);
+
+        setAnswers([...answers, selectedAnswer]);
+
+        if(currentQuestion < question.length - 1){
+            setCurrentQuestion(currentQuestion + 1);
+            setSelectedAnswer("");
+        }else{
+            setShowResults(true);
+        }
+    }
+
+    const handleRetry = () => {
+        setCurrentQuestion(0);
+        setSelectedAnswer("");
+        setShowResults(false);
+        setCorrectAnswers(0);
+        setAnswers([]);
+        setShowError(false);
     }
     
     return(

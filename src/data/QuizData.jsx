@@ -1,4 +1,4 @@
-export const quizData = [
+export const QuizData = [
     {
       question: "What does 'Reduce' mean in the 3Rs?",
       options: [
