@@ -41,7 +41,7 @@ const Quiz = () => {
       return;
     }
 
-    const isCorrect = selectedAnswer === QuizData[currentQuestion].correct;
+    const isCorrect = selectedAnswer === QuizData[currentQuestion].correctAnswer;
     if (isCorrect) setCorrectAnswers(correctAnswers + 1);
 
     setAnswers([...answers, selectedAnswer]);
