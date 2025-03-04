@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { question } from "../data/QuizData";
+import { QuizData } from "../data/QuizData";
 
 const Error = () => (
   <div
@@ -41,12 +41,12 @@ const Quiz = () => {
       return;
     }
 
-    const isCorrect = selectedAnswer === question[currentQuestion].correct;
+    const isCorrect = selectedAnswer === QuizData[currentQuestion].correct;
     if (isCorrect) setCorrectAnswers(correctAnswers + 1);
 
     setAnswers([...answers, selectedAnswer]);
 
-    if (currentQuestion < question.length - 1) {
+    if (currentQuestion < QuizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
       setSelectedAnswer("");
     } else {
@@ -69,12 +69,12 @@ const Quiz = () => {
         {!showResults ? (
           <>
             <h2 className="text-2xl font-semibold mb-10 text-black">
-              {question[currentQuestion].question}
+              {QuizData[currentQuestion].question}
             </h2>
 
             {showError && <Error />}
             <div className="space-y-4">
-              {question[currentQuestion].options.map((option, index) => (
+              {QuizData[currentQuestion].options.map((option, index) => (
                 <label
                   key={index}
                   className="flex items-center space-x-3 cursor-pointer"
@@ -96,20 +96,22 @@ const Quiz = () => {
                 </label>
               ))}
             </div>
-            <button className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full">
-              {currentQuestion === question.length - 1 ? "Finish" : "Next"}
+            <button
+            onClick={handleNext}
+             className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full">
+              {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
           </>
         ) : (
           <div className="p-3">
             <p className="mb-6 text-xl mt-10 text-black">
-              You got {correctAnswers} out of {question.length} questions right
+              You got {correctAnswers} out of {QuizData.length} questions right
             </p>
             <h3 className="text-xl font-semibold mb-2 text-black">
               Review Answers:
             </h3>
             <ul className="mb-6 space-y-4 dark:text-white text-black">
-              {quizData.map((question, index) => (
+              {QuizData.map((question, index) => (
                 <li key={index} className="text-left">
                   <p>{question.question}</p>
                   <p>
