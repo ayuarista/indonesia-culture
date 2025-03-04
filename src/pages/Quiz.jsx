@@ -98,7 +98,7 @@ const Quiz = () => {
             </div>
             <button
             onClick={handleNext}
-             className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full">
+             className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full cursor-pointer">
               {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
           </>
@@ -113,8 +113,8 @@ const Quiz = () => {
             <ul className="mb-6 space-y-4 dark:text-white text-black">
               {QuizData.map((question, index) => (
                 <li key={index} className="text-left">
-                  <p>{question.question}</p>
-                  <p>
+                  <p className="text-black">{question.question}</p>
+                  <p className="text-black">
                     Your answer:{" "}
                     <span
                       className={`font-semibold ${
@@ -127,7 +127,7 @@ const Quiz = () => {
                     </span>
                   </p>
                   {answers[index] !== question.correctAnswer && (
-                    <p>Correct answer: {question.correctAnswer}</p>
+                    <p className="text-black">Correct answer: {question.correctAnswer}</p>
                   )}
                 </li>
               ))}
