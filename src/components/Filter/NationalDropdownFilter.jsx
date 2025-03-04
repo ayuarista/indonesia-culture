@@ -35,17 +35,20 @@ const NationalDropdownFilter = () => {
         <h1 className="font-semibold text-3xl text-light-red">{sortOption}</h1>
         </div>
         <div className="relative text-black mx-10 lg:mx-16">
+          <div className="flex items-center gap-3">
+          <h1>Sort by:</h1>
           <button
             onClick={() => setShowDropdown(!showDropdown)}
             className="border cursor-pointer border-light-red text-light-red font-medium px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
-          >
+            >
             {sortOption}
             <IoIosArrowDown
               className={`ml-2 transform transition-transform duration-300 ${
                 showDropdown ? "rotate-180" : ""
               }`}
-            />
+              />
           </button>
+          </div>
           {showDropdown && (
             <div className="absolute text-[15px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
               <button
