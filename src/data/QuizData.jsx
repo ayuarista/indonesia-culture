@@ -59,4 +59,4 @@ export const quizData = [
       ],
       correctAnswer: "b. Used for crafts",
     },
-  ];
+];
