@@ -66,9 +66,11 @@ const Quiz = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-base-300 p-4">
-      <div className="w-full max-w-xl bg-base-100 p-6 rounded-lg shadow-lg text-left mb-10">
+      <div className="w-full max-w-4xl bg-base-100 p-6 rounded-lg shadow-lg text-left mb-10">
         {!showResults ? (
           <>
+            <p className="uppercase tracking-tighter text-black">
+                Question {currentQuestion + 1}/{QuizData.length}</p>
             <h2 className="text-2xl font-semibold mb-10 text-black">
               {QuizData[currentQuestion].question}
             </h2>
