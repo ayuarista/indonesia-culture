@@ -1,6 +1,6 @@
 const GridCardAward = ({image, title, date}) => {
   return (
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden hover:scale-105 transition-all duration-300 ease-in-out">
         <img
           src={image}
           alt={title}
