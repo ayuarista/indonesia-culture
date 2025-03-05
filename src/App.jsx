@@ -5,11 +5,13 @@ import Footer from './components/templates/Footer';
 import National from './pages/Awards/National';
 import International from './pages/Awards/International';
 import Quiz from './pages/Quiz';
+import ScrollToTop from './components/Molecules/ScrollToTop';
 
 
 function App() {
   return(
     <Router>
+      <ScrollToTop/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
