@@ -7,7 +7,7 @@ const CardProtectCulture = ({image, title, desc, place}) => {
             alt=""
             className="w-68 h-64 lg:w-80 lg:h-80 object-cover"
           />
-          <div className="absolute bottom-0 left-0 right-0 h-80 bg-gradient-to-t from-black/80 to-transparent p-5 flex items-end">
+          <div className="absolute bottom-0 left-0 right-0 h-80 hover:h-96 transition-all duration-300 bg-gradient-to-t from-black to-transparent p-5 flex items-end">
             <div className="flex flex-col">
               <h1 className="text-md lg:text-xl font-bold">{title}</h1>
               <p className="text-xs/4 font-medium text-justify">
