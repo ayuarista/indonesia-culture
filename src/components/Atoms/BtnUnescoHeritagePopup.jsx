@@ -30,7 +30,7 @@ const BtnUnescoHeritagePopup = ({ itemId }) => {
         className={`relative w-full rounded-full flex items-center justify-between px-4 py-2 cursor-pointer overflow-hidden transition-all duration-500 ${
           isHovered
             ? "bg-light-red"
-            : "bg-gradient-to-r from-light-red to to-red-400"
+            : "bg-gradient-to-r from-light-red to to-red-500"
         }`}
       >
         <span
