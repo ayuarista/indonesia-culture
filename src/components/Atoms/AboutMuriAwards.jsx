@@ -1,7 +1,7 @@
 import muri from "/assets/home/muri.svg";
 const AboutMuriAwards = () => {
   return (
-    <div className="mt-24 lg:mt-0 flex flex-col items-center justify-center my-6">
+    <section className="mt-24 lg:mt-0 flex flex-col items-center justify-center my-6" id="muri">
       <div className="flex items-center w-[80%] lg:w-1/2">
         <div className="flex-1 border-t-2 border-red-700"></div>
         <img src={muri} alt=""  className="mx-5"/>
@@ -17,7 +17,7 @@ const AboutMuriAwards = () => {
         respective fields of expertise. Ability is part of the fortress of our
         nationalism in competing in the current era of globalization"
       </p>
-    </div>
+    </section>
   );
 };
 

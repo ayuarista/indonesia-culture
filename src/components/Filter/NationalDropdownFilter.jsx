@@ -34,7 +34,7 @@ const NationalDropdownFilter = () => {
         <div className="mx-10 lg:mx-16">
         <h1 className="font-semibold text-3xl text-light-red">{sortOption}</h1>
         </div>
-        <div className="relative text-black mx-10 lg:mx-16">
+        <div className="relative text-black mx-10 lg:mx-16 mt-2 lg:mt-0">
           <div className="flex items-center gap-3">
           <h1>Sort by:</h1>
           <button
@@ -80,7 +80,7 @@ const NationalDropdownFilter = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-3 lg:mt-6 mx-10 lg:mx-16 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-3 lg:mt-6 mx-10 lg:mx-16">
         {filteredData.map((item) => (
           <CardNational
             key={item.id}

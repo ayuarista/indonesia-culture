@@ -14,7 +14,7 @@ const BtnDiscoverMore = () => {
   };
   return (
     <>
-      <Link to="">
+      <a href="#muri">
         <div className="">
           <div
             onMouseEnter={handleMouseEnter}
@@ -41,7 +41,7 @@ const BtnDiscoverMore = () => {
                  }`}/>
           </div>
         </div>
-      </Link>
+      </a>
     </>
   );
 };
