@@ -20,7 +20,7 @@ const BtnGWRPopup = ({itemId}) => {
     setIsHovered(false);
   };
   return (
-    <div className="mt-2">
+    <div className="mt-3">
       <button
         onClick={handleOpen}
         onMouseEnter={handleMouseEnter}
@@ -32,7 +32,7 @@ const BtnGWRPopup = ({itemId}) => {
         }`}
       >
         <h1
-          className={`text-base font-medium transition-all duration-500 ${
+          className={`text-sm font-medium transition-all duration-500 ${
             isHovered ? "text-white" : "text-white"
           }`}
         >
