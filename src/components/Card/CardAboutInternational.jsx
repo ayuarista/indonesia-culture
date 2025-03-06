@@ -7,7 +7,7 @@ const CardAboutInternational = () => {
           alt=""
           className="border-4 border-white rounded-tr-[80px] rounded-bl-4xl w-60 lg:h-full h-72 object-cover scale-x-[-1] relative"
         />
-        <div className="absolute bottom-0 right-5 lg:right-0 p-8 rounded-full border-8 border-white bg-light-red z-10"></div>
+        <div className="absolute bottom-0 right-5 lg:right-0 lg:-bottom-3 p-8 rounded-full border-8 border-white bg-light-red z-10"></div>
         <div className="absolute -left-3 -top-2 w-60 h-full -z-1 bottom-0 rounded-tr-[75px] rounded-bl-4xl bg-gradient-to-t from-dark-red to-light-red scale-x-[-1]"></div>
         <div className="border-4 border-light-red rounded-full p-1.5 w-32 rotate-90 absolute -left-24 bottom-1/2"></div>
       </div>
