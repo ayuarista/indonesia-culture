@@ -16,10 +16,12 @@ const UNESCORecognition = () => {
         }
         
       />
-      <h1 className="ml-16 font-semibold text-2xl text-light-red">
+      <div className="mt-10">
+      <h1 className="ml-16 font-semibold text-[28px] text-light-red">
       Intangible Cultural Heritage
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-4 place-items-center mx-8 lg:mx-16">
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-5 place-items-center mx-8 lg:mx-16">
         {DataUNESCOIntangible.map((item) => (
           <UNESCOIntangibleCard
             key={item.id}
@@ -30,11 +32,11 @@ const UNESCORecognition = () => {
             year={item.year}
           />
         ))}
-      <h1 className="font-semibold text-2xl text-light-red">
+      <h1 className="font-semibold text-[28px] text-light-red">
       World Heritage Sites
       </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-6 justify-center place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-6 justify-center place-items-center mx-8 lg:mx-16">
         {DataUNESCOHeritage.map((item) => (
           <CardUnescoHeritage
             key={item.id}
