@@ -2,7 +2,7 @@ import BtnUnescoHeritagePopup from "../Atoms/BtnUnescoHeritagePopup"
 
 const CardUnescoHeritage = ({image, title, year, info, id}) => {
     return(
-        <div className="relative max-w-md lg:w-full rounded-lg shadow-xl">
+        <div className="relative max-w-md lg:max-w-2xl lg:w-full rounded-lg shadow-xl">
             <div className="relative">
             <img src={image} 
             alt={title}
