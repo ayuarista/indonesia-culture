@@ -31,7 +31,7 @@ const International = () => {
     <div className="pt-32">
       <TopInternationalSection />
       <div className="flex justify-between mx-16 items-center gap-3 mt-10">
-        <h1 className="font-semibold text-xl text-light-red">
+        <h1 className="font-semibold text-2xl text-light-red">
           {selectedFilter}
         </h1>
         <div className="flex items-center gap-3">
