@@ -24,7 +24,7 @@ const InternationalDropdownFilter = ({ options, selectedOption, onSelect }) => {
           <div className="relative text-black">
             <button
               onClick={() => setShowDropdown(!showDropdown)}
-              className="border cursor-pointer border-light-red text-light-red font-medium w-60 lg:w-72 px-3 py-2 rounded-full flex items-center justify-between text-xs lg:text-sm"
+              className="border cursor-pointer border-light-red text-light-red font-medium w-68 lg:w-72 px-3 py-2 rounded-full flex items-center justify-between text-sm"
             >
               {selectedOption}
               <IoIosArrowDown
