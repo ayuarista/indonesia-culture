@@ -19,7 +19,7 @@ const UNESCORecognition = () => {
       <h1 className="ml-16 font-semibold text-2xl text-light-red">
       Intangible Cultural Heritage
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-4 mx-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-4 place-items-center mx-8 lg:mx-16">
         {DataUNESCOIntangible.map((item) => (
           <UNESCOIntangibleCard
             key={item.id}
