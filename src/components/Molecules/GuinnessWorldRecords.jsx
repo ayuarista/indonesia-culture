@@ -13,7 +13,7 @@ const GuinnessWorldRecords = () => {
           "Guinness World Records (GWR) is a globally recognized organization that documents and verifies world records in various fields, including human achievements, natural phenomena, and unique events."
         }
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-6 mx-8 lg:mx-16 place-items-center">
         {DataInternationalGWR.map((item) => (
           <CardInternationalGWR
             key={item.id}
