@@ -30,11 +30,11 @@ const International = () => {
   return (
     <div className="pt-32">
       <TopInternationalSection />
-      <div className="flex justify-between mx-16 items-center gap-3 mt-10">
+      <div className="lg:flex justify-between mx-8 lg:mx-16 items-center gap-3 mt-10">
         <h1 className="font-semibold text-2xl text-light-red">
           {selectedFilter}
         </h1>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 mt-5 lg:mt-0">
         <p className="text-black">Sort by: </p>
         <InternationalDropdownFilter
           options={filterOptions}
