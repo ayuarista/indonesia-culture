@@ -11,8 +11,8 @@ const CardRRI = () => {
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/RRI_Logo_2023.svg/1200px-RRI_Logo_2023.svg.png" alt="" className="mx-5 w-28" />
           <div className="flex-1 border-t-2 border-red-700"></div>
         </div>
-        <h1 className="font-bold text-light-red text-2xl lg:text-3xl text-center mt-2">Radio Republic of Indonesia (RRI)</h1>
-        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
+        <h1 className="font-bold text-light-red text-2xl lg:text-3xl text-center lg:text-left mt-2">Radio Republic of Indonesia (RRI)</h1>
+        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[70%] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
       </div>
     </div>
   );
