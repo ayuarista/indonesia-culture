@@ -15,8 +15,8 @@ const WorldCraftsCouncil = () => {
           "The World Crafts Council (WCC) is an international organization focused on the development and preservation of traditional crafts worldwide. Indonesia has received several recognitions from the WCC for its contribution to preserving the art and culture of handicrafts."
         }
       />
-      <div className="flex items-center justify-center">
-        <div className="w-full">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-16 lg:mt-0">
+        <div className="w-full mt-4 lg:mt-0">
           <AboutASEAN
             title={'Pekalongan as "World City of Batik" (2014)'}
             desc={
@@ -24,7 +24,7 @@ const WorldCraftsCouncil = () => {
             }
           />
         </div>
-        <div className="w-1/2">
+        <div className="w-full">
           <CardWCC />
         </div>
       </div>
