@@ -24,7 +24,7 @@ const WorldCraftsCouncil = () => {
             }
           />
         </div>
-        <div className="w-full">
+        <div className="lg:w-1/2 w-full">
           <CardWCC />
         </div>
       </div>
