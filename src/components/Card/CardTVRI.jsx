@@ -1,7 +1,7 @@
 const CardTVRI = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center mt-16 w-full">
-      <div className="flex flex-col w-1/2 mx-20">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-16 w-full">
+      <div className="flex flex-col w-full mx-20">
         <div className="flex items-center w-1/2">
           <div className="flex-1 border-t-2 border-red-700"></div>
           <img
@@ -21,7 +21,7 @@ const CardTVRI = () => {
           development of broadcasting technology.
         </p>
       </div>
-      <div className="relative w-[50%] bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
+      <div className="relative w-full bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
         <div className="absolute  right-12 -top-10">
           <img
             src="https://cdn.antaranews.com/cache/1200x800/2023/11/23/WhatsApp-Image-2023-11-23-at-14.44.23.jpeg.webp"
