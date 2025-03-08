@@ -1,14 +1,14 @@
 const CardTVRI = () => {
   return (
     <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-16 w-full">
-      <div className="flex flex-col mx-8 mt-6 lg:mt-0">
+      <div className="flex flex-col mx-8 mt-6 lg:mt-0 lg:mx-20">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="flex-1 border-t-2 border-red-700"></div>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/170px-TVRILogo2019.svg.png" alt="" className="mx-5 w-24 lg:w-28" />
           <div className="flex-1 border-t-2 border-red-700"></div>
         </div>
         <h1 className="font-bold text-light-red text-2xl lg:text-3xl text-center lg:text-left mt-2">Republic of Indonesia Television (TVRI)</h1>
-        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[70%] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
+        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[85%] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
       </div>
       <div className="relative w-full bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
         <div className="absolute right-8 lg:right-12 -top-10">
