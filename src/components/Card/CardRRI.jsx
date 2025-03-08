@@ -1,6 +1,6 @@
 const CardRRI = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center mt-20 overflow-hidden">
+    <div className="flex flex-col lg:flex-row items-center mt-10 lg:mt-20 overflow-hidden">
       <div className="relative w-full left-14 lg:left-28">
         <img src="https://lensaborneo.com/wp-content/uploads/2024/01/WhatsApp-Image-2024-01-17-at-16.40.29_640b0e86-750x563.jpg" className="rounded-tr-4xl rounded-tl-4xl rounded-bl-4xl object-cover w-80 lg:w-96 h-full" alt="" />
         <div className="absolute bg-light-red h-1/3 -left-6 bottom-20 rounded-tl-full rounded-bl-full p-1.5"></div>
