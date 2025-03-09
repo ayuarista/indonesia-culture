@@ -1,6 +1,6 @@
 const CardWCC = () => {
     return(
-        <div className=" mt-10 bg-gradient-to-r from-0% to-80% from-[#430304] to-[#A90809] w-full h-36 rounded-tl-full rounded-bl-full">
+        <div className="relative mt-10 bg-gradient-to-r from-0% to-80% from-[#430304] to-[#A90809] w-full h-36 rounded-tl-full rounded-bl-full">
             <div className=" -top-10 left-4 lg:left-0 z-10">
                 <img src="https://asset-2.tstatic.net/jateng/foto/bank/images/Peresmian-gedung-baru-perpustakaan-daerah-Kota-Pekalongan.jpg" alt="" className="w-48 h-56 object-cover rounded-full border-[8px] border-light-red  -rotate-6 shadow-2xl" />
             </div>
