@@ -6,6 +6,7 @@ import National from './pages/Awards/National';
 import International from './pages/Awards/International';
 import Quiz from './pages/Quiz';
 import ScrollToTop from './components/Molecules/ScrollToTop';
+import Article from './pages/Article';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/award/national" element={<National />} />
         <Route path="/award/international" element={<International />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/article" element={<Article/>}/>
       </Routes>
       {/* <Footer /> */}
     </Router>
