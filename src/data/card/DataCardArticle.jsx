@@ -13,7 +13,13 @@ export const DataCardArticle = [
         title: "Kolintang Recognized by UNESCO as Intangible Cultural Heritage, Great Responsibility Awaits",
         link: "https://www.kompas.id/artikel/kolintan-warisan-budaya-unesco"
     },
-    
+    {
+        id: 3,
+        image: "https://images.unsplash.com/photo-1727838604328-b31d7eef9a57?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fEluZG9uZXNpYSUyMGN1bHR1cmV8ZW58MHx8MHx8fDA%3D",
+        author: "Indah Novita Dewi",
+        title: "Preserving Traditional Dance Through Wedding Reception Events",
+        link: "https://www.kompasiana.com/indahnovita5600/6677d6b934777c6147595a34/melestarikan-tari-tradisional-melalui-acara-resepsi-pernikahan"
+    },
     {
         id: 4,
         image: "",
