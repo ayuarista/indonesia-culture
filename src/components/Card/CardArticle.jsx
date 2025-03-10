@@ -9,7 +9,7 @@ const CardArticle = ({image, title, author, link}) => {
             </div>
             <div className="mt-3">
             <a href={link}>
-            {title}
+            <p className="text-black text-[15px] hover:underline">{title}</p>
             </a>
             </div>
         </div>
