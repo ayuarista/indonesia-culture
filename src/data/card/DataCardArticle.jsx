@@ -20,81 +20,81 @@ export const DataCardArticle = [
         title: "Preserving Traditional Dance Through Wedding Reception Events",
         link: "https://www.kompasiana.com/indahnovita5600/6677d6b934777c6147595a34/melestarikan-tari-tradisional-melalui-acara-resepsi-pernikahan"
     },
-    // {
-    //     id: 4,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 5,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 6,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 7,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 8,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 9,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 10,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 11,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 12,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 13,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
-    // {
-    //     id: 14,
-    //     image: "",
-    //     author: "",
-    //     title: "",
-    //     link: ""
-    // },
+    {
+        id: 4,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 5,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 6,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 7,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 8,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 9,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 10,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 11,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 12,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 13,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
+    {
+        id: 14,
+        image: "",
+        author: "",
+        title: "",
+        link: ""
+    },
 ]
