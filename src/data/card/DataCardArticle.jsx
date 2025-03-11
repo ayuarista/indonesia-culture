@@ -21,7 +21,7 @@ export const DataCardArticle = [
         link: "https://www.kompasiana.com/indahnovita5600/6677d6b934777c6147595a34/melestarikan-tari-tradisional-melalui-acara-resepsi-pernikahan"
     },
     {
-        id: ,
+        id: 4,
         image: "",
         author: "",
         title: "",
