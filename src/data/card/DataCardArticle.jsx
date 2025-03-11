@@ -22,7 +22,7 @@ export const DataCardArticle = [
     },
     {
         id: ,
-        : "",
+        image: "",
         author: "",
         title: "",
         link: ""
