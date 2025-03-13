@@ -36,10 +36,10 @@ export const DataCardArticle = [
     },
     {
         id: 6,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk1TqFakXzhKOCAJvaRtIbGDyf6klfF7_W4NSpvny1D2bqwJ6Q-XzQrK_C97wmxj9CfbYSXKcewrgA6Ieacq-JWOhQBC007M5r_9l8Ya6zdX61XBHLw78YEc_uClZON7kMYQsEjrIib80/s640/bali-indonesia-2.jpg",
+        author: "KABAR PEDALAMAN",
+        title: "Bali island is often called this island is famous island until the end of the world",
+        link: "https://kabartemplate.blogspot.com/2018/03/bali-island-culture-part-1.html"
     },
     {
         id: 7,
