@@ -71,10 +71,10 @@ export const DataCardArticle = [
     },
     {
         id: 11,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://dims.apnews.com/dims4/default/38ee7b5/2147483647/strip/true/crop/7636x5090+0+0/resize/1360x907!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe3%2F81%2F0d5a74a576f18f33aba8dd6a02a1%2Fa07a9e516d3a488e82e67d3a038db59e",
+        author: "NINIEK KARMINI and TATAN SYUFLANA",
+        title: "Muslims in Indonesia welcome the holy month of Ramadan",
+        link: "https://apnews.com/article/ramadan-indonesia-muslim-fasting-mosque-tarhib-islam-d3abc6b4ea2fd7b004b6926588f2783c"
     },
     {
         id: 12,
