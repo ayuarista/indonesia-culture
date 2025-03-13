@@ -85,10 +85,10 @@ export const DataCardArticle = [
     },
     {
         id: 13,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://akcdn.detik.net.id/community/media/visual/2023/08/16/jokowi-di-sidang-tahunan-mpr_43.jpeg?w=700&q=90",
+        author: "Imam Subkhan",
+        title: "Treasuring Indonesian Culture; From Local Practice to State Political Ritual",
+        link: "https://www.anthropology-news.org/articles/treasuring-indonesian-culture-from-local-practice-to-state-political-ritual/"
     },
     {
         id: 14,
