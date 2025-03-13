@@ -92,9 +92,9 @@ export const DataCardArticle = [
     },
     {
         id: 14,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://images.unsplash.com/photo-1522139350032-f32db164adfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGluZG9uZXNpYSUyMGN1bHR1cmV8ZW58MHx8MHx8fDA%3D",
+        author: " Armaya Doremi",
+        title: "Some Differences between Indonesian and American Culture",
+        link: "https://indonesiamengglobal.com/2020/12/things-you-should-know-about-american-culture-and-indonesian-culture/"
     },
 ]
