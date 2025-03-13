@@ -43,17 +43,10 @@ export const DataCardArticle = [
     },
     {
         id: 7,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
-    },
-    {
-        id: 8,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://images.unsplash.com/photo-1543874911-320748e4c335?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhdGlrfGVufDB8fDB8fHww",
+        author: "KABAR PEDALAMAN",
+        title: "Batik is generally the most expressive and inconspicuous of the oppose techniques.",
+        link: "https://kabartemplate.blogspot.com/2018/03/artikel-bahasa-inggris-tentang-sejarah.html"
     },
     {
         id: 9,
