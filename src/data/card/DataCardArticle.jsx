@@ -64,10 +64,10 @@ export const DataCardArticle = [
     },
     {
         id: 10,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://www.foodandwine.com/thmb/cCOZoAOruy3kcPDl9fE9t-plXbo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Jamu-The-drink-that-Indonesians-swear-by-FT-BOG0125-01-a50555277a814ad886aea0c7045eebba.jpg",
+        author: "Michelle Tchea",
+        title: "Jamu, an Ancient Indonesian Tonic With Turmeric and Ginger, Is More Than a Simple Beverage",
+        link: "https://www.foodandwine.com/jamu-indonesian-drink-8774760"
     },
     {
         id: 11,
