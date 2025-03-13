@@ -22,10 +22,10 @@ export const DataCardArticle = [
     },
     {
         id: 4,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://images.unsplash.com/photo-1604973104381-870c92f10343?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmF0aWt8ZW58MHx8MHx8fDA%3D",
+        author: "Vinsensius S Fil",
+        title: "Let's Love Batik Indonesia! Not Just a Cloth, This is Our Identity!",
+        link: "https://www.kompasiana.com/vinsensiussfil8075/66fbff79ed6415138430b5e2/yuk-cintai-batik-nggak-cuma-kain-ini-identitas-kita"
     },
     {
         id: 5,
