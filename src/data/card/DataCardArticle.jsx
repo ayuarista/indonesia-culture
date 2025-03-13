@@ -57,10 +57,10 @@ export const DataCardArticle = [
     },
     {
         id: 9,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://assetd.kompas.id/up4kGFy_9pJOw7Qu80ugSOxFmvY=/1280x832/filters:watermark(https://cdn-content.kompas.id/umum/kompas_main_logo.png,-16p,-13p,0)/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F10%2F19%2F42e7e181-15a3-4f9b-8ac1-56457bcea162_jpg.jpg",
+        author: "TATANG MULYANA SINAGA",
+        title: "Citra Sasmita on reclaiming Bali’s art from the tourists — and the patriarchy",
+        link: "https://www.kompas.id/baca/english/2023/10/19/en-pekan-kebudayaan-nasional-gaungkan-budaya-peduli-bumi"
     },
     {
         id: 10,
