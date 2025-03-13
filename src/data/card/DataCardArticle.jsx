@@ -78,10 +78,10 @@ export const DataCardArticle = [
     },
     {
         id: 12,
-        image: "",
-        author: "",
-        title: "",
-        link: ""
+        image: "https://images.unsplash.com/photo-1606143704849-eb181ba1543a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVuZGFuZ3xlbnwwfHwwfHx8MA%3D%3D",
+        author: "Pat Tanumihardja",
+        title: "Beef Rendang and 7 Other Restaurant-Worthy Recipes to Transport You to Indonesia",
+        link: "https://www.seriouseats.com/essential-indonesian-recipes-8756573"
     },
     {
         id: 13,
