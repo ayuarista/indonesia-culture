@@ -1,6 +1,6 @@
 export const DataCardArticle = [
     {
-        id: 1,
+        id: 10,
         image: "https://images.unsplash.com/photo-1666587128445-4623f8f8f033?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amF2YSUyMGRhbmNlfGVufDB8fDB8fHww",
         author: "Cici Dian Eviliya",
         title: "Often Thought to be Showing Off Their Bodies, It Turns Out This is the Dancers' Effort to Preserve Culture",
