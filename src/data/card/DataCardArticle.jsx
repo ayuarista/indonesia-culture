@@ -49,6 +49,13 @@ export const DataCardArticle = [
         link: "https://kabartemplate.blogspot.com/2018/03/artikel-bahasa-inggris-tentang-sejarah.html"
     },
     {
+        id: 8,
+        image: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1791db7d-8c11-4799-8cc8-b8ac73a2b7fa/df3le1k-fb224ccb-831d-4cd0-b388-cc0c70480575.jpg/v1/fill/w_785,h_1017,q_70,strp/pencak_silat_hd_photos_by_ponselspek_df3le1k-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY1OCIsInBhdGgiOiJcL2ZcLzE3OTFkYjdkLThjMTEtNDc5OS04Y2M4LWI4YWM3M2EyYjdmYVwvZGYzbGUxay1mYjIyNGNjYi04MzFkLTRjZDAtYjM4OC1jYzBjNzA0ODA1NzUuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.R4Nfbx7_ur6b6P5ej58SmHMWOdQ2ktKBJuREjDPqMEQ",
+        author: "WIKIPEDIA",
+        title: "Pencak Silat Indonesia's Traditional Martial Art that has been recognized by UNESCO",
+        link: "https://en.wikipedia.org/wiki/Pencak_silat"
+    },
+    {
         id: 9,
         image: "",
         author: "",
