@@ -1,7 +1,7 @@
 const ArticleCard = ({ image, label, author, date, title, size, text, sizeTitle }) => {
     return (
       <div className={`relative ${size}`}>
-        <img src={image} alt="News" className=" h-full object-cover object-center rounded-lg" />
+        <img src={image} alt="News" className=" object-cover object-center rounded-lg" />
         <div className="absolute text-sm -left-2 rounded-br-full rounded-tr-full top-4 shadow-[0px_4px_4px_3px_rgba(0,0,0,0.25)] px-4 bg-white text-[#B20607] font-semibold p-1.5">
           {label}
         </div>
