@@ -1,4 +1,4 @@
-const ArticleCard = ({ image, label, author, date, title, size, text, sizeTitle }) => {
+const ArticleCard = ({ image, label, date, title, size, text, sizeTitle }) => {
     return (
       <div className={`relative ${size}`}>
         <img src={image} alt="News" className="w-full h-full object-cover object-center rounded-lg" />
