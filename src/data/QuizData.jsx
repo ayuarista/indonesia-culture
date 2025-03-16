@@ -30,14 +30,14 @@ export const QuizData = [
       correctAnswer: "",
     },
     {
-      question: "What should be done with items that are no longer used?",
+      question: "",
       options: [
-        "a. Disposed of carelessly",
-        "b. Recycled or donated",
-        "c. Left on the bed",
-        "d. Stored in a closet without being used"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "b. Recycled or donated",
+      correctAnswer: "",
     },
     {
       question: "What is the main goal of applying the 3R principles?",
