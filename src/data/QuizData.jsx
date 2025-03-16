@@ -1,13 +1,13 @@
 export const QuizData = [
     {
-      question: "What does 'Reduce' mean in the 3Rs?",
+      question: "",
       options: [
-        "a. To reduce the use of items",
-        "b. To use second-hand items",
-        "c. To recycle items",
-        "d. To buy new items"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "a. To reduce the use of items",
+      correctAnswer: "",
     },
     {
       question: "Which of the following falls under 'Reuse'?",
