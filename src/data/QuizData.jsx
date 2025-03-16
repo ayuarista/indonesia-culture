@@ -10,14 +10,14 @@ export const QuizData = [
       correctAnswer: "",
     },
     {
-      question: "Which of the following falls under 'Reuse'?",
+      question: "",
       options: [
-        "a. Throwing plastic in the trash",
-        "b. Using a used water bottle as a plant pot",
-        "c. Buying single-use items",
-        "d. Disposing of used paper"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "b. Using a used water bottle as a plant pot",
+      correctAnswer: "",
     },
     {
       question: "One benefit of 'Recycle' is:",
