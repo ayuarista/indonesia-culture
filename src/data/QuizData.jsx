@@ -40,14 +40,14 @@ export const QuizData = [
       correctAnswer: "",
     },
     {
-      question: "What is the main goal of applying the 3R principles?",
+      question: "",
       options: [
-        "a. Increasing expenses",
-        "b. Reducing negative impacts on the environment",
-        "c. Increasing consumption of items",
-        "d. Adding new products to the market"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "b. Reducing negative impacts on the environment",
+      correctAnswer: "",
     },
     {
       question: "What should be done with used paper?",
