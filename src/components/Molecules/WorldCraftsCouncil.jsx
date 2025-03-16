@@ -20,7 +20,7 @@ const WorldCraftsCouncil = () => {
           <AboutASEAN
             title={'Pekalongan as "World City of Batik" (2014)'}
             desc={
-              'Pekalongan is as the "World City of Batik" for its role in preserving, developing, and promoting batik. The city is a center for batik craftsmen, learning, and innovation at the national and international levels.'
+              'Pekalongan is recognized as the "World City of Batik" for its role in preserving, developing, and promoting batik. The city is a center for batik craftsmen, learning, and innovation at the national and international levels.'
             }
           />
         </div>
