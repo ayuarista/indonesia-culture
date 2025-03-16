@@ -50,13 +50,13 @@ export const QuizData = [
       correctAnswer: "",
     },
     {
-      question: "What should be done with used paper?",
+      question: "",
       options: [
-        "a. Thrown in the trash",
-        "b. Used for crafts",
-        "c. Burned",
-        "d. Left to accumulate at home"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "b. Used for crafts",
+      correctAnswer: "",
     },
 ];
