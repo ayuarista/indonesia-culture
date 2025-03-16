@@ -20,14 +20,14 @@ export const QuizData = [
       correctAnswer: "",
     },
     {
-      question: "One benefit of 'Recycle' is:",
+      question: "",
       options: [
-        "a. Increasing waste in landfills",
-        "b. Reducing the number of items produced",
-        "c. Creating new products from used materials",
-        "d. Increasing the use of single-use plastics"
+        "a. ",
+        "b. ",
+        "c. ",
+        "d. "
       ],
-      correctAnswer: "c. Creating new products from used materials",
+      correctAnswer: "",
     },
     {
       question: "What should be done with items that are no longer used?",
