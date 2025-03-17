@@ -70,6 +70,36 @@ export const QuizData = [
       correctAnswer: "d. North Sulawesi",
     },
     {
+      question: "How many provinces are there in indonesia?",
+      options: [
+        "a. 27",
+        "b. 38",
+        "c. 28",
+        "d. 36"
+      ],
+      correctAnswer: "b. 38",
+    },
+    {
+      question: "Where does the Joglo traditional house come from?",
+      options: [
+        "a. Mingkabau",
+        "",
+        "",
+        ""
+      ],
+      correctAnswer: "",
+    },
+    {
+      question: "",
+      options: [
+        "",
+        "",
+        "",
+        ""
+      ],
+      correctAnswer: "",
+    },
+    {
       question: "",
       options: [
         "",
