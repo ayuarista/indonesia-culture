@@ -20,14 +20,14 @@ export const QuizData = [
       correctAnswer: "b. Iron",
     },
     {
-      question: "",
+      question: "Where does the Saman dance originate from?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. West Java",
+        "b.  South Sulawesi",
+        "c. Aceh",
+        "d. Bali"
       ],
-      correctAnswer: "",
+      correctAnswer: "c. Aceh",
     },
     {
       question: "",
