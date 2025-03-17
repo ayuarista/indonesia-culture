@@ -30,24 +30,24 @@ export const QuizData = [
       correctAnswer: "c. Aceh",
     },
     {
-      question: "",
+      question: "What is the name of the traditional musical instrument from West Java made of bamboo?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. Angklung",
+        "b. Tiva",
+        "c. Kendang",
+        "d. Sasando"
       ],
-      correctAnswer: "",
+      correctAnswer: "a. Angklung",
     },
     {
-      question: "",
+      question: "Wayang kulit is a traditional performance art from which region?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. South Sumatra",
+        "b. Papua",
+        "c. West Kalimantan",
+        "d. Central Java"
       ],
-      correctAnswer: "",
+      correctAnswer: "d. Central Java",
     },
     {
       question: "",
