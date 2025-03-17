@@ -82,12 +82,12 @@ export const QuizData = [
     {
       question: "Where does the Joglo traditional house come from?",
       options: [
-        "a. Mingkabau",
-        "",
-        "",
-        ""
+        "a. Minangkabau",
+        "b. Sulawesi",
+        "c. Kalimantan",
+        "d. Yogyakarta"
       ],
-      correctAnswer: "",
+      correctAnswer: "d. Yogyakarta",
     },
     {
       question: "",
