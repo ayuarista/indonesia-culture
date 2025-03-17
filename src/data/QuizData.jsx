@@ -1,13 +1,13 @@
 export const QuizData = [
     {
-      question: "",
+      question: "What is meant by MURI Record?",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "a. MURI records are only for sports.",
+        "b. MURI records achievements in Indonesia.",
+        "c. MURI is an award from Guinness.",
+        "d. MURI is given to everyone."
       ],
-      correctAnswer: "",
+      correctAnswer: "b. MURI records achievements in Indonesia.",
     },
     {
       question: "",
