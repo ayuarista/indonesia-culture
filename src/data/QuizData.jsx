@@ -90,24 +90,14 @@ export const QuizData = [
       correctAnswer: "d. Yogyakarta",
     },
     {
-      question: "",
+      question: "Where does the traditional Gamelan musical instrument come from?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. Java & Bali",
+        "b. South Sumatra",
+        "c. Kalimantan",
+        "d. Maluku"
       ],
-      correctAnswer: "",
-    },
-    {
-      question: "",
-      options: [
-        "",
-        "",
-        "",
-        ""
-      ],
-      correctAnswer: "",
+      correctAnswer: "a. Java & Bali",
     },
     
 ];
