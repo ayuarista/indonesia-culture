@@ -50,24 +50,24 @@ export const QuizData = [
       correctAnswer: "d. Central Java",
     },
     {
-      question: "",
+      question: "Where does Borobudur Temple come from?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. Bali",
+        "b. Central Java",
+        "c. Kalimantan",
+        "d. Papua"
       ],
-      correctAnswer: "",
+      correctAnswer: "b. Central Java",
     },
     {
-      question: "",
+      question: "Where does the Kolintang musical instrument come from?",
       options: [
-        "",
-        "",
-        "",
-        ""
+        "a. Bali",
+        "b. West Java",
+        "c. South Sumatra",
+        "d. North Sulawesi"
       ],
-      correctAnswer: "",
+      correctAnswer: "d. North Sulawesi",
     },
     {
       question: "",
