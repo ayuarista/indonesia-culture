@@ -10,53 +10,74 @@ export const QuizData = [
       correctAnswer: "b. MURI records achievements in Indonesia.",
     },
     {
+      question: "What Indonesian heritage is recognized by UNESCO, except?",
+      options: [
+        "a. Wayang",
+        "b. Iron",
+        "c. Batik",
+        "d. Keris"
+      ],
+      correctAnswer: "b. Iron",
+    },
+    {
       question: "",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "",
+        "",
+        "",
+        ""
       ],
       correctAnswer: "",
     },
     {
       question: "",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "",
+        "",
+        "",
+        ""
       ],
       correctAnswer: "",
     },
     {
       question: "",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "",
+        "",
+        "",
+        ""
       ],
       correctAnswer: "",
     },
     {
       question: "",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "",
+        "",
+        "",
+        ""
       ],
       correctAnswer: "",
     },
     {
       question: "",
       options: [
-        "a. ",
-        "b. ",
-        "c. ",
-        "d. "
+        "",
+        "",
+        "",
+        ""
       ],
       correctAnswer: "",
     },
+    {
+      question: "",
+      options: [
+        "",
+        "",
+        "",
+        ""
+      ],
+      correctAnswer: "",
+    },
+    
 ];
