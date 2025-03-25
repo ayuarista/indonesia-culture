@@ -9,7 +9,7 @@ const Article = () => {
                         key={article.id}
                         image={article.image}
                         title={article.title}
-                        author={zero.author}
+                        author={article.author}
                         link={item.link}
                     />
                 ))}
