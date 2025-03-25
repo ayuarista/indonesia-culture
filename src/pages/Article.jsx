@@ -10,7 +10,7 @@ const Article = () => {
                         image={article.image}
                         title={article.title}
                         author={article.author}
-                        link={article.link}
+                        link={item.link}
                     />
                 ))}
             </div>
