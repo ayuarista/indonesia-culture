@@ -1,6 +1,6 @@
 import CardArticle from "../components/Card/CardArticle";
 import { DataCardArticle } from "../data/card/DataCardArticle";
-const Article = () => {
+const  = () => {
     return(
         <div className="pt-16">
             <div className=" -cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
