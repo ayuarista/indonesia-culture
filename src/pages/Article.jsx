@@ -5,7 +5,7 @@ const Article = () => {
         <div className="pt-16">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
                 {DataCardArticle.map((article) => (
-                    <CardArticle
+                    <
                         key={article.id}
                         image={article.image}
                         title={article.title}
