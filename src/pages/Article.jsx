@@ -6,7 +6,7 @@ const Article = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
                 {DataCardArticle.map((article) => (
                     <CardArticle
-                        key={.id}
+                        key={article.id}
                         image={article.image}
                         title={article.title}
                         author={article.author}
