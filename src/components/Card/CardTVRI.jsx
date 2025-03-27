@@ -1,6 +1,6 @@
 const CardTVRI = () => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row items-center justify-center mt-16 w-full">
+    <div className=" flex-col-reverse lg:flex-row items-center justify-center mt-16 w-full">
       <div className="flex flex-col mx-8 mt-6 lg:mt-0 lg:mx-20">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="flex-1 border-t-2 border-red-700"></div>
