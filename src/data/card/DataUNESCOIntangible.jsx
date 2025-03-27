@@ -10,7 +10,7 @@ export const DataUNESCOIntangible = [
     },
     {
         id: 2,
-        image: "https://cdn.rri.co.id/berita/Singaraja/o/1731380885587-WhatsApp_Image_2024-11-12_at_11.04.41_(2)/zyb5rsz7zz9x7i4.jpeg",
+        : "https://cdn.rri.co.id/berita/Singaraja/o/1731380885587-WhatsApp_Image_2024-11-12_at_11.04.41_(2)/zyb5rsz7zz9x7i4.jpeg",
         title: "Keris",
         info: "Traditional weapons that have high philosophical value typical of Indonesia.",
         year: "2005",
