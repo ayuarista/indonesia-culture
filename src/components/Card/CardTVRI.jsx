@@ -19,7 +19,7 @@ const CardTVRI = () => {
           />
           <div className="absolute bg-white border-4 border-dashed -bottom-5 right-0 border-light-red p-7 rounded-full"></div>
         </div>
-        <div className=" left-0 lg:-left-2 bottom-0">
+        <div className="absolute left-0 lg:-left-2 bottom-0">
           <img
             src="https://ambonews.com/sites/default/files/article/2024/12/WhatsApp%20Image%202024-12-20%20at%2009.37.09.jpeg"
             alt=""
