@@ -17,7 +17,7 @@ const CardTVRI = () => {
             className="rounded-tr-full rounded-tl-full object-cover w-60 h-60 lg:w-72 lg:h-72 border-8 border-white rotate-6"
             alt=""
           />
-          <div className=" bg-white border-4 border-dashed -bottom-5 right-0 border-light-red p-7 rounded-full"></div>
+          <div className="absolute bg-white border-4 border-dashed -bottom-5 right-0 border-light-red p-7 rounded-full"></div>
         </div>
         <div className=" left-0 lg:-left-2 bottom-0">
           <img
