@@ -4,7 +4,7 @@ import { QuizData } from "../data/QuizData";
 const Error = () => (
   <div
     role="alert"
-    className="flex items-center bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-5"
+    className="flex items-center bg-red-100 border border-red-400 text-red-700 px-4 py-2 text-sm rounded relative mb-5"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -22,13 +22,15 @@ const Error = () => (
     <span className="ml-3">Please select an option before proceeding.</span>
   </div>
 );
+
 const Quiz = () => {
+  const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
-  const [showResults, setShowResults] = useState(false);
-  const [correctAnswers, setCorrectAnswers] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [showError, setShowError] = useState(false);
+  const [quizFinished, setQuizFinished] = useState(false);
+  const [score, setScore] = useState(0);
 
   const handleAnswerChange = (event) => {
     setSelectedAnswer(event.target.value);
@@ -41,112 +43,133 @@ const Quiz = () => {
       return;
     }
 
-    const isCorrect =
-      selectedAnswer === QuizData[currentQuestion].correctAnswer;
-    if (isCorrect) setCorrectAnswers(correctAnswers + 1);
-
-    setAnswers([...answers, selectedAnswer]);
+    const newAnswers = [...answers];
+    newAnswers[currentQuestion] = selectedAnswer;
+    setAnswers(newAnswers);
 
     if (currentQuestion < QuizData.length - 1) {
       setCurrentQuestion(currentQuestion + 1);
-      setSelectedAnswer("");
+      setSelectedAnswer(newAnswers[currentQuestion + 1] || "");
     } else {
-      setShowResults(true);
+      calculateScore(newAnswers);
+      setQuizFinished(true);
     }
   };
 
-  const handleRetry = () => {
-    setCurrentQuestion(0);
-    setSelectedAnswer("");
-    setShowResults(false);
-    setCorrectAnswers(0);
-    setAnswers([]);
-    setShowError(false);
+  const handleBack = () => {
+    if (currentQuestion > 0) {
+      setCurrentQuestion(currentQuestion - 1);
+      setSelectedAnswer(answers[currentQuestion - 1] || "");
+    }
+  };
+
+  const calculateScore = (userAnswers) => {
+    let newScore = 0;
+    userAnswers.forEach((answer, index) => {
+      if (answer === QuizData[index].answer) {
+        newScore += 1;
+      }
+    });
+    setScore(newScore);
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-base-300 p-4">
-      <div className="w-full max-w-4xl bg-base-100 p-6 rounded-lg shadow-lg text-left mb-10">
-        {!showResults ? (
-          <>
-            <p className="uppercase tracking-tighter text-black">
-                Question {currentQuestion + 1}/{QuizData.length}</p>
-            <h2 className="text-2xl font-semibold mb-10 text-black">
-              {QuizData[currentQuestion].question}
-            </h2>
-
-            {showError && <Error />}
-            <div className="space-y-4">
-              {QuizData[currentQuestion].options.map((option, index) => (
-                <label
+    <div className="flex items-center justify-center min-h-screen bg-[#EAEDE3] p-4">
+      {!quizStarted ? (
+        <div className="bg-white p-8 rounded-3xl shadow-lg text-center">
+          <h2 className="text-xl font-semibold mb-4 text-black">Are you ready to start the quiz?</h2>
+          <button
+            onClick={() => setQuizStarted(true)}
+            className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium cursor-pointer"
+          >
+            Ready
+          </button>
+        </div>
+      ) : quizFinished ? (
+        <div className="bg-white p-8 rounded-3xl text-black shadow-lg text-center w-full max-w-md">
+          <h2 className="text-2xl font-semibold mb-4">Quiz Completed!</h2>
+          <p className="text-lg font-medium">Your score: {score} / {QuizData.length}</p>
+          <div className="mt-4 text-left">
+            {QuizData.map((q, index) => (
+              <div key={index} className="mb-3">
+                <p className="font-medium">{q.question}</p>
+                <p className={`text-sm ${answers[index] === q.answer ? "text-green-600" : "text-red-600"}`}>
+                  Your Answer: {answers[index]} {answers[index] === q.answer ? "✅" : "❌"}
+                </p>
+                {answers[index] !== q.answer && (
+                  <p className="text-sm text-gray-500">Correct Answer: {q.answer}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div className="relative w-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
+          <div className="flex justify-between items-center mb-4">
+            <div className="flex space-x-1">
+              {QuizData.map((_, index) => (
+                <div
                   key={index}
-                  className={`flex items-center space-x-3 cursor-pointer ${selectedAnswer === option ? "animate-bounce" : ""}`}
-                >
-                  <input
-                    type="radio"
-                    name="answer"
-                    value={option}
-                    checked={selectedAnswer === option}
-                    onChange={handleAnswerChange}
-                    className="hidden peer"
-                  />
-                  <div className="w-5 h-5 border border-gray-300 rounded-full flex justify-center items-center peer-checked:bg-light-red peer-checked:border-light-red">
-                    <span className="w-3 h-3 bg-white rounded-full"></span>
-                  </div>
-                  <span className="font-semibold text-black peer-checked-light-red text-sm md:text-lg">
-                    {option}
-                  </span>
-                </label>
+                  className={`h-1 w-8 rounded-full ${
+                    index <= currentQuestion ? "bg-black" : "bg-gray-300"
+                  }`}
+                ></div>
               ))}
             </div>
+          </div>
+
+          <p className="uppercase tracking-wide text-xs text-gray-500 font-semibold">
+            Question {currentQuestion + 1}
+          </p>
+          <h2 className="text-lg font-semibold mb-4 text-black">
+            {QuizData[currentQuestion].question}
+          </h2>
+
+          {showError && <Error />}
+
+          <div className="space-y-2">
+            {QuizData[currentQuestion].options.map((option, index) => (
+              <label key={index} className="flex items-center space-x-3 cursor-pointer">
+                <input
+                  type="radio"
+                  name="answer"
+                  value={option}
+                  checked={selectedAnswer === option}
+                  onChange={handleAnswerChange}
+                  className="hidden peer"
+                />
+                <div className="w-5 h-5 border border-gray-400 rounded-full flex justify-center items-center peer-checked:border-black">
+                  <div
+                    className={`w-3 h-3 bg-black rounded-full ${
+                      selectedAnswer === option ? "opacity-100" : "opacity-0"
+                    }`}
+                  ></div>
+                </div>
+                <span className="font-medium text-black">{option}</span>
+              </label>
+            ))}
+          </div>
+
+          {/* Navigation Buttons */}
+          <div className="flex justify-between mt-6">
+            <button
+              onClick={handleBack}
+              disabled={currentQuestion === 0}
+              className={`text-gray-500 font-medium ${
+                currentQuestion === 0 ? "opacity-50 cursor-not-allowed" : ""
+              }`}
+            >
+              Back
+            </button>
             <button
               onClick={handleNext}
-              className="mt-6 bg-dark-red text-white py-2 px-4 rounded-lg w-full cursor-pointer"
+              className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
             >
               {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
-          </>
-        ) : (
-          <div className="p-3">
-            <p className="mb-6 text-xl mt-10 text-black">
-              You got {correctAnswers} out of {QuizData.length} questions right
-            </p>
-            <h3 className="text-xl font-semibold mb-2 text-black">
-              Review Answers:
-            </h3>
-            <ul className="mb-6 space-y-4 dark:text-white text-black">
-              {QuizData.map((question, index) => (
-                <li key={index} className="text-left">
-                  <p className="text-black">{question.question}</p>
-                  <p className="text-black">
-                    Your answer:{" "}
-                    <span
-                      className={`font-semibold ${
-                        answers[index] === question.correctAnswer
-                          ? "text-green-500"
-                          : "text-red-500"
-                      }`}
-                    >
-                      {answers[index]}
-                    </span>
-                  </p>
-                  {answers[index] !== question.correctAnswer && (
-                    <p className="text-black">
-                      Correct answer: {question.correctAnswer}
-                    </p>
-                  )}
-                </li>
-              ))}
-            </ul>
-            <button
-              onClick={handleRetry}
-              className="bg-dark-red dark:bg-hero text-white py-2 px-4 rounded-lg font-medium w-full"
-            >
-              Try Again
-            </button>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 };
