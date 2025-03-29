@@ -4,7 +4,7 @@ import { QuizData } from "../data/QuizData";
 const Error = () => (
   <div
     role="alert"
-    className="flex items-center bg-red-100 border border-red-400 text-red-700 px-4 py-2 text-sm rounded relative mb-5"
+    className="flex items-center bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-5"
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -66,11 +66,20 @@ const Quiz = () => {
   const calculateScore = (userAnswers) => {
     let newScore = 0;
     userAnswers.forEach((answer, index) => {
-      if (answer === QuizData[index].answer) {
+      if (answer === QuizData[index].correctAnswer) {
         newScore += 1;
       }
     });
     setScore(newScore);
+  };
+
+  const handleRetry = () => {
+    setQuizStarted(false);
+    setQuizFinished(false);
+    setCurrentQuestion(0);
+    setSelectedAnswer("");
+    setAnswers([]);
+    setScore(0);
   };
 
   return (
@@ -80,31 +89,45 @@ const Quiz = () => {
           <h2 className="text-xl font-semibold mb-4 text-black">Are you ready to start the quiz?</h2>
           <button
             onClick={() => setQuizStarted(true)}
-            className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium cursor-pointer"
+            className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
           >
             Ready
           </button>
         </div>
       ) : quizFinished ? (
-        <div className="bg-white p-8 rounded-3xl text-black shadow-lg text-center w-full max-w-md">
-          <h2 className="text-2xl font-semibold mb-4">Quiz Completed!</h2>
-          <p className="text-lg font-medium">Your score: {score} / {QuizData.length}</p>
-          <div className="mt-4 text-left">
+        <div className="bg-white p-8 rounded-3xl shadow-lg text-center w-full max-w-2xl mt-20">
+          <h2 className="text-2xl font-semibold mb-4 text-black">Quiz Completed!</h2>
+          <p className="text-lg font-medium text-black">Your score: {score} / {QuizData.length}</p>
+
+          {/* <div className="mt-4 text-left bg-gray-100 p-6 rounded-lg">
             {QuizData.map((q, index) => (
-              <div key={index} className="mb-3">
-                <p className="font-medium">{q.question}</p>
-                <p className={`text-sm ${answers[index] === q.answer ? "text-green-600" : "text-red-600"}`}>
-                  Your Answer: {answers[index]} {answers[index] === q.answer ? "✅" : "❌"}
+              <div key={index} className="mb-4 p-4 border-b border-gray-300">
+                <p className="font-medium text-black">{q.question}</p>
+                <p
+                  className={`text-sm ${
+                    answers[index] === q.correctAnswer ? "text-green-600" : "text-red-600"
+                  }`}
+                >
+                  Your Answer: {answers[index] || "No answer"}{" "}
+                  {answers[index] === q.correctAnswer ? "✅" : "❌"}
                 </p>
-                {answers[index] !== q.answer && (
-                  <p className="text-sm text-gray-500">Correct Answer: {q.answer}</p>
+                {answers[index] !== q.correctAnswer && (
+                  <p className="text-sm text-gray-500">Correct Answer: {q.correctAnswer}</p>
                 )}
               </div>
             ))}
-          </div>
+          </div> */}
+
+          <button
+            onClick={handleRetry}
+            className="mt-6 bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
+          >
+            Retry
+          </button>
         </div>
       ) : (
         <div className="relative w-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
+          {/* Progress Indicator */}
           <div className="flex justify-between items-center mb-4">
             <div className="flex space-x-1">
               {QuizData.map((_, index) => (
@@ -116,18 +139,19 @@ const Quiz = () => {
                 ></div>
               ))}
             </div>
+            <button className="text-gray-400 hover:text-gray-600">✕</button>
           </div>
 
           <p className="uppercase tracking-wide text-xs text-gray-500 font-semibold">
             Question {currentQuestion + 1}
           </p>
-          <h2 className="text-lg font-semibold mb-4 text-black">
+          <h2 className="text-lg font-semibold mb-6 text-black">
             {QuizData[currentQuestion].question}
           </h2>
 
           {showError && <Error />}
 
-          <div className="space-y-2">
+          <div className="space-y-4">
             {QuizData[currentQuestion].options.map((option, index) => (
               <label key={index} className="flex items-center space-x-3 cursor-pointer">
                 <input
