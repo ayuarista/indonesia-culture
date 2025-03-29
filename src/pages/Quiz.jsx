@@ -126,10 +126,10 @@ const Quiz = () => {
           </button>
         </div>
       ) : (
-        <div className="relative w-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
+        <div className="relative w-full  h-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
           {/* Progress Indicator */}
-          <div className="flex justify-between items-center mb-4">
-            <div className="flex space-x-1">
+          <div className="flex justify-center items-center mb-4">
+            <div className="flex space-x-2">
               {QuizData.map((_, index) => (
                 <div
                   key={index}
@@ -139,7 +139,6 @@ const Quiz = () => {
                 ></div>
               ))}
             </div>
-            <button className="text-gray-400 hover:text-gray-600">✕</button>
           </div>
 
           <p className="uppercase tracking-wide text-xs text-gray-500 font-semibold">
@@ -175,19 +174,19 @@ const Quiz = () => {
           </div>
 
           {/* Navigation Buttons */}
-          <div className="flex justify-between mt-6">
+          <div className="flex justify-end gap-2 mt-6">
             <button
               onClick={handleBack}
               disabled={currentQuestion === 0}
-              className={`text-gray-500 font-medium ${
-                currentQuestion === 0 ? "opacity-50 cursor-not-allowed" : ""
+              className={`text-gray-500 bg-gray-200 py-2 px-5 rounded-md font-medium cursor-pointer ${
+                currentQuestion === 0 ? "opacity-50 bg-gray-100 py-2 px-5 rounded-md cursor-not-allowed" : ""
               }`}
             >
               Back
             </button>
             <button
               onClick={handleNext}
-              className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
+              className="bg-light-red cursor-pointer text-white py-2 px-6 rounded-lg font-medium"
             >
               {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
