@@ -176,7 +176,7 @@ const Quiz = () => {
           {/* Navigation Buttons */}
           <div className="flex justify-end gap-2 mt-6">
             <button
-              onClick={handleBack}
+              onClick={}
               disabled={currentQuestion === 0}
               className={`text-gray-500 bg-gray-200 py-2 px-5 rounded-md font-medium cursor-pointer ${
                 currentQuestion === 0 ? "-50 bg-gray-100 py-2 px-5 rounded-md cursor-not-allowed" : ""
