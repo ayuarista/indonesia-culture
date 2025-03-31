@@ -172,8 +172,6 @@ const Quiz = () => {
               </label>
             ))}
           </div>
-
-          {/* Navigation Buttons */}
           <div className="flex justify-end gap-2 mt-6">
             <button
               onClick={handleBack}
