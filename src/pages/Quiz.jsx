@@ -24,7 +24,7 @@ const Error = () => (
 );
 
 const Quiz = () => {
-  const [quizStarted, setQuizStarted] = useState(false);
+  const [, setQuizStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [answers, setAnswers] = useState([]);
