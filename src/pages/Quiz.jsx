@@ -127,7 +127,6 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="relative w-full  h-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
-          {/* Progress Indicator */}
           <div className="flex justify-center items-center mb-4">
             <div className="flex space-x-2">
               {QuizData.map((_, index) => (
