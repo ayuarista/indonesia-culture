@@ -172,7 +172,7 @@ const Quiz = () => {
               </label>
             ))}
           </div>
-          <div className="flex justify-end gap-2 mt-6">
+          <div className=" justify-end gap-2 mt-6">
             <button
               onClick={handleBack}
               disabled={currentQuestion === 0}
