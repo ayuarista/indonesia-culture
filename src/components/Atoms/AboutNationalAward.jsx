@@ -8,7 +8,7 @@ const AboutNationalAward = () => {
           Indonesian National Cultural Awards
           </h1>
         </div>
-        <p className="font-medium text-sm lg:text-base mt-3 text-pretty text-justify max-w-[23rem] lg:max-w-[29rem]">
+        <p className="font-medium text-sm lg:text-base mt-3 text-pretty text-justify max-w-[23rem] md:max-w-[30rem] lg:max-w-[29rem]">
         The Indonesian National Cultural Award is a form of appreciation from the government to individuals, groups, or communities who play an important role in preserving, developing, and advancing Indonesian culture.
         </p>
         <div className="mt-5">
