@@ -10,7 +10,7 @@ const AboutRekorMuri = () => {
                 <img src={muri} alt="" className="w-36 lg:w-28"/>
             </div>
             <div className="mt-3 text-pretty">
-            <p className="font-medium text-justify text-black">The Indonesia World Records Museum is a museum located in Semarang, Central Java, Indonesia. A collection of Indonesian records is presented in this museum.</p>
+            <p className="font-medium text-justify md:max-w-[70%] text-black">The Indonesia World Records Museum is a museum located in Semarang, Central Java, Indonesia. A collection of Indonesian records is presented in this museum.</p>
             </div>
             <div className="mt-5">
                 <ViewAllNews/>
