@@ -21,7 +21,7 @@ const CardLatestArticle = () => {
           author="Afif Yuliansyah"
           date="December 6, 2024"
           title="Kolintang Recognized by UNESCO as Intangible Cultural Heritage, Great Responsibility Awaits"
-          size="col-span-2 row-span-1 h-52"
+          size="col-span-2 row-span-1 h-52 md:h-72 lg:h-52"
           text="text-sm"
           sizeTitle="text-md"
         />
