@@ -10,7 +10,7 @@ const AboutIndonesiaCulture = () => {
           Indonesian Culture?
         </h1>
       </div>
-      <p className="font-medium mt-3 text-pretty text-justify max-w-[22rem] lg:max-w-[35rem]">
+      <p className="font-medium mt-3 text-pretty text-justify max-w-[22rem] md:max-w-[30rem] lg:max-w-[35rem]">
         Indonesian culture is a rich and diverse collection of traditions, arts,
         customs, and values shaped by the country’s long history and the
         influence of indigenous, Hindu-Buddhist, Islamic, and colonial cultures.
