@@ -22,7 +22,7 @@ const CardUNESCO = () => {
             <div className="absolute -bottom-[42px] md:-bottom-20 lg:-bottom-[60px] -right-9 md:right-[75px] lg:-right-4">
                 <img src="https://images.unsplash.com/photo-1556375413-f6cdc5e17398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJvcm9idWR1cnxlbnwwfHwwfHx8MA%3D%3D"
                  alt="" 
-                 className="w-full h-32 md:h-36 object-cover rounded-tr-4xl rounded-br-4xl rounded-bl-4xl border-[5px] border-white"
+                 className="w-full h-32 md:h-36 lg:h-32 object-cover rounded-tr-4xl rounded-br-4xl rounded-bl-4xl border-[5px] border-white"
                  />
             </div>
         </div>
