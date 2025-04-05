@@ -25,13 +25,13 @@ const ASEAN = () => {
           />
         </div>
         <div className="w-full lg:w-[45%] md:w-1/2">
-        <CardAseanCultural />
+          <CardAseanCultural />
         </div>
       </div>
       <ImageSliderAsean />
-      <div className="flex items-center justify- flex-col lg:flex-row">
-        <div className="w-full md:w-1/2 lg:w-[45%]">
-        <CardAseanTourism />
+      <div className="flex items-center flex-col md:flex-row lg:flex-row mt-10">
+        <div className="w-full lg:w-[45%]">
+          <CardAseanTourism />
         </div>
         <div className="w-full">
           <AboutASEAN
@@ -42,7 +42,7 @@ const ASEAN = () => {
           />
         </div>
       </div>
-        <ImageSlider />
+      <ImageSlider />
     </>
   );
 };
