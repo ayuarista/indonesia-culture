@@ -15,7 +15,7 @@ const ASEAN = () => {
           "Awards from ASEAN (Association of Southeast Asian Nations) are a form of appreciation given by ASEAN to individuals, organizations or member countries that have made extraordinary contributions in various fields, one of which is Culture."
         }
       />
-      <div className="flex items-center justify-center flex-col-reverse lg:flex-row">
+      <div className="flex items-center justify-center flex-col-reverse md:flex-row lg:flex-row">
         <div className="w-full">
           <AboutASEAN
             title={"ASEAN Cultural Heritage Award"}
@@ -24,7 +24,7 @@ const ASEAN = () => {
             }
           />
         </div>
-        <div className="w-full lg:w-[45%] md:w-1/2">
+        <div className="w-full lg:w-[45%]">
           <CardAseanCultural />
         </div>
       </div>
