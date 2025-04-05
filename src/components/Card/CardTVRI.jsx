@@ -10,7 +10,7 @@ const CardTVRI = () => {
         <h1 className="font-bold text-light-red text-2xl lg:text-3xl text-center lg:text-left mt-2">Republic of Indonesia Television (TVRI)</h1>
         <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[85%] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
       </div>
-      <div className="relative w-full md:w-[70%] lg:w-full bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
+      <div className="relative w-full md:w-[60%] lg:w-full bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
         <div className="absolute right-8 lg:right-12 -top-10">
           <img
             src="https://cdn.antaranews.com/cache/1200x800/2023/11/23/WhatsApp-Image-2023-11-23-at-14.44.23.jpeg.webp"
@@ -23,7 +23,7 @@ const CardTVRI = () => {
           <img
             src="https://ambonews.com/sites/default/files/article/2024/12/WhatsApp%20Image%202024-12-20%20at%2009.37.09.jpeg"
             alt=""
-            className="w-56 md:w-58 lg:w-64 object-cover rounded-tl-4xl rounded-b-4xl rounded-tr-full border-8 border-white"
+            className="w-56 md:w-52 lg:w-64 object-cover rounded-tl-4xl rounded-b-4xl rounded-tr-full border-8 border-white"
           />
         </div>
       </div>
