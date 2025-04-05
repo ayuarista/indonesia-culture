@@ -1,6 +1,6 @@
 const CardAseanCultural = () => {
     return(
-        <div className="relative mt-10 bg-gradient-to-r from-0% to-80% from-[#430304] to-[#A90809] w-[23rem] ml-12 lg:ml-0 lg:w-full h-48 rounded-tl-full rounded-bl-full">
+        <div className="relative mt-10 bg-gradient-to-r from-0% to-80% from-[#430304] to-[#A90809] w-[23rem] md:w-full md:ml-52 ml-12 lg:ml-0 lg:w-full h-48 rounded-tl-full rounded-bl-full">
             <div className="absolute top-0 left-0 z-10">
                 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6piZ2pJTM-OacatgfSjTZkI8LEA8uHWSj7gVPpNzEDrHK9N5HGocgweK_7tdsPOtz9GRqitPWir-qJ9QHhKnMvRbSkt8UioSWb3JtlhgFXE6Pnaup1r4aikv1E-EHrMRR4oWOXEHEllVq/s1600/Foto+Closing+Cross+Culture+%25281%2529.JPG" alt="" className="w-32 h-52 object-cover rounded-full border-[5px] border-white" />
                 <div className="absolute top-0 -left-8 border-4 p-1 rounded-full border-light-red h-28"></div>
