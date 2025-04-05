@@ -28,7 +28,7 @@ const International = () => {
   };
 
   return (
-    <div className="pt-24 lg:pt-32">
+    <div className="pt-24 lg:pt-24">
       <TopInternationalSection />
       <div className="lg:flex justify-between mx-8 lg:mx-16 items-center gap-3 mt-10">
         <h1 className="font-semibold text-2xl text-light-red">
