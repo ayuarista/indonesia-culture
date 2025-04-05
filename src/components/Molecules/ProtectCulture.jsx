@@ -11,7 +11,7 @@ const ProtectCulture = () => {
                 <p className="font-medium text-sm max-w-[24rem] mx-auto mt-2">Culture is not just a heritage, but a heritage that we must preserve. If we do not preserve it, who else will preserve the wealth of this nation?</p>
             </div>
             <div className="absolute bottom-0 left-0 right-0 h-96 bg-gradient-to-t from-light-red via-dark-red/80 to-transparent p-5 flex items-end">
-            <div className="relative top-44 md:top-16 lg:top-32 z-10 mx-auto">
+            <div className="relative top-44 md:top-16 lg:top-24 z-10 mx-auto">
                 <ProtectCultureMap/>
             </div>
             </div>
