@@ -14,7 +14,7 @@ function PagesNotFound() {
         to="/"
         className="px-6 py-2 bg-light-red text-white rounded-full hover:bg-red-900 transition-all duration-300"
       >
-        Kembali ke Beranda
+        Back to Home
       </Link>
     </div>
   );
