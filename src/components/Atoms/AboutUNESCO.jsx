@@ -14,7 +14,9 @@ const AboutUNESCO = () => {
       This recognition was given because the culture has historical, aesthetic and social value that is important for world civilization and needs to be preserved for future generations.
       </p>
       <div className="mt-5">
-        <ViewAllNews />
+        <ViewAllNews 
+        links={"/award/international"}
+        />
       </div>
     </div>
   );
