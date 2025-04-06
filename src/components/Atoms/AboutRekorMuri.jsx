@@ -19,7 +19,9 @@ const AboutRekorMuri = () => {
         </p>
       </div>
       <div className="mt-5">
-        <ViewAllNews />
+        <ViewAllNews 
+        links={"/award/national"}
+        />
       </div>
     </div>
   );

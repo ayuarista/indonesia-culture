@@ -16,7 +16,9 @@ const AboutIndonesiaCulture = () => {
         influence of indigenous, Hindu-Buddhist, Islamic, and colonial cultures.
       </p>
       <div className="mt-5">
-        <ViewAllNews />
+        <ViewAllNews 
+        links={"/award/national"}
+        />
       </div>
     </div>
   );
