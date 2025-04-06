@@ -21,7 +21,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/article" element={<Article/>}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   )
 }
