@@ -1,16 +1,18 @@
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
+import NotFoundImage from "/assets/404/notfound.png";
 function PagesNotFound() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100 text-center px-4">
-      <h1 className="text-6xl font-bold text-primary mb-4 text-black">404</h1>
-      <h2 className="text-2xl font-semibold mb-2 text-black">Oops! Halaman tidak ditemukan</h2>
-      <p className="mb-6 text-gray-600">
-        Maaf, halaman yang kamu cari tidak tersedia.
+    <div className="min-h-screen flex flex-col justify-center items-center text-center px-4 pt-5">
+      <img src={NotFoundImage} alt="" className="max-w-sm"/>
+      <h2 className="text-3xl font-semibold mb-2 text-light-red">
+        Oops! Page Not Found
+      </h2>
+      <p className="mb-4 text-gray-600">
+      Sorry, the page you were looking for is not available.
       </p>
       <Link
         to="/"
-        className="px-6 py-3 bg-primary text-white rounded-full hover:bg-opacity-90 transition duration-300"
+        className="px-6 py-2 bg-light-red text-white rounded-full hover:bg-red-900 transition-all duration-300"
       >
         Kembali ke Beranda
       </Link>
