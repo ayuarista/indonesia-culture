@@ -20,7 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/award/national" element={<National />} />
         <Route path="/award/international" element={<International />} />
-        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/features/quiz" element={<Quiz />} />
         <Route path="/province" element={<Province />} />
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />
