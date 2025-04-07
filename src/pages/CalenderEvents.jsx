@@ -3,19 +3,19 @@ import { events } from "../data/CalenderEventsData";
 import { calculateDaysLeft } from "../components/Organisms/calculateDays";
 
 const months = [
-  { label: "Semua Bulan", value: "" },
-  { label: "Januari", value: "01" },
-  { label: "Februari", value: "02" },
-  { label: "Maret", value: "03" },
+  { label: "All Months", value: "" },
+  { label: "January", value: "01" },
+  { label: "February", value: "02" },
+  { label: "March", value: "03" },
   { label: "April", value: "04" },
-  { label: "Mei", value: "05" },
-  { label: "Juni", value: "06" },
-  { label: "Juli", value: "07" },
-  { label: "Agustus", value: "08" },
+  { label: "May", value: "05" },
+  { label: "June", value: "06" },
+  { label: "July", value: "07" },
+  { label: "August", value: "08" },
   { label: "September", value: "09" },
-  { label: "Oktober", value: "10" },
+  { label: "October", value: "10" },
   { label: "November", value: "11" },
-  { label: "Desember", value: "12" },
+  { label: "December", value: "12" },
 ];
 
 export default function CalenderEvents() {
@@ -28,7 +28,7 @@ export default function CalenderEvents() {
   });
 
   return (
-    <div className="p-6 text-black">
+    <div className="p-6 text-black pt-20">
       <h2 className="text-2xl font-bold mb-4">Kalender Event Budaya</h2>
 
       <div className="mb-6">
