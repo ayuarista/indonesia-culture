@@ -52,14 +52,20 @@ const MobileHeader = () => {
           <nav className="flex flex-col gap-3 text-black">
             <NavLink path="/" nav="Home" />
             <div>
-              <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Award</h1>
+              <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Awards</h1>
               <div className="ml-2 flex flex-col gap-3 border-l-2 px-2 border-gray-200">
                 <NavLink path="/award/national" nav="National" />
                 <NavLink path="/award/international" nav="International" />
               </div>
             </div>
             <NavLink path="/province" nav="Province" />
-            <NavLink path="/quiz" nav="Quiz" />
+            <div>
+              <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Features</h1>
+              <div className="ml-2 flex flex-col gap-3 border-l-2 px-2 border-gray-200">
+                <NavLink path="/features/calender-events" nav="Calender Events" />
+                <NavLink path="/features/quiz" nav="Quiz" />
+              </div>
+            </div>
             <NavLink path="/article" nav="Article" />
           </nav>
         </div>
