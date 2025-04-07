@@ -8,6 +8,7 @@ import Quiz from './pages/Quiz';
 import ScrollToTop from './components/Molecules/ScrollToTop';
 import Article from './pages/Article';
 import PagesNotFound from './pages/PagesNotFound';
+import Province from './pages/Province';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/award/national" element={<National />} />
         <Route path="/award/international" element={<International />} />
         <Route path="/quiz" element={<Quiz />} />
+        <Route path="/province" element={<Province />} />
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />
       </Routes>
