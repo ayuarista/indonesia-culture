@@ -23,7 +23,13 @@ const Header = () => {
               ]}
             />
             <NavLink path="/province" nav="Province" />
-            <NavLink path="/quiz" nav="Quiz" />
+            <NavDropdown
+              navLink="Features"
+              links={[
+                { path: "/features/quiz", label: "Quiz" },
+                { path: "/features/calender-events", label: "Calender Events" },
+              ]}
+            />
             <NavLink path="/article" nav="Article" />
           </ul>
         </nav>
