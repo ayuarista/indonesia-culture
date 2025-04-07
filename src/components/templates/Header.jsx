@@ -26,8 +26,8 @@ const Header = () => {
             <NavDropdown
               navLink="Features"
               links={[
-                { path: "/features/quiz", label: "Quiz" },
                 { path: "/features/calender-events", label: "Calender Events" },
+                { path: "/features/quiz", label: "Quiz" },
               ]}
             />
             <NavLink path="/article" nav="Article" />
