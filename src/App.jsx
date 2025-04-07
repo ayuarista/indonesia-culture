@@ -9,6 +9,7 @@ import ScrollToTop from './components/Molecules/ScrollToTop';
 import Article from './pages/Article';
 import PagesNotFound from './pages/PagesNotFound';
 import Province from './pages/Province';
+import CalenderEvents from './pages/CalenderEvents';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/award/national" element={<National />} />
         <Route path="/award/international" element={<International />} />
         <Route path="/features/quiz" element={<Quiz />} />
+        <Route path="/features/calender-events" element={<CalenderEvents />} />
         <Route path="/province" element={<Province />} />
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />
