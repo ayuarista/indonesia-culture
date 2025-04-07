@@ -1,7 +1,6 @@
 import { useState } from "react";
-// import { events } from "./EventData";
-import { events } from "../../data/CalenderEventsData";
-import { calculateDaysLeft } from "../Organisms/calculateDays";
+import { events } from "../data/CalenderEventsData";
+import { calculateDaysLeft } from "../components/Organisms/calculateDays";
 
 const months = [
   { label: "Semua Bulan", value: "" },

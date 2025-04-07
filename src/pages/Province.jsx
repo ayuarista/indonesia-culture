@@ -1,12 +1,12 @@
-import React from 'react'
-import CalenderEvents from '../components/Molecules/CalenderEvents'
+import React from "react";
+import CalenderEvents from "./CalenderEvents";
 
 const Province = () => {
   return (
-    <div className='pt-28'>
-      <CalenderEvents/>
+    <div className="pt-28">
+      <CalenderEvents />
     </div>
-  )
-}
+  );
+};
 
-export default Province
+export default Province;
