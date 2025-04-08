@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { events } from "../data/CalenderEventsData";
 import { calculateDaysLeft } from "../components/Organisms/calculateDays";
+import CardCalenderEvents from "../components/Card/CardCalenderEvents";
 
 const months = [
   { label: "All Months", value: "" },
@@ -29,11 +30,11 @@ export default function CalenderEvents() {
 
   return (
     <div className="p-6 text-black pt-20">
-      <h2 className="text-2xl font-bold mb-4">Kalender Event Budaya</h2>
+      <h2 className="text-2xl font-bold mb-4">Cultural Event Calendar</h2>
 
       <div className="mb-6">
         <label className="block mb-1 font-medium text-gray-700">
-          Filter berdasarkan bulan:
+          Filter by month:
         </label>
         <select
           value={selectedMonth}
@@ -49,36 +50,30 @@ export default function CalenderEvents() {
       </div>
 
       {filteredEvents.length === 0 ? (
-        <p className="text-gray-500">Tidak ada event di bulan ini.</p>
+        <p className="text-gray-500">No events this month.</p>
       ) : (
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {filteredEvents.map((event) => {
             const daysLeft = calculateDaysLeft(event.date);
-            return (
-              <div
-                key={event.id}
-                className="border rounded-2xl p-4 shadow bg-white hover:shadow-lg transition"
-              >
-                <h3 className="text-xl font-semibold">{event.name}</h3>
-                <p className="text-sm text-gray-600">
-                  Lokasi: {event.location}
-                </p>
-                <p className="text-sm text-gray-600">
-                  Tanggal:{" "}
-                  {new Date(event.date).toLocaleDateString("id-ID", {
-                    weekday: "long",
-                    day: "numeric",
-                    month: "long",
-                    year: "numeric",
-                  })}
-                </p>
 
-                <p className="mt-2 font-medium text-blue-600">
-                  {daysLeft > 0
-                    ? `Tersisa ${daysLeft} hari lagi`
-                    : "Sedang berlangsung atau sudah lewat"}
-                </p>
-              </div>
+            return (
+              <CardCalenderEvents
+                key={event.id}
+                img={event.img}
+                title={event.name}
+                place={event.location}
+                date={new Date(event.date).toLocaleDateString("en-US", {
+                  day: "numeric",
+                  month: "long",
+                  year: "numeric",
+                })}
+                cardDesc={event.cardDesc}
+                daysLeft={
+                  daysLeft > 0
+                    ? `${daysLeft} days left`
+                    : "Festival is over"
+                }
+              />
             );
           })}
         </div>
