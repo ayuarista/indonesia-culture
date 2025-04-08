@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { QuizData } from "../data/QuizData";
+import { QuizData } from "../../data/QuizData";
 
 const Error = () => (
   <div

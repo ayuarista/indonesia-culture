@@ -4,13 +4,12 @@ import Header from './components/templates/Header'
 import Footer from './components/templates/Footer';
 import National from './pages/Awards/National';
 import International from './pages/Awards/International';
-import Quiz from './pages/Quiz';
+import Quiz from './pages/Features/Quiz';
 import ScrollToTop from './components/Molecules/ScrollToTop';
 import Article from './pages/Article';
 import PagesNotFound from './pages/PagesNotFound';
 import Province from './pages/Province';
-import CalenderEvents from './pages/CalenderEvents';
-
+import CalenderEvents from './pages/Features/CalenderEvents';
 
 function App() {
   return(

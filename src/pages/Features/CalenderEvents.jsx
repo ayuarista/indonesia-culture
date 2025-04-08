@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { events } from "../data/CalenderEventsData";
-import { calculateDaysLeft } from "../components/Organisms/calculateDays";
-import CardCalenderEvents from "../components/Card/CardCalenderEvents";
+import { events } from "../../data/CalenderEventsData";
+import { calculateDaysLeft } from "../../components/Organisms/calculateDays";
+import CardCalenderEvents from "../../components/Card/CardCalenderEvents";
 
 const months = [
   { label: "All Months", value: "" },
