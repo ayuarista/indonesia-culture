@@ -83,23 +83,23 @@ const Quiz = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-[#EAEDE3] p-4">
+    <div className="flex items-center justify-center min-h-screen bg-red-50 p-4">
       {!quizStarted ? (
         <div className="bg-white p-8 rounded-3xl shadow-lg text-center">
           <h2 className="text-xl font-semibold mb-4 text-black">Are you ready to start the quiz?</h2>
           <button
             onClick={() => setQuizStarted(true)}
-            className="bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
+            className="bg-light-red text-white py-2 px-6 rounded-lg font-medium cursor-pointer"
           >
             Ready
           </button>
         </div>
       ) : quizFinished ? (
         <div className="bg-white p-8 rounded-3xl shadow-lg text-center w-full max-w-2xl mt-20">
-          <h2 className="text-2xl font-semibold mb-4 text-black">Quiz Completed!</h2>
-          <p className="text-lg font-medium text-black">Your score: {score} / {QuizData.length}</p>
+          <h2 className="text-2xl font-semibold mb-4 text-black">Quiz Completed! Thank Your for try answer this quiz</h2>
+          <p className="text-lg font-medium text-black">Your Correct Answers: <span className="text-green-500 font-bold">{score}</span> / {QuizData.length} question</p>
 
-          {/* <div className="mt-4 text-left bg-gray-100 p-6 rounded-lg">
+          <div className="mt-4 text-left bg-gray-100 p-6 rounded-lg">
             {QuizData.map((q, index) => (
               <div key={index} className="mb-4 p-4 border-b border-gray-300">
                 <p className="font-medium text-black">{q.question}</p>
@@ -116,11 +116,11 @@ const Quiz = () => {
                 )}
               </div>
             ))}
-          </div> */}
+          </div>
 
           <button
             onClick={handleRetry}
-            className="mt-6 bg-[#A4E56F] text-black py-2 px-6 rounded-lg font-medium"
+            className="mt-6 bg-light-red text-white py-2 px-6 rounded-lg font-medium cursor-pointer"
           >
             Retry
           </button>
@@ -143,7 +143,7 @@ const Quiz = () => {
           <p className="uppercase tracking-wide text-xs text-gray-500 font-semibold">
             Question {currentQuestion + 1}
           </p>
-          <h2 className="text-lg font-semibold mb-6 text-black">
+          <h2 className="text-lg lg:text-xl font-semibold mb-6 text-black">
             {QuizData[currentQuestion].question}
           </h2>
 
@@ -151,7 +151,7 @@ const Quiz = () => {
 
           <div className="space-y-4">
             {QuizData[currentQuestion].options.map((option, index) => (
-              <label key={index} className="flex items-center space-x-3 cursor-pointer">
+              <label key={index} className={`flex items-center space-x-3 cursor-pointer ${selectedAnswer === option ? "animate-bounce" : ""}`}>
                 <input
                   type="radio"
                   name="answer"
@@ -160,9 +160,9 @@ const Quiz = () => {
                   onChange={handleAnswerChange}
                   className="hidden peer"
                 />
-                <div className="w-5 h-5 border border-gray-400 rounded-full flex justify-center items-center peer-checked:border-black">
+                <div className="w-5 h-5 border border-gray-400 rounded-full flex justify-center items-center">
                   <div
-                    className={`w-3 h-3 bg-black rounded-full ${
+                    className={`w-3 h-3 bg-light-red rounded-full ${
                       selectedAnswer === option ? "opacity-100" : "opacity-0"
                     }`}
                   ></div>
@@ -171,7 +171,7 @@ const Quiz = () => {
               </label>
             ))}
           </div>
-          <div className=" justify-end gap-2 mt-6">
+          <div className="flex items-center justify-end gap-2 mt-6">
             <button
               onClick={handleBack}
               disabled={currentQuestion === 0}
@@ -183,7 +183,7 @@ const Quiz = () => {
             </button>
             <button
               onClick={handleNext}
-              className="bg-light-red cursor-pointer text-white py-2 px-6 rounded-lg font-medium"
+              className="bg-light-red hover:bg-light-red/90 cursor-pointer text-white py-2 px-6 rounded-lg font-medium"
             >
               {currentQuestion === QuizData.length - 1 ? "Finish" : "Next"}
             </button>
