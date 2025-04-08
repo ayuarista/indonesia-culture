@@ -2,7 +2,16 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineDateRange } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineWatchLater } from "react-icons/md";
-function CardCalenderEvents({img, title, place, date, cardDesc, daysLeft}) {
+import { useNavigate } from "react-router-dom";
+
+function CardCalenderEvents({ id, img, title, place, date, cardDesc, daysLeft }) {
+  const navigate = useNavigate();
+
+  const truncateText = (text, maxLength) => {
+    if (text.length <= maxLength) return text;
+    return text.slice(0, maxLength) + "...";
+  };
+
   return (
     <div className="relative rounded-2xl shadow-lg bg-white">
       <div className="relative">
@@ -35,16 +44,20 @@ function CardCalenderEvents({img, title, place, date, cardDesc, daysLeft}) {
               {title}
             </h1>
             <p className="text-[13px] text-justify text-gray-400 mt-1">
-              {cardDesc}
+              {truncateText(cardDesc, 124)}
             </p>
-            <div className="flex items-center gap-2 mt-1">
+            <button
+              onClick={() => navigate(`/event/${id}`)}
+              className="flex items-center gap-2 mt-1"
+            >
               <p className="text-light-red font-semibold text-sm">View More</p>
               <FaArrowRightLong className="text-light-red" />
-            </div>
+            </button>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
 export default CardCalenderEvents;
