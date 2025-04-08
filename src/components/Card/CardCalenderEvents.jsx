@@ -49,8 +49,8 @@ function CardCalenderEvents({
                 {cardDesc}
               </p>
               <button
-                onClick={() => navigate(`/event/${id}`)}
-                className="flex items-center gap-2 mt-1 absolute bottom-4"
+                onClick={() => navigate(`/features/calender-events/${id}`)}
+                className="flex items-center gap-2 mt-1 absolute bottom-4 hover:cursor-pointer"
               >
                 <p className="text-light-red font-semibold text-sm">
                   View More
