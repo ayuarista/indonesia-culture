@@ -3,7 +3,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 function CardCalenderEvents({
   id,
   img,
@@ -48,15 +48,12 @@ function CardCalenderEvents({
               <p className="text-[14px] text-justify text-gray-400 mt-1">
                 {cardDesc}
               </p>
-              <button
-                onClick={() => navigate(`/features/calender-events/${id}`)}
-                className="flex items-center gap-2 mt-1 absolute bottom-4 hover:cursor-pointer"
+              <Link to={`/features/calender-events/${id}`}
+                className="flex items-center gap-2 mt-1 absolute bottom-4 hover:cursor-pointer text-light-red font-semibold text-sm"
               >
-                <p className="text-light-red font-semibold text-sm">
-                  View More
-                </p>
+                View More
                 <FaArrowRightLong className="text-light-red" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

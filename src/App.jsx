@@ -10,6 +10,7 @@ import Article from './pages/Article';
 import PagesNotFound from './pages/PagesNotFound';
 import Province from './pages/Province';
 import CalenderEvents from './pages/Features/CalenderEvents';
+import DetailCalenderEvents from './pages/Features/DetailCalenderEvents';
 
 function App() {
   return(
@@ -22,6 +23,7 @@ function App() {
         <Route path="/award/international" element={<International />} />
         <Route path="/features/quiz" element={<Quiz />} />
         <Route path="/features/calender-events" element={<CalenderEvents />} />
+        <Route path="/features/calender-events/:id" element={<DetailCalenderEvents />} />
         <Route path="/province" element={<Province />} />
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />

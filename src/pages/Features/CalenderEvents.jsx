@@ -58,7 +58,7 @@ export default function CalenderEvents() {
 
             return (
               <CardCalenderEvents
-                key={event.id}
+                id={event.id}
                 img={event.img}
                 title={event.name}
                 place={event.location}
