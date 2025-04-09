@@ -46,12 +46,12 @@ export const events = [
   },
   {
     id: 6,
-    img: "https://assets.kompasiana.com/items/album/2022/07/25/karnaval-batik-banyuwangi-62de3dc008a8b56c564a29a1.jpg",
-    name: "Banyuwangi Batik Festival",
+    img: "https://wonderfulimage.s3-id-jkt-1.kilatstorage.id/1593760569-dscf5653-medium.jpg",
+    name: "Lampung Krakatau Festival",
     date: "2024-09-12",
     location: "East Java",
     cardDesc: "A celebration of Banyuwangi’s unique batik motifs with fashion parades and exhibitions.",
-    description: "This annual festival showcases Banyuwangi’s original batik patterns like Gajah Oling and Kangkung Setingkes, presented through fashion shows, batik-making workshops, and cultural performances."
+    description: "The Krakatau Festival (often called the Lampung Krakatau Festival) is an annual cultural, tourism, and historical event held in Lampung Province, Sumatra, Indonesia. It celebrates the natural, cultural, and historical heritage of the region—especially focusing on Mount Krakatau, the legendary volcano whose massive eruption in 1883 had a global impact."
   },
   {
     id: 7,
