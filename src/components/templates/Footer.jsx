@@ -4,7 +4,6 @@ import Wayang from "/assets/footer/wayang.png";
 import footer from "/assets/footer/footer.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
-  // bg-gradient-to-t from-[#430304] to-[#B20607]
   return (
     <div
       className="min-h-[90vh] bg-cover bg-center flex justify-center items-center"

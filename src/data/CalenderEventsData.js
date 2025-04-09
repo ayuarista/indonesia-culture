@@ -5,7 +5,8 @@ export const events = [
     name: "Festival Danau Toba",
     date: "2025-01-15",
     location: "Sumatera Utara",
-    cardDesc: "Perayaan budaya danau vulkanik terbesar di dunia dengan pertunjukan tari, musik Batak, dan olahraga air tradisional."
+    cardDesc: "Perayaan budaya danau vulkanik terbesar di dunia dengan pertunjukan tari, musik Batak, dan olahraga air tradisional.",
+    description: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration that aims to promote the richness of Batak culture and the natural beauty of Lake Toba to local and foreign tourists. In this festival, there are usually various traditional Batak art performances such as dances, gondang music, and traditional ceremonies. In addition, there are also traditional boat races, local handicraft exhibitions, regional culinary specialties, as well as sports and recreational activities involving the surrounding community. The Lake Toba Festival is not only an entertainment event, but also a means of cultural preservation and improving the local economy through tourism."
   },
   {
     id: 2,
