@@ -6,31 +6,75 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="relative">
-      <img src={footer} alt="" className="absolute inset-0"/>
-      <div className="absolute top-80 left-1/2 right-0">
-        <div className="flex items-center justify-between">
+      <img src={footer} alt="" className="absolute inset-0" />
+      <div className="absolute top-56 md:top-68 left-0 right-0">
+        <div className="flex flex-col md:flex-row items-start justify-center gap-x-20">
           <div>
             <h1 className="font-bold text-2xl text-white">PAGES</h1>
             <div className="flex flex-col gap-2 mt-5">
               <Link to="/" className="text-white hover:underline">
                 Home
               </Link>
-              <Link to="/awards/national" className="text-white hover:underline">
+              <Link
+                to="/award/national"
+                className="text-white hover:underline"
+              >
                 National Awards
               </Link>
-              <Link to="/awards/international" className="text-white hover:underline">
+              <Link
+                to="/award/international"
+                className="text-white hover:underline"
+              >
                 International Awards
               </Link>
               <Link to="/province" className="text-white hover:underline">
                 Province
               </Link>
-              <Link to="/features/calender-events" className="text-white hover:underline">
+              <Link
+                to="/features/calender-events"
+                className="text-white hover:underline"
+              >
                 Calender Events
               </Link>
               <Link to="/features/quiz" className="text-white hover:underline">
                 Quiz
               </Link>
-              </div>
+              <Link to="/article" className="text-white hover:underline">
+                Article
+              </Link>
+            </div>
+          </div>
+          <div>
+            <h1 className="font-bold text-2xl text-white">FEATURES</h1>
+            <div className="flex flex-col gap-2 mt-5">
+              <Link
+                to="/features/calender-events"
+                className="text-white hover:underline"
+              >
+                Calender Events
+              </Link>
+              <Link to="/features/quiz" className="text-white hover:underline">
+                Quiz
+              </Link>
+            </div>
+          </div>
+          <div>
+            <h1 className="font-bold text-2xl text-white">OUR TEAMS</h1>
+            <div className="flex flex-col gap-2 mt-5">
+              <Link
+                to="https://www.instagram.com/aayuaristaa/"
+                target="_blank"
+                className="text-white hover:underline"
+              >
+                Ayu Arista
+              </Link>
+              <Link 
+              to="https://www.instagram.com/yudhisattria/" 
+              target="_blank"
+              className="text-white hover:underline">
+                Yudhi Satria
+              </Link>
+            </div>
           </div>
         </div>
       </div>
