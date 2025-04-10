@@ -5,67 +5,34 @@ import footer from "/assets/footer/footer.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div
-      className="min-h-[90vh] bg-cover bg-center flex justify-center items-center"
-      style={{
-        backgroundImage: `url(${footer})`,
-      }}
-    >
-      <div className="flex-col">
-      <div className="flex justify-between gap-24">
-        <ul className="flex flex-col gap-2">
-          <h1 className="font-semibold text-xl">PAGES</h1>
-          <li>
-            <Link to="/" className="font-medium">
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="/award/national" className="font-medium">
-              National
-            </Link>
-          </li>
-          <li>
-            <Link to="/award/international" className="font-medium">
-              International
-            </Link>
-          </li>
-          <li>
-            <Link to="/province" className="font-medium">
-              Province
-            </Link>
-          </li>
-          <li>
-            <Link to="/quiz" className="font-medium">
-              Quiz
-            </Link>
-          </li>
-          <li>
-            <Link to="/article" className="font-medium">
-              Article
-            </Link>
-          </li>
-        </ul>
-        <ul className="flex flex-col gap-2">
-          <h1 className="font-semibold text-xl">FEATURES</h1>
-          <li>
-            <Link to="/quiz" className="font-medium">
-              Quiz
-            </Link>
-          </li>
-        </ul>
-        <ul className="flex flex-col gap-2">
-          <h1 className="font-semibold text-xl">Our Team</h1>
-          <li>
-            <a href="">Ayu Arista</a>
-          </li>
-          <li>
-            <a href="">Yudhi Satria</a>
-          </li>
-        </ul>
-      </div>
-      <hr className="w-full" />
-      <p className="text-center">© 2025 Culture . All Rights Reserved.</p>
+    <div className="relative">
+      <img src={footer} alt="" className="absolute inset-0"/>
+      <div className="absolute top-80 left-1/2 right-0">
+        <div className="flex items-center justify-between">
+          <div>
+            <h1 className="font-bold text-2xl text-white">PAGES</h1>
+            <div className="flex flex-col gap-2 mt-5">
+              <Link to="/" className="text-white hover:underline">
+                Home
+              </Link>
+              <Link to="/awards/national" className="text-white hover:underline">
+                National Awards
+              </Link>
+              <Link to="/awards/international" className="text-white hover:underline">
+                International Awards
+              </Link>
+              <Link to="/province" className="text-white hover:underline">
+                Province
+              </Link>
+              <Link to="/features/calender-events" className="text-white hover:underline">
+                Calender Events
+              </Link>
+              <Link to="/features/quiz" className="text-white hover:underline">
+                Quiz
+              </Link>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   );
