@@ -3,15 +3,22 @@ import { events } from "../../data/CalenderEventsData";
 import { MdOutlineDateRange } from "react-icons/md";
 import { IoLocationSharp } from "react-icons/io5";
 import FunFactSection from "../../components/Organisms/FunFact";
+import Breadcrumbs from "../../components/Organisms/Breadcrumbs";
 
 export default function DetailCalenderEvents() {
+  const breadcrumbItems = [
+    { label: "Home", path: "/" },
+    { label: "Calender Events", path: "/features/calender-events" },
+    { label: events.find((e) => e.id === parseInt(useParams().id)).name },
+  ];
   const { id } = useParams();
   const event = events.find((e) => e.id.toString() === id);
 
   if (!event) return <p>Event not found</p>;
 
   return (
-    <div className="p-6 pt-16 text-black">
+    <div className="p-6 pt-20 text-black">
+      <Breadcrumbs items={breadcrumbItems} />
       <div className="relative">
         <img
           src={event.img}
@@ -47,7 +54,7 @@ export default function DetailCalenderEvents() {
           {event.description}
         </p>
         <hr className="text-gray-200 mt-3"/>
-        <FunFactSection event={event} />
+        {/* <FunFactSection event={event} /> */}
       </div>
     </div>
   );
