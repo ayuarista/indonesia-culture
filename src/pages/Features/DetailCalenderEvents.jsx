@@ -15,7 +15,7 @@ export default function DetailCalenderEvents() {
         <img
           src={event.img}
           alt={event.name}
-          className="w-full object-cover h-72 mt-4 rounded-lg object-bottom"
+          className="w-full object-cover h-72 mt-4 rounded-lg object-center"
         />
         <div className="absolute bottom-0 left-0 right-0 h-72  transition-all duration-300 ease-in-out bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
           <h1 className="mx-auto font-bold text-4xl text-white">
@@ -45,6 +45,37 @@ export default function DetailCalenderEvents() {
         <p className="mt-3 text-justify text-black text-pretty text-base/relaxed">
           {event.description}
         </p>
+        <hr className="text-gray-200 mt-3"/>
+        <div className="mt-3 text-justify text-black text-pretty text-base/relaxed">
+          {event.funFact.map((fact, index) => (
+            <div key={index} className="mb-2">
+              <h1 className="font-semibold text-xl">{fact.title}</h1>
+              <p className="mt-1">{fact.desc}</p>
+              <hr className="text-gray-200 mt-3"/>
+              {fact.subtitle && (
+                <div className="mt-3">
+                  <h1 className="font-semibold text-lg">{fact.title2}</h1>
+                  <p className="mt-1 font-semibold text-lg">{fact.subtitle}</p>
+                  <ul className="list-disc ml-5 mt-2">
+                    {fact.sublist.map((item, idx) => (
+                      <li key={idx} className="text-base">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-1 font-semibold text-lg">{fact.subtitle2}</p>
+                  <ul className="list-disc ml-5 mt-2">
+                    {fact.sublist2.map((item, idx) => (
+                      <li key={idx} className="text-base">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          ))}
+          </div>
       </div>
     </div>
   );

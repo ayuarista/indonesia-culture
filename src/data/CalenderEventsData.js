@@ -6,7 +6,7 @@ export const events = [
     date: "2025-01-15",
     location: "North Sumatra",
     cardDesc: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration.",
-    description: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration that aims to promote the richness of Batak culture and the natural beauty of Lake Toba to local and foreign tourists. In this festival, there are usually various traditional Batak art performances such as dances, gondang music, and traditional ceremonies. In addition, there are also traditional boat races, local handicraft exhibitions, regional culinary specialties, as well as sports and recreational activities involving the surrounding community. The Lake Toba Festival is not only an entertainment event, but also a means of cultural preservation and improving the local economy through tourism."
+    description: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration that aims to promote the richness of Batak culture and the natural beauty of Lake Toba to local and foreign tourists. In this festival, there are usually various traditional Batak art performances such as dances, gondang music, and traditional ceremonies. In addition, there are also traditional boat races, local handicraft exhibitions, regional culinary specialties, as well as sports and recreational activities involving the surrounding community. The Lake Toba Festival is not only an entertainment event, but also a means of cultural preservation and improving the local economy through tourism.",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const events = [
   {
     id: 4,
     img: "https://i.pinimg.com/originals/ad/cb/90/adcb90989579a59c3c4d83fa937201d9.jpg",
-    name: "Tabuik",
+    name: "Tabuik Pariaman",
     date: "2025-04-05",
     location: "West Sumatra",
     cardDesc: "Tabuik Festival is a traditional cultural and religious event held every year in Pariaman, West Sumatra, Indonesia. It commemorates the martyrdom of Imam.",
@@ -37,7 +37,7 @@ export const events = [
   },
   {
     id: 5,
-    img: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sekaten_2010_Yogyakarta.jpg",
+    img: "https://events.rumah123.com/news-content/img/2021/10/18102526/Upacara-Sekaten.jpg",
     name: "Sekaten Festival",
     date: "2024-10-01",
     location: "Yogyakarta & Surakarta",
@@ -46,12 +46,29 @@ export const events = [
   },
   {
     id: 6,
-    img: "https://wonderfulimage.s3-id-jkt-1.kilatstorage.id/1593760569-dscf5653-medium.jpg",
+    img: "https://bisniswisata.co.id/wp-content/uploads/2018/08/Festival-Krakatau.jpg",
     name: "Lampung Krakatau Festival",
     date: "2024-09-12",
     location: "East Java",
-    cardDesc: "A celebration of Banyuwangi’s unique batik motifs with fashion parades and exhibitions.",
-    description: "The Krakatau Festival (often called the Lampung Krakatau Festival) is an annual cultural, tourism, and historical event held in Lampung Province, Sumatra, Indonesia. It celebrates the natural, cultural, and historical heritage of the region—especially focusing on Mount Krakatau, the legendary volcano whose massive eruption in 1883 had a global impact."
+    cardDesc: "The Krakatau Festival (often called the Lampung Krakatau Festival) is an annual cultural, tourism, and historical event held in Lampung.",
+    description: "The Krakatau Festival (often called the Lampung Krakatau Festival) is an annual cultural, tourism, and historical event held in Lampung Province, Sumatra, Indonesia. It celebrates the natural, cultural, and historical heritage of the region—especially focusing on Mount Krakatau, the legendary volcano whose massive eruption in 1883 had a global impact.",
+    funFact:[
+      {
+        title: '🌋 Why Krakatau?',
+        desc: 'Mount Krakatau (or Krakatoa) is located in the Sunda Strait between Java and Sumatra. Though the eruption over a century ago devastated the area, today it symbolizes resilience, rebirth, and natural wonder. The festival serves as a tribute to that history while also promoting tourism.',
+        // title2: '🎉 What Happens During the Festival?',
+        subtitle: '🚤 Krakatau Tour',
+        sublist: [
+          'One of the highlights is an expedition to Anak Krakatau (the "Child of Krakatau" volcano that emerged after the 1883 eruption).',
+          'Participants can take a boat tour, hike on the volcanic island, and learn about its geological significance.'
+        ],
+        subtitle2:'🎭 Cultural Performances',
+        sublist2: [
+          'Traditional Lampung dances, music, and art performances take center stage.',
+          'Costumed parades featuring local folklore characters, traditional weapons, and customs.'
+        ]
+      }
+    ]
   },
   {
     id: 7,

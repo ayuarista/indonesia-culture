@@ -22,7 +22,7 @@ function CardCalenderEvents({
           <img
             src={img}
             alt={title}
-            className="w-full h-48 object-cover rounded-2xl"
+            className="w-full h-48 object-cover rounded-2xl object-bottom"
           />
           <div className="absolute rounded-full px-3 py-2 bg-red-100 text-light-red font-semibold top-3 mx-2">
             <div className="flex items-center gap-1">
