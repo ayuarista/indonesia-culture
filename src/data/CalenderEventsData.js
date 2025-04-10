@@ -7,6 +7,28 @@ export const events = [
     location: "North Sumatra",
     cardDesc: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration.",
     description: "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia. The festival is a cultural and tourism celebration that aims to promote the richness of Batak culture and the natural beauty of Lake Toba to local and foreign tourists. In this festival, there are usually various traditional Batak art performances such as dances, gondang music, and traditional ceremonies. In addition, there are also traditional boat races, local handicraft exhibitions, regional culinary specialties, as well as sports and recreational activities involving the surrounding community. The Lake Toba Festival is not only an entertainment event, but also a means of cultural preservation and improving the local economy through tourism.",
+    funFact:[
+      {
+        title: '📍 Why Lake Toba?',
+        desc: 'Lake Toba is a supervolcanic lake—one of the largest and deepest in the world—and the cultural heartland of the Batak people. The festival aims to promote this unique destination globally and preserve Batak heritage.',
+        image: 'https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/11/2023/11/14/WhatsApp-Image-2023-11-14-at-124506_e79e4786-4228642417.jpg',
+        subtitle: '💃 Traditional Performances',
+        sublist: [
+          'You’ll see Batak dances like Tortor, traditional gondang music, and singing competitions featuring the ulos (traditional Batak cloth).',
+          'Cultural processions and theatrical performances that tell Batak legends and history.'
+        ],
+        subtitle2:'🧵 Art & Handicraft Exhibitions',
+        sublist2: [
+          'Showcases of ulos weaving, wood carvings, and other Batak arts.',
+          'Visitors can try weaving or purchase authentic crafts directly from artisans.'
+        ],
+        subtitle3:'📅 When?',
+        sublist3: [
+          'Usually held between December and March, depending on the year.',
+          'In 2025, it was held on January 15. Dates may vary slightly in future editions.'
+        ]
+      }
+    ]
   },
   {
     id: 2,

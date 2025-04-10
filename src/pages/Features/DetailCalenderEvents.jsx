@@ -53,7 +53,7 @@ export default function DetailCalenderEvents() {
         <p className="mt-3 text-justify text-black text-pretty text-base/relaxed">
           {event.description}
         </p>
-        <hr className="text-gray-200 mt-3"/>
+        <hr className="text-gray-200 mt-7"/>
         <FunFactSection event={event} />
       </div>
     </div>
