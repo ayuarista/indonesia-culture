@@ -10,8 +10,8 @@ const FunFact = ({ event }) => {
               <p className="mt-1">{fact.desc}</p>
               <hr className="text-gray-200 mt-7"/>
             </div>
-          <div className="flex items-start gap-5 mt-4 h-full">
-            <div className="w-1/2 bg-red-50 p-4 rounded-lg">
+          <div className="flex items-center gap-5 mt-4">
+            <div className="w-1/2 bg-red-50 p-9 rounded-lg">
               <h1 className="font-semibold text-lg">{fact.title2}</h1>
               <p className="mt-1 font-semibold text-lg">{fact.subtitle}</p>
               <ul className="list-disc ml-5 mt-2">
@@ -26,7 +26,7 @@ const FunFact = ({ event }) => {
                 <img src={fact.image} alt={fact.title} className="w-full h-52 rounded-lg object-cover"/>
             </div>
           </div>
-          <div className="mt-3 flex items-center gap-5 h-full">
+          <div className="mt-3 flex items-center gap-5">
             <div className="p-5 bg-yellow-50 rounded-lg">
               <p className="font-semibold text-lg">{fact.subtitle2}</p>
               <ul className="list-disc ml-5 mt-2">
