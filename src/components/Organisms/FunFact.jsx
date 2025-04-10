@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const FunFact = ({ event }) => {
@@ -20,7 +19,7 @@ const FunFact = ({ event }) => {
                   </li>
                 ))}
               </ul>
-              <p className="mt-1 font-semibold text-lg">{fact.subtitle2}</p>
+              <p className="mt-3 font-semibold text-lg">{fact.subtitle2}</p>
               <ul className="list-disc ml-5 mt-2">
                 {fact.sublist2.map((item, idx) => (
                   <li key={idx} className="text-base">
@@ -28,6 +27,14 @@ const FunFact = ({ event }) => {
                   </li>
                 ))}
               </ul>
+                <p className="mt-3 font-semibold text-lg">{fact.subtitle3}</p>
+                <ul className="list-disc ml-5 mt-2">
+                  {fact.sublist3.map((item, idx) => (
+                    <li key={idx} className="text-base">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
             </div>
           )}
         </div>

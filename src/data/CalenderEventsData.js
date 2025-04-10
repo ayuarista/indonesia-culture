@@ -66,6 +66,11 @@ export const events = [
         sublist2: [
           'Traditional Lampung dances, music, and art performances take center stage.',
           'Costumed parades featuring local folklore characters, traditional weapons, and customs.'
+        ],
+        subtitle3:'📍 Where & When?',
+        sublist3: [
+          'Usually held in Bandar Lampung and nearby coastal areas.',
+          'Takes place around August or October, depending on the year. In 2024, it was expected around October 26, and in 2025, the exact date is yet to be confirmed.'
         ]
       }
     ]
