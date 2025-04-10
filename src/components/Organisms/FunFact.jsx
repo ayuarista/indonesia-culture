@@ -27,7 +27,7 @@ const FunFact = ({ event }) => {
             </div>
           </div>
           <div className="mt-3 flex items-center gap-5">
-            <div className="p-5 bg-yellow-50 rounded-lg">
+            <div className="w-1/2 p-5 bg-yellow-50 rounded-lg">
               <p className="font-semibold text-lg">{fact.subtitle2}</p>
               <ul className="list-disc ml-5 mt-2">
                 {fact.sublist2.map((item, idx) => (
@@ -37,7 +37,7 @@ const FunFact = ({ event }) => {
                 ))}
               </ul>
             </div>
-            <div className="p-5 bg-blue-50 rounded-lg">
+            <div className="w-1/2 p-5 bg-blue-50 rounded-lg">
               <p className="mt-3 font-semibold text-lg">{fact.subtitle3}</p>
               <ul className="list-disc ml-5 mt-2">
                 {fact.sublist3.map((item, idx) => (
