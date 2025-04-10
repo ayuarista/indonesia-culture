@@ -17,7 +17,7 @@ export default function DetailCalenderEvents() {
   if (!event) return <p>Event not found</p>;
 
   return (
-    <div className="p-6 pt-20 text-black">
+    <div className="p-6 pt-20 text-black mx-8 lg:mx-10">
       <Breadcrumbs items={breadcrumbItems} />
       <div className="relative">
         <img
@@ -54,7 +54,7 @@ export default function DetailCalenderEvents() {
           {event.description}
         </p>
         <hr className="text-gray-200 mt-3"/>
-        {/* <FunFactSection event={event} /> */}
+        <FunFactSection event={event} />
       </div>
     </div>
   );
