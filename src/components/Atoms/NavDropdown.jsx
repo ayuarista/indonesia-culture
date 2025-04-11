@@ -25,7 +25,7 @@ const NavDropdown = ({ navLink, links }) => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className={`flex items-center gap-1 text-[0.90rem] font-medium rounded-full transition ease-in-out duration-300 px-4 py-1 cursor-pointer
+        className={`flex items-center gap-1 text-[0.90rem] xl:text-[1rem] font-medium rounded-full transition ease-in-out duration-300 px-4 py-1 cursor-pointer
           ${isAwardPage ? "text-white rounded-full bg-gradient-to-r from-[#430304] to-[#A90809]" : "hover:bg-[#E7E7E7]"}`}
       >
         {navLink}
