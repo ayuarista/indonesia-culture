@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="relative">
-      <img src={footer} alt="" className="absolute inset-0" />
-      <div className="absolute top-56 md:top-68 left-0 right-0">
+      <img src={footer} alt="" className="absolute inset-0 w-full" />
+      <div className="absolute top-56 md:top-68 xl:top-96 left-0 right-0">
         <div className="flex flex-col md:flex-row items-start justify-center gap-x-20">
           <div>
-            <h1 className="font-bold text-2xl text-white">PAGES</h1>
-            <div className="flex flex-col gap-2 mt-5">
+            <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">PAGES</h1>
+            <div className="flex flex-col gap-2 mt-5 text-sm md:text-base lg:text-base xl:text-xl">
               <Link to="/" className="text-white hover:underline">
                 Home
               </Link>
@@ -45,8 +45,8 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h1 className="font-bold text-2xl text-white">FEATURES</h1>
-            <div className="flex flex-col gap-2 mt-5">
+            <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">FEATURES</h1>
+            <div className="flex flex-col gap-2 mt-5 text-sm md:text-base lg:text-base xl:text-xl">
               <Link
                 to="/features/calender-events"
                 className="text-white hover:underline"
@@ -59,8 +59,8 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h1 className="font-bold text-2xl text-white">OUR TEAMS</h1>
-            <div className="flex flex-col gap-2 mt-5">
+            <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">OUR TEAMS</h1>
+            <div className="flex flex-col gap-2 mt-5 text-sm md:text-base lg:text-base xl:text-xl">
               <Link
                 to="https://www.instagram.com/aayuaristaa/"
                 target="_blank"
