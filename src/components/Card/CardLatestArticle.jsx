@@ -11,9 +11,9 @@ const CardLatestArticle = () => {
           author="Cici Dian Eviliya"
           date="January 07, 2025"
           title="Often Thought to be Showing Off Their Bodies, It Turns Out This is the Dancers' Effort to Preserve Culture"
-          size="col-span-2 row-span-2 h-[27rem]"
-          text="text-sm"
-          sizeTitle="text-md"
+          size="col-span-2 row-span-2 h-[27rem] xl:h-[32rem] "
+          text="text-sm xl:text-base"
+          sizeTitle="text-md xl:text-xl"
         />
         <ArticleCard
           image="https://cdn.antaranews.com/cache/1200x800/2024/12/05/1000059187.jpg.webp"
@@ -21,9 +21,9 @@ const CardLatestArticle = () => {
           author="Afif Yuliansyah"
           date="December 6, 2024"
           title="Kolintang Recognized by UNESCO as Intangible Cultural Heritage, Great Responsibility Awaits"
-          size="col-span-2 row-span-1 h-52 md:h-72 lg:h-52"
-          text="text-sm"
-          sizeTitle="text-md"
+          size="col-span-2 row-span-1 h-52 md:h-72 lg:h-52 xl:h-72"
+          text="text-sm xl:text-base"
+          sizeTitle="text-md xl:text-xl"
         />
         <div className="grid grid-cols-2 col-span-2 gap-4 h-52">
           <ArticleCard
@@ -33,8 +33,8 @@ const CardLatestArticle = () => {
             date="Dec 23, 2024"
             title="Preserving Traditional Dance Through..."
             size="h-52"
-            text="text-xs"
-            sizeTitle="text-sm"
+            text="text-xs xl:text-sm"
+            sizeTitle="text-sm xl:text-base"
           />
           <ArticleCard
             image="https://images.unsplash.com/photo-1604973104381-870c92f10343?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
@@ -43,8 +43,8 @@ const CardLatestArticle = () => {
             date="October 2, 2024"
             title="Let's Love Batik! Not Just a Cloth, This is Our Identity!"
             size="h-52"
-            text="text-xs"
-            sizeTitle="text-sm"
+            text="text-xs xl:text-sm"
+            sizeTitle="text-sm xl:text-base"
           />
         </div>
       </div>
