@@ -12,7 +12,7 @@ const AboutRekorMuri = () => {
         <img src={muri} alt="" className="w-36 lg:w-28 xl:w-36" />
       </div>
       <div className="mt-3 text-pretty">
-        <p className="font-medium text-[15px]/relaxed md:text-base lg:text-base  xl:text-xl/relaxed text-justify md:max-w-[70%] lg:max-w-full text-black">
+        <p className="font-medium text-sm/relaxed md:text-[15px] lg:text-[15px]  xl:text-lg/relaxed text-justify md:max-w-[70%] lg:max-w-full text-black">
           The Indonesia World Records Museum is a museum located in Semarang,
           Central Java, Indonesia. A collection of Indonesian records is
           presented in this museum.
