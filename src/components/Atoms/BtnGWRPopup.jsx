@@ -32,7 +32,7 @@ const BtnGWRPopup = ({itemId}) => {
         }`}
       >
         <h1
-          className={`text-sm font-medium transition-all duration-500 ${
+          className={`text-sm xl:text-base font-medium transition-all duration-500 ${
             isHovered ? "text-white" : "text-white"
           }`}
         >

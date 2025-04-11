@@ -24,7 +24,7 @@ const InternationalDropdownFilter = ({ options, selectedOption, onSelect }) => {
           <div className="relative text-black">
             <button
               onClick={() => setShowDropdown(!showDropdown)}
-              className="border cursor-pointer border-light-red text-light-red font-medium w-68 lg:w-72 px-3 py-2 rounded-full flex items-center justify-between text-sm"
+              className="border cursor-pointer border-light-red text-light-red font-semibold w-68 lg:w-72 xl:w-80 px-3 py-2 rounded-full flex items-center justify-between text-sm xl:text-base"
             >
               {selectedOption}
               <IoIosArrowDown
@@ -35,7 +35,7 @@ const InternationalDropdownFilter = ({ options, selectedOption, onSelect }) => {
             </button>
 
             {showDropdown && (
-              <div className="absolute text-[15px] bg-white rounded-lg mt-2 w-72 shadow-2xl z-10 p-2">
+              <div className="absolute text-[15px] xl:text-base bg-white rounded-lg mt-2 w-72 xl:w-80 shadow-2xl z-10 p-2">
                 {options.map((option) => (
                   <button
                     key={option.value}
