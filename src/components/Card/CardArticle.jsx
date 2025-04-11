@@ -1,6 +1,6 @@
 const CardArticle = ({image, title, author, link}) => {
     return(
-        <div className="max-w-sm rounded-lg shadow-2xl p-5 bg-white">
+        <div className="max-w-sm xl:max-w-xl rounded-lg shadow-2xl p-5 bg-white">
             <div className="relative h-60 w-full rounded-lg overflow-hidden">
                 <img src={image} className="w-full h-full object-cover"/>
             </div>

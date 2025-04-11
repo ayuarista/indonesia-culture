@@ -14,6 +14,7 @@ const CardLatestArticle = () => {
           size="col-span-2 row-span-2 h-[27rem] xl:h-[32rem] "
           text="text-sm xl:text-base"
           sizeTitle="text-md xl:text-xl"
+          path={"/province"}
         />
         <ArticleCard
           image="https://cdn.antaranews.com/cache/1200x800/2024/12/05/1000059187.jpg.webp"
