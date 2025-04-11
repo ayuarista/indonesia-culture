@@ -1,6 +1,6 @@
 const CardAward = () => {
     return (
-      <div className="relative w-full h-80 lg:w-[39rem] lg:h-[29.5rem] rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
+      <div className="relative w-full h-80 lg:w-[39rem] lg:h-[29.5rem] xl:w-[48rem] xl:h-[30.5rem] rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-all duration-300 ease-in-out">
         <img
           src="https://muri.org/assets/website/images/record/12084-1736936007.png"
           alt="Award"
@@ -12,7 +12,7 @@ const CardAward = () => {
         </div>
   
         <div className="absolute bottom-0 left-0 right-0 h-72 bg-gradient-to-t from-red-700 via-black/10 to-transparent p-5 flex items-end">
-          <p className="text-white font-semibold text-[15px]/6 text-justify border-l-2 p-3 border-white">
+          <p className="text-white font-semibold text-[15px]/6 xl:text-[17px] text-justify border-l-2 p-3 border-white">
             The First Person to Translate the Deuterocanonical Books and Part of
             the New Testament into Macapat
           </p>
