@@ -35,9 +35,9 @@ const NavDropdown = ({ navLink, links }) => {
       </button>
 
       {isOpen && (
-        <ul className="absolute left-1/2 -translate-x-1/2 mt-3 w-40 bg-white shadow-md rounded-lg overflow-hidden border border-gray-300">
+        <ul className="absolute left-1/2 -translate-x-1/2 mt-3 w-40 xl:w-48 bg-white shadow-md rounded-lg overflow-hidden border border-gray-300">
           {links.map((link, index) => (
-            <li key={index} className="hover:bg-gray-200 text-[0.90rem]">
+            <li key={index} className="hover:bg-gray-200 text-[0.90rem] xl:text-[1rem]">
               <Link
                 to={link.path}
                 className="block px-4 py-2 text-black hover:bg-gradient-to-r hover:from-[#430304] hover:to-[#B20607] hover:text-white transition-all"
