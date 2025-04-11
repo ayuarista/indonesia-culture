@@ -8,7 +8,7 @@ const ArticleCard = ({ image, label, author, date, title, size, text, sizeTitle,
         <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-t rounded-lg from-black/90 to-transparent p-4 flex flex-col justify-end">
           <div className="border-l-4 border-[#AF0808] px-3">
             <p className={`text-white ${text}`}>{author} | {date}</p>
-            <a href={`${path}`} className={`text-white font-bold hover:text-gray-300 ${sizeTitle}`}>{title}</a>
+            <a href={`${path}`} className={`text-white font-bold hover:text-gray-400 ${sizeTitle}`} target="_blank">{title}</a>
           </div>
         </div>
       </div>

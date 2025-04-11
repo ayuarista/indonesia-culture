@@ -6,8 +6,8 @@ const CardPreserveCulture = ({image, title, desc}) => {
             alt={title}
             className="w-full h-52 xl:h-58 object-center object-cover rounded-tl-xl rounded-br-xl"
             />
-            <div className="absolute bottom-0 left-0 right-0 rounded-br-xl h-28  bg-gradient-to-t from-light-red via-black/40 to-transparent px-5 flex items-end">
-            <h1 className="absolute bottom-2 font-bold text-[18px] text-white">
+            <div className="absolute bottom-0 left-0 right-0 rounded-br-xl h-28 xl:h-38  bg-gradient-to-t from-light-red via-black/40 to-transparent px-5 flex items-end">
+            <h1 className="absolute bottom-2 font-bold text-[18px] xl:text-xl text-white">
                 {title}
             </h1>
             </div>
