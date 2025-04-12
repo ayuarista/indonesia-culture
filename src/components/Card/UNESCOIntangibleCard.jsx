@@ -18,7 +18,7 @@ const UNESCOIntangibleCard  = ({image, title, year, info, id}) => {
                 {year}
             </div>
             <div className="p-4">
-                <p className="text-justify font-medium text-[15px] xl:text-[17px] text-black">{info}</p>
+                <p className="text-justify font-medium text-[15px] xl:text-lg text-black">{info}</p>
             <BtnUnescoPopup itemId={id}/>
             </div>
         </div>

@@ -21,7 +21,7 @@ export const DataUNESCOIntangible = [
         id: 3,
         image: "https://images.unsplash.com/photo-1590251869641-dd94fb569954?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D",
         title: "Batik",
-        info: "The art technique of coloring Indonesian batik cloth.",
+        info: "The art technique of coloring Indonesian batik cloth is a traditional.",
         year: "2009",
         desc: "Batik is a typical Indonesian fabric with a wax dyeing technique and motifs reflecting philosophy, customs, and regional identity. Batik is now developing as everyday clothing with various innovations in motifs and colors.",
         date: "Java , Sumatra, Bali & Kalimantan, 2009"
