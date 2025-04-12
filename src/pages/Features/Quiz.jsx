@@ -85,18 +85,18 @@ const Quiz = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-red-50 p-4">
       {!quizStarted ? (
-        <div className="bg-white p-8 rounded-3xl shadow-lg text-center">
-          <h2 className="text-xl font-semibold mb-4 text-black">Are you ready to start the quiz?</h2>
+        <div className="bg-white p-8 xl:p-10 rounded-3xl shadow-lg text-center">
+          <h2 className="text-xl xl:text-2xl font-semibold mb-4 text-black">Are you ready to start the quiz?</h2>
           <button
             onClick={() => setQuizStarted(true)}
-            className="bg-light-red text-white py-2 px-6 rounded-lg font-medium cursor-pointer"
+            className="bg-light-red hover:bg-light-red/90 text-white py-2 px-6 rounded-lg xl:text-lg font-medium cursor-pointer"
           >
             Ready
           </button>
         </div>
       ) : quizFinished ? (
         <div className="bg-white p-8 rounded-3xl shadow-lg text-center w-full max-w-2xl mt-20">
-          <h2 className="text-2xl font-semibold mb-4 text-black">Quiz Completed! Thank Your for try answer this quiz</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-black">Quiz Completed! Thank You for try answer this quiz</h2>
           <p className="text-lg font-medium text-black">Your Correct Answers: <span className="text-green-500 font-bold">{score}</span> / {QuizData.length} question</p>
 
           <div className="mt-4 text-left bg-gray-100 p-6 rounded-lg">
@@ -126,13 +126,13 @@ const Quiz = () => {
           </button>
         </div>
       ) : (
-        <div className="relative w-full  h-full max-w-md bg-white p-6 rounded-3xl shadow-lg">
+        <div className="relative w-full h-full max-w-md xl:max-w-2xl xl:p-8 bg-white p-6 rounded-3xl shadow-lg">
           <div className="flex justify-center items-center mb-4">
             <div className="flex space-x-2">
               {QuizData.map((_, index) => (
                 <div
                   key={index}
-                  className={`h-1 w-8 rounded-full ${
+                  className={`h-1 w-8 xl:w-14 rounded-full ${
                     index <= currentQuestion ? "bg-black" : "bg-gray-300"
                   }`}
                 ></div>
@@ -140,10 +140,10 @@ const Quiz = () => {
             </div>
           </div>
 
-          <p className="uppercase tracking-wide text-xs text-gray-500 font-semibold">
+          <p className="uppercase tracking-wide text-xs xl:text-sm text-gray-500 font-semibold">
             Question {currentQuestion + 1}
           </p>
-          <h2 className="text-lg lg:text-xl font-semibold mb-6 text-black">
+          <h2 className="text-lg lg:text-xl font-semibold mb-6 xl:mt-1 text-black">
             {QuizData[currentQuestion].question}
           </h2>
 
@@ -167,7 +167,7 @@ const Quiz = () => {
                     }`}
                   ></div>
                 </div>
-                <span className="font-medium text-black">{option}</span>
+                <span className="font-medium text-black xl:text-[17.5px]">{option}</span>
               </label>
             ))}
           </div>

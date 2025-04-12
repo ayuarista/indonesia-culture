@@ -5,11 +5,11 @@ const CardArticle = ({image, title, author, link}) => {
                 <img src={image} className="w-full h-full object-cover"/>
             </div>
             <div className="border-l-4 border-light-red px-2 mt-4">
-                <p className="text-sm text-gray-500">{author}</p>
+                <p className="text-sm xl:text-[15px] text-gray-500">{author}</p>
             </div>
             <div className="mt-3">
             <a href={link}>
-            <p className="text-black text-[15px] hover:underline font-medium">{title}</p>
+            <p className="text-black text-[15px] xl:text-[16px] hover:underline font-medium">{title}</p>
             </a>
             </div>
         </div>
