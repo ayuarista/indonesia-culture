@@ -11,28 +11,32 @@ const ImageSliderWcc = () => {
     {
       id: 1,
       image:
-        "https://images.unsplash.com/photo-1578314874366-1975eac6e32a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SWthdCUyMFdlYXZpbmd8ZW58MHx8MHx8fDA%3D",
-      title: "Trail of Civilizations, Borobudur, Central Java.",
+        "https://images.unsplash.com/photo-1563837738662-c86ef2ba99f8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDN8fHxlbnwwfHx8fHw%3D",
       year: "2012",
     },
     {
       id: 2,
       image:
-        "https://images.unsplash.com/photo-1707978932202-751b08324daf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fElrYXQlMjBXZWF2aW5nfGVufDB8fDB8fHww",
-      title: 'Mbaru Niang, Flores',
+        "https://images.unsplash.com/photo-1578314874366-1975eac6e32a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D",
       year: "2012",
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1609407683391-7d127a00b3e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEJBVElLfGVufDB8fDB8fHww",
-      title: "Traditional Joglo House, Yogyakarta",
+      image:
+        "https://images.unsplash.com/photo-1568805778719-c768512debe8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D",
       year: "2012",
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1599302994569-6fd86e9529e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fElrYXQlMjBXZWF2aW5nfGVufDB8fDB8fHww",
-      title: "",
-      year: "",
+      image:
+        "https://images.unsplash.com/photo-1715705717344-880404f93506?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D",
+      year: "2012",
+    },
+    {
+      id: 5,
+      image:
+        "https://images.unsplash.com/photo-1606681246594-372e9e133ac1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      year: "2012",
     },
   ];
 
@@ -77,11 +81,6 @@ const ImageSliderWcc = () => {
               />
               <div className="absolute -top-1 left-0 bg-white text-light-red text-sm font-bold px-4 py-2 border border-gray-300 rounded-t-full rounded-br-full">
                 {slide.year}
-              </div>
-              <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
-                <p className="text-white font-semibold text-[15px]/6 text-justify border-l-2 p-3 border-white">
-                  {slide.title}
-                </p>
               </div>
             </div>
           </div>

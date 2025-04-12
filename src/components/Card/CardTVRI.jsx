@@ -4,13 +4,13 @@ const CardTVRI = () => {
       <div className="flex flex-col mx-8 mt-6 lg:mt-0 lg:mx-20">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="flex-1 border-t-2 border-red-700"></div>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/170px-TVRILogo2019.svg.png" alt="" className="mx-5 w-24 lg:w-28" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/170px-TVRILogo2019.svg.png" alt="" className="mx-5 w-24 lg:w-28 xl:w-32" />
           <div className="flex-1 border-t-2 border-red-700"></div>
         </div>
-        <h1 className="font-bold text-light-red text-2xl lg:text-3xl text-center lg:text-left mt-2">Republic of Indonesia Television (TVRI)</h1>
-        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[85%] text-justify text-sm">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
+        <h1 className="font-bold text-light-red text-2xl lg:text-[28px] xl:text-[35px] text-center lg:text-left mt-2">Republic of Indonesia Television (TVRI)</h1>
+        <p className="font-medium text-black text-pretty mt-3 max-w-[25rem] lg:max-w-[85%] xl:max-w-[70%] text-justify text-sm xl:text-[17px]">RRI, established on September 11, 1945, is Indonesia's national radio station that provides news, culture, and education. As a member of ABU, RRI plays a role in international content exchange and development of broadcasting technology. </p>
       </div>
-      <div className="relative w-full md:w-[60%] lg:w-full bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
+      <div className="relative w-full md:w-[60%] lg:w-full xl:w-1/2 bg-gradient-to-r from-dark-red to-light-red h-72 rounded-tl-full">
         <div className="absolute right-8 lg:right-12 -top-10">
           <img
             src="https://cdn.antaranews.com/cache/1200x800/2023/11/23/WhatsApp-Image-2023-11-23-at-14.44.23.jpeg.webp"
