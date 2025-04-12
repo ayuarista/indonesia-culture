@@ -26,21 +26,21 @@ export default function DetailCalenderEvents() {
           className="w-full object-cover h-72 mt-4 rounded-lg object-center"
         />
         <div className="absolute bottom-0 left-0 right-0 h-72  transition-all duration-300 ease-in-out bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
-          <h1 className="mx-auto font-bold text-4xl text-white">
+          <h1 className="mx-auto font-bold lg:text-3xl xl:text-4xl text-white">
             {event.name}
           </h1>
         </div>
       </div>
       <div>
         <div className="flex items-center mt-5  gap-3">
-          <h1 className="font-semibold text-2xl">What is {event.name}?</h1>
+          <h1 className="font-semibold text-2xl xl:text-[27px]">What is {event.name}?</h1>
           <div className="flex items-center gap-2 px-5 py-2 rounded-full bg-red-50 text-red-400">
-            <IoLocationSharp className="text-xl" />
-            <h1 className="">{event.location}</h1>
+            <IoLocationSharp className="lg:text-base xl:text-xl" />
+            <h1 className="lg:text-sm xl:text-base">{event.location}</h1>
           </div>
           <div className="flex items-center gap-2 px-5 py-2 rounded-full bg-blue-50 text-blue-400">
-            <MdOutlineDateRange className="text-xl" />
-            <h1 className="">
+            <MdOutlineDateRange className="lg:text-base xl:text-xl" />
+            <h1 className="lg:text-sm xl:text-base">
               {new Date(event.date).toLocaleDateString("en-US", {
                 weekday:"long",
                 day: "numeric",
@@ -50,7 +50,7 @@ export default function DetailCalenderEvents() {
             </h1>
           </div>
         </div>
-        <p className="mt-3 text-justify text-black text-pretty text-base/relaxed">
+        <p className="mt-3 text-justify text-black text-pretty text-[15px]/relaxed xl:text-[17px]/relaxed">
           {event.description}
         </p>
         <hr className="text-gray-200 mt-7"/>
