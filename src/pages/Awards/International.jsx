@@ -30,7 +30,7 @@ const International = () => {
   return (
     <div className="pt-24 lg:pt-24">
       <TopInternationalSection />
-      <div className="lg:flex justify-between mx-8 lg:mx-16 items-center gap-3 mt-10">
+      <div className="lg:flex justify-between mx-8 lg:mx-16 items-center gap-3 mt-14 xl:mt-20">
         <h1 className="font-bold text-xl md:text-xl lg:text-2xl xl:text-3xl text-light-red">
           {selectedFilter}
         </h1>

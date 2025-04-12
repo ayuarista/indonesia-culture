@@ -31,15 +31,15 @@ const NationalDropdownFilter = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="lg:flex items-center justify-between w-full">
-        <div className="mx-10 lg:mx-16">
-        <h1 className="font-semibold text-3xl text-light-red">{sortOption}</h1>
+        <div className="mx-10 lg:mx-16 xl:mx-32">
+        <h1 className="font-bold text-3xl xl:text-4xl text-light-red">{sortOption}</h1>
         </div>
         <div className="relative text-black mx-10 lg:mx-16 mt-2 lg:mt-0">
           <div className="flex items-center gap-3">
           <h1>Sort by:</h1>
           <button
             onClick={() => setShowDropdown(!showDropdown)}
-            className="border cursor-pointer border-light-red text-light-red font-medium px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
+            className="border cursor-pointer border-light-red xl:text-lg font-semibold text-light-red px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
             >
             {sortOption}
             <IoIosArrowDown
@@ -50,7 +50,7 @@ const NationalDropdownFilter = () => {
           </button>
           </div>
           {showDropdown && (
-            <div className="absolute text-[15px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
+            <div className="absolute text-[15px] xl:text-[17px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
               <button
                 onClick={() => handleSort("All")}
                 className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"
