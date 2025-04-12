@@ -2,6 +2,8 @@ import { useState } from "react";
 import { events } from "../../data/CalenderEventsData";
 import { calculateDaysLeft } from "../../components/Organisms/calculateDays";
 import CardCalenderEvents from "../../components/Card/CardCalenderEvents";
+import Breadcrumbs from "../../components/Organisms/Breadcrumbs";
+import { useParams } from "react-router-dom";
 
 const months = [
   { label: "All Months", value: "" },
@@ -22,6 +24,11 @@ const months = [
 export default function CalenderEvents() {
   const [selectedMonth, setSelectedMonth] = useState("");
 
+  const breadcrumbItems = [
+    { label: "Home", path: "/" },
+    { label: "Calender Events" },
+  ];
+  
   const filteredEvents = events.filter((event) => {
     if (!selectedMonth) return true;
     const eventMonth = new Date(event.date).toISOString().slice(5, 7);
@@ -29,8 +36,13 @@ export default function CalenderEvents() {
   });
 
   return (
-    <div className="p-6 text-black pt-20">
-      <h2 className="text-2xl font-bold mb-4">Cultural Event Calendar</h2>
+    <div className="p-6 text-black pt-24 lg:mx-8">
+      <Breadcrumbs items={breadcrumbItems} />
+      <div className="flex items-center justify-center">
+        <div className="flex-1 border-t-2 border-red-700"></div>
+        <h2 className="mx-4 text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent">Calender Events Festival</h2>
+        <div className="flex-1 border-t-2 border-red-700"></div>
+      </div>
 
       <div className="mb-6">
         <label className="block mb-1 font-medium text-gray-700">
@@ -52,7 +64,7 @@ export default function CalenderEvents() {
       {filteredEvents.length === 0 ? (
         <p className="text-gray-500">No events this month.</p>
       ) : (
-        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
           {filteredEvents.map((event) => {
             const daysLeft = calculateDaysLeft(event.date);
 

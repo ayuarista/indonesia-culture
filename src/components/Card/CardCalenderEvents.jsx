@@ -22,12 +22,12 @@ function CardCalenderEvents({
           <img
             src={img}
             alt={title}
-            className="w-full h-48 object-cover rounded-2xl object-bottom"
+            className="w-full h-48 object-cover rounded-2xl object-bottom xl:object-center"
           />
           <div className="absolute rounded-full px-3 py-2 bg-red-100 text-light-red font-semibold top-3 mx-2">
             <div className="flex items-center gap-1">
-              <MdOutlineWatchLater className="text-red-light text-lg" />
-              <p className="text-[13px]">{daysLeft}</p>
+              <MdOutlineWatchLater className="text-red-light text-lg xl:text-xl" />
+              <p className="lg:text-[13px] xl:text-sm">{daysLeft}</p>
             </div>
           </div>
         </div>
@@ -35,21 +35,21 @@ function CardCalenderEvents({
           <div className="p-3">
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-2 bg-yellow-100 px-3 rounded-full py-1">
-                <FaLocationDot className="text-yellow-500" />
-                <p className="text-yellow-500 text-sm">{place}</p>
+                <FaLocationDot className="text-yellow-500 lg:text-sm xl:text-base" />
+                <p className="text-yellow-600 lg:text-[13px] xl:text-sm">{place}</p>
               </div>
               <div className="flex items-center gap-2 bg-blue-100 px-3 rounded-full py-1">
-                <MdOutlineDateRange className="text-blue-400" />
-                <p className="text-blue-400 text-sm">{date}</p>
+                <MdOutlineDateRange className="text-blue-400 lg:text-sm xl:text-base" />
+                <p className="text-blue-400 lg:text-[13px] xl:text-sm">{date}</p>
               </div>
             </div>
             <div className="mx-2 mt-2">
-              <h1 className="font-semibold text-black text-xl">{title}</h1>
-              <p className="text-[14px] text-justify text-gray-400 mt-1">
+              <h1 className="font-semibold text-black lg:text-[19px] xl:text-[22px]">{title}</h1>
+              <p className="text-[13.5px]/relaxed xl:text-[15px]/relaxed text-justify text-gray-400 mt-1">
                 {cardDesc}
               </p>
               <Link to={`/features/calender-events/${id}`}
-                className="flex items-center gap-2 mt-1 absolute bottom-4 hover:cursor-pointer text-light-red font-semibold text-sm"
+                className="flex items-center gap-2 mt-1 absolute bottom-4 xl:bottom-5 hover:cursor-pointer hover:underline text-light-red font-semibold text-sm xl:text-[15.5px]"
               >
                 View More
                 <FaArrowRightLong className="text-light-red" />
