@@ -11,30 +11,37 @@ const ImageSliderAsean = () => {
     {
       id: 1,
       image:
-        "https://images.unsplash.com/photo-1631340729644-8b8aad1e9dba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym9yb2J1ZHVyfGVufDB8fDB8fHww",
-      title: "Trail of Civilizations, Borobudur, Central Java.",
-      year: "2012",
+        "https://asset.kompas.com/crops/fEIt3xJsuY9-xi9mmEvi9UG0qys=/0x81:1000x748/1200x800/data/photo/2019/07/09/1577798554.jpg",
+      title: "Restoration of the National Archives Building, Jakarta",
+      year: "2001",
     },
     {
       id: 2,
       image:
-        "https://tripflores.com/wp-content/uploads/2023/07/Wae-Rebo-562x359.jpg",
-      title: "Mbaru Niang, Flores",
-      year: "2012",
+        "https://images.unsplash.com/photo-1588312578101-cacee14bb0ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9yb2J1ZHVyfGVufDB8fDB8fHww",
+      title: "Trail of Civilizations, Borobudur, Central Java.",
+      year: "2006",
     },
     {
       id: 3,
       image:
-        "https://i.pinimg.com/736x/01/25/bd/0125bdabf5a29084db558f85efe40641.jpg",
-      title: "Traditional Joglo House, Yogyakarta",
+        "https://images.unsplash.com/photo-1643785879506-ec3e637a9f2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Mbaru Niang, Flores",
       year: "2012",
     },
     {
       id: 4,
       image:
-        "https://awsimages.detik.net.id/community/media/visual/2022/10/22/pecinan-glodok.jpeg?w=800",
-      title: "",
-      year: "",
+        "https://images.unsplash.com/photo-1714702769194-9be6068abb6c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Traditional Village of Nagari Sijunjung, West Sumatra",
+      year: "2017",
+    },
+    {
+      id: 5,
+      image:
+        "https://images.unsplash.com/photo-1525691995602-d561abb75e23?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Traditional House of the Sasak Tribe, Lombok",
+      year: "2019",
     },
   ];
 
@@ -80,8 +87,8 @@ const ImageSliderAsean = () => {
               <div className="absolute -top-1 left-0 bg-white text-light-red text-sm font-bold px-4 py-2 border border-gray-300 rounded-t-full rounded-br-full">
                 {slide.year}
               </div>
-              <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
-                <p className="text-white font-semibold text-[15px]/6 text-justify border-l-2 p-3 border-white">
+              <div className="absolute bottom-0 left-0 right-0 h-52 xl:h-58 bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
+                <p className="text-white font-semibold text-[15px]/6 xl:text-lg text-justify border-l-2 p-3 border-white">
                   {slide.title}
                 </p>
               </div>

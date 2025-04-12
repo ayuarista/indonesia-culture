@@ -11,27 +11,36 @@ const ImageSlider = () => {
     {
       id: 1,
       image:
-        "https://awsimages.detik.net.id/community/media/visual/2022/10/22/pecinan-glodok.jpeg?w=800",
-      title: "Glodok Chinatown Tourism Village, Jakarta.",
+        "https://images.unsplash.com/photo-1628697723581-fd4ec5c38ab0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDU2fHx8ZW58MHx8fHx8",
+      title: "Sudaji Tourism Village, Bali",
       year: "2025",
     },
     {
       id: 2,
       image:
-        "https://asset.kompas.com/crops/0fTB_lV95raOm1NjycE350pCkKA=/0x70:1361x978/1200x800/data/photo/2023/04/05/642d8e0f2f686.jpg",
-      title: 'Traditional Village "Nagari Sijunjung", West Sumatra.',
+        "https://images.unsplash.com/photo-1707378174003-418d6262d355?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Terong TRG Tourism Village, Yogyakarta",
       year: "2025",
     },
     {
       id: 3,
-      image: "https://jadesta.kemenparekraf.go.id/imgpost/32387.jpg",
-      title: "Taro Tourism Village, Bali.",
+      image:
+        "https://images.unsplash.com/photo-1653910729824-df4f32c60acf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VzdCUyMHN1bWF0ZXJhfGVufDB8fDB8fHww",
+      title: 'Traditional Village "Nagari Sijunjung”, West Sumatra.',
       year: "2025",
     },
     {
       id: 4,
-      image: "https://jadesta.kemenparekraf.go.id/imgpost/32387.jpg",
-      title: "Taro Tourism Village, Bali.",
+      image:
+        "https://assets.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/11/11/2464512598.jpg",
+      title: "Semen Tourism Village, East Java",
+      year: "2025",
+    },
+    {
+      id: 5,
+      image:
+        "https://images.unsplash.com/photo-1579364831375-c278de65fcac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fENoaW5hdG93bnxlbnwwfHwwfHx8MA%3D%3D",
+      title: "Glodok Chinatown Tourism Village, Jakarta",
       year: "2025",
     },
   ];
@@ -79,7 +88,7 @@ const ImageSlider = () => {
                 {slide.year}
               </div>
               <div className="absolute bottom-0 left-0 right-0 h-52 bg-gradient-to-t from-light-red via-black/10 to-transparent p-5 flex items-end">
-                <p className="text-white font-semibold text-[15px]/6 text-justify border-l-2 p-3 border-white">
+                <p className="text-white font-semibold text-[15px]/6 xl:text-[18px] text-justify border-l-2 p-3 border-white">
                   {slide.title}
                 </p>
               </div>

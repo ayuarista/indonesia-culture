@@ -20,7 +20,7 @@ const ASEAN = () => {
           <AboutASEAN
             title={"ASEAN Cultural Heritage Award"}
             desc={
-              "The ASEAN Cultural Heritage Award honors significant contributions to preserving, protecting, and promoting the rich and diverse cultural heritage of Southeast Asia."
+              "The ASEAN Cultural Heritage Award honors significant contributions to preserving, protecting, and promoting the rich and diverse cultural heritage of Southeast Asia. This award recognizes the efforts of individuals, organizations, and communities in safeguarding the region's cultural."
             }
           />
         </div>
