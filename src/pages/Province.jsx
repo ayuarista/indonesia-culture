@@ -1,12 +1,14 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import HeroProvince from "../components/Province/Hero/HeroProvince";
+import IndonesiaMaps from "../components/Organisms/IndonesiaMaps";
+import CardProvince from "../components/Province/Card/CardProvince";
 
 const Province = () => {
-  const { name } = useParams();
   return (
-    <div className="pt-28 mx-8">
-       <h1 className="text-3xl font-bold">Welcome to {name}</h1>
-       <p className="mt-4">Ini adalah halaman khusus untuk {name}.</p>
+    <div className="pt-10">
+      <HeroProvince/>
+      <IndonesiaMaps padding="pt-12"/>
+      <CardProvince/>
     </div>
   );
 };

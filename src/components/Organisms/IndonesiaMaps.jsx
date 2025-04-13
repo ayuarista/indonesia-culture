@@ -2,9 +2,9 @@ import React from "react";
 import Maps from "/assets/province/peta.svg";
 import Peta from "/assets/province/peta2.svg";
 import { Link } from "react-router-dom";
-const IndonesiaMaps = () => {
+const IndonesiaMaps = ({padding}) => {
   return (
-    <div className="pt-36">
+    <div className={`${padding}`}>
       <p className="text-sm text-center font-semibold text-black tracking-widest ">
         DISCOVER THE RICH CULTURE AND HERITAGE
       </p>
