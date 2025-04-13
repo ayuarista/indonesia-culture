@@ -10,7 +10,7 @@ const FunFact = ({ event }) => {
               <p className="mt-1 lg:text-[15px]/relaxed xl:text-[17px]/relaxed">{fact.desc}</p>
               <hr className="text-gray-200 mt-7"/>
             </div>
-          <div className="flex items-center gap-5 mt-4">
+          <div className="flex flex-col lg:flex-row items-center gap-5 mt-4">
             <div className="w-1/2 bg-red-50 p-5 xl:p-9 rounded-lg">
               <h1 className="font-semibold text-lg xl:text-xl">{fact.title2}</h1>
               <p className="mt-1 font-semibold text-lg xl:text-xl">{fact.subtitle}</p>
