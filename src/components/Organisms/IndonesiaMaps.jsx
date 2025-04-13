@@ -2,7 +2,7 @@ import React from "react";
 import Maps from "/assets/province/peta.svg";
 import Peta from "/assets/province/peta2.svg";
 import { Link } from "react-router-dom";
-const IndonesiaMaps = ({padding}) => {
+const IndonesiaMaps = ({padding, property}) => {
   return (
     <div className={`${padding}`}>
       <p className="text-sm text-center font-semibold text-black tracking-widest ">
@@ -21,7 +21,7 @@ const IndonesiaMaps = ({padding}) => {
       <div className="flex justify-center mt-5">
         <Link
           to="/province"
-          className="bg-gradient-to-r from-0% hover:from-dark-red to-80% hover:to-light-red hover:text-white font-semibold w-1/4 p-2 text-center rounded-full border border-light-red text-light-red transition-all duration-300 text-sm"
+          className={`${property} bg-gradient-to-r from-0% hover:from-dark-red to-80% hover:to-light-red hover:text-white font-semibold w-1/4 p-2 text-center rounded-full border border-light-red text-light-red transition-all duration-300 text-sm`}
         >
           Explore Now
         </Link>

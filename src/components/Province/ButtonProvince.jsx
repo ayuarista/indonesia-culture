@@ -18,7 +18,7 @@ const ButtonProvince = ({ path, location }) => {
         onMouseLeave={() => setIsHovered(false)}
         className={`relative w-full h-10  px-16 rounded-full flex items-center justify-between cursor-pointer overflow-hidden transition-all duration-500 ${
           isHovered
-            ? "bg-light-red/50"
+            ? "bg-light-red/80"
             : "bg-gradient-to-r from-light-red from-10% to-white/20"
         }`}
       >
@@ -29,7 +29,7 @@ const ButtonProvince = ({ path, location }) => {
             }`}
           />
         </span>
-        <h1 className="text-sm text-left lg:text-[16px] xl:text-base font-bold text-white">
+        <h1 className="text-sm text-left lg:text-[14px] w-full xl:text-base font-bold text-white">
           {location}
         </h1>
         <div
