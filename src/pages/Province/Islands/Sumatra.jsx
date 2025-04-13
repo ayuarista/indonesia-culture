@@ -13,6 +13,7 @@ const Sumatra = () => {
         <IslandsMaps heading={"Feel the Majesty of Sumatra Culture in Every Footstep"}
          text={"Trek through misty highlands and vibrant villages, where ancient kingdoms once stood and cultures still flourish in harmony with nature."}
          image={sumatra}
+            padding={"pt-6"}
          />
     </div>
   )

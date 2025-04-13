@@ -13,6 +13,10 @@ import CalenderEvents from './pages/Features/CalenderEvents';
 import DetailCalenderEvents from './pages/Features/DetailCalenderEvents';
 import Kalimantan from './pages/Province/Islands/Kalimantan';
 import Sumatra from './pages/Province/Islands/Sumatra';
+import Java from './pages/Province/Islands/Java';
+import Sulawesi from './pages/Province/Islands/Sulawesi';
+import BaliNusa from './pages/Province/Islands/BaliNusa';
+import MalukuPapua from './pages/Province/Islands/MalukuPapua';
 
 function App() {
   return(
@@ -29,6 +33,10 @@ function App() {
         <Route path="/province" element={<Province />} />
         <Route path="/province/kalimantan" element={<Kalimantan />} />
         <Route path="/province/sumatra" element={<Sumatra />} />
+        <Route path="/province/java" element={<Java />} />
+        <Route path="/province/sulawesi" element={<Sulawesi />} />
+        <Route path="/province/bali-nusa-tenggara" element={<BaliNusa />} />
+        <Route path="/province/maluku-papua" element={<MalukuPapua />} />
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />
       </Routes>
