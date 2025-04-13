@@ -1,5 +1,6 @@
 import React from "react";
 import Maps from "/assets/province/peta.svg";
+import Peta from "/assets/province/peta2.svg";
 import { Link } from "react-router-dom";
 const IndonesiaMaps = () => {
   return (
@@ -15,9 +16,9 @@ const IndonesiaMaps = () => {
         <div className="flex-1 mr-28 border-t-2 border-red-700"></div>
       </div>
       <div className="flex justify-center mt-6">
-        <img src={Maps} alt="Peta Indonesia" className="w-full max-w-3xl" />
+        <img src={Peta} alt="Peta Indonesia" className="w-full max-w-4xl" />
       </div>
-      <div className="flex justify-center mt-8">
+      <div className="flex justify-center mt-5">
         <Link
           to="/province"
           className="bg-gradient-to-r from-0% hover:from-dark-red to-80% hover:to-light-red hover:text-white font-semibold w-1/4 p-2 text-center rounded-full border border-light-red text-light-red transition-all duration-300 text-sm"
