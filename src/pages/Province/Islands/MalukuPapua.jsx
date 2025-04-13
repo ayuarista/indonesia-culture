@@ -7,7 +7,7 @@ const MalukuPapua = () => {
   return (
     <div>
         <HeroIslands
-        image={"https://images.unsplash.com/photo-1542163846-abf6a9fe52e2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+        image={"https://images.unsplash.com/photo-1735541822060-c6dc99e4eff1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"}
         islands={"Maluku & Papua"}
         text={"Maluku & Papua inspire with their untouched islands, rhythmic tribal rituals, and a deep cultural soul rooted in the harmony of land and sea."}
         />

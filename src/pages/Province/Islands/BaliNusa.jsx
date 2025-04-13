@@ -6,7 +6,7 @@ const BaliNusa = () => {
   return (
     <div>
         <HeroIslands
-        image={"https://images.unsplash.com/photo-1552272492-3053fbacbf4b?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
+        image={"https://images.unsplash.com/photo-1540421232613-2adc296bbf9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"}
         islands={"Bali & Nusa Tenggara"}
         text={"Bali and Nusa Tenggara mesmerize with spiritual landscapes, intricate arts, and living traditions that dance between mountains and ocean shores. "}
         />
