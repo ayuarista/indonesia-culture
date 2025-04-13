@@ -7,6 +7,7 @@ import PreserveCulture from "../components/Molecules/PreserveCulture";
 import CardLatestArticle from "../components/Card/CardLatestArticle";
 import ProtectCulture from "../components/Molecules/ProtectCulture";
 import HomeGWR from "../components/Molecules/HomeGWR";
+import IndonesiaMaps from "../components/Organisms/IndonesiaMaps";
 const Home = () => {
   return (
     <div className="pt-16">
@@ -16,6 +17,7 @@ const Home = () => {
       <ArticleAwards />
       <HomeGWR/>
       <HomeUnesco />
+      <IndonesiaMaps/>
       <ProtectCulture/>
       <PreserveCulture/>
       <CardLatestArticle/>
