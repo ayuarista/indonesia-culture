@@ -1,5 +1,4 @@
 export const events = [
-
   {
     id: 1,
     img: "https://kura2bus.com/blog/wp-content/uploads/2019/06/bali-art-festival-01.jpg",
@@ -17,11 +16,20 @@ export const events = [
         image:
           "https://english.news.cn/20230619/0cf5c50637034403a65e83a2810dac77/202306190cf5c50637034403a65e83a2810dac77_8b20d54e-69b2-4e8e-ac2e-f254c77cab16.jpg",
         subtitle: "🎉 Opening Parade",
-        sublist: ["The festival kicks off with a grand street parade featuring artists from all over Bali, dressed in elaborate costumes, dancing, and playing traditional instruments.", "Often includes guest performers from other parts of Indonesia and even from abroad."],
+        sublist: [
+          "The festival kicks off with a grand street parade featuring artists from all over Bali, dressed in elaborate costumes, dancing, and playing traditional instruments.",
+          "Often includes guest performers from other parts of Indonesia and even from abroad.",
+        ],
         subtitle2: "💃 Dance & Music Performances",
-        sublist2: ["Daily performances of traditional Balinese dances such as: Legong, Barong, Kecak, Topeng, and Wayang Wong", "Showcases both classical and newly created choreographies."],
+        sublist2: [
+          "Daily performances of traditional Balinese dances such as: Legong, Barong, Kecak, Topeng, and Wayang Wong",
+          "Showcases both classical and newly created choreographies.",
+        ],
         subtitle3: "📍 Where Is It Held?",
-        sublist3: ["Main venue: Taman Werdhi Budaya Art Centre, Denpasar, Bali.", "Events also take place across different regencies in Bali, so it’s easy to find performances near where you’re staying."],
+        sublist3: [
+          "Main venue: Taman Werdhi Budaya Art Centre, Denpasar, Bali.",
+          "Events also take place across different regencies in Bali, so it’s easy to find performances near where you’re staying.",
+        ],
       },
     ],
   },
@@ -146,9 +154,13 @@ export const events = [
           "These are played non-stop for seven days in front of the Great Mosque (Masjid Agung), drawing thousands of visitors.",
         ],
         subtitle2: "👑 Royal Processions",
-        sublist2: ["Members of the Yogyakarta or Surakarta royal court (Keraton) dress in traditional attire and carry heirlooms in a grand procession known as Grebeg Maulud.",],
+        sublist2: [
+          "Members of the Yogyakarta or Surakarta royal court (Keraton) dress in traditional attire and carry heirlooms in a grand procession known as Grebeg Maulud.",
+        ],
         subtitle3: "🌾 Gunungan Parade",
-        sublist3: ["The climax of Sekaten is the Grebeg Maulud, where a giant mountain-shaped offering called a Gunungan (made of rice, vegetables, and snacks) is paraded and then torn apart by the crowd."],
+        sublist3: [
+          "The climax of Sekaten is the Grebeg Maulud, where a giant mountain-shaped offering called a Gunungan (made of rice, vegetables, and snacks) is paraded and then torn apart by the crowd.",
+        ],
       },
     ],
   },
@@ -186,7 +198,7 @@ export const events = [
       },
     ],
   },
-  
+
   {
     id: 7,
     img: "https://www.sardanagroup.co.id/HP/production/images/news/festival-danau-toba.jpg_1663920107.jpg",
@@ -232,21 +244,31 @@ export const events = [
       "A giant demon effigy parade held on the eve of Nyepi, the Balinese Day of Silence. ",
     description:
       "The Ogoh-Ogoh Parade is a spectacular and eerie cultural event held in Bali, Indonesia, on the eve of Nyepi, the Balinese Hindu Day of Silence. This parade features massive, terrifying-looking papier-mâché demon statues called Ogoh-Ogoh, which are created to symbolize negative spirits and human vices like greed, anger, and arrogance.",
-      funFact: [
-        {
-          title: "✨ Why It’s Special",
-          desc: "The Ogoh-Ogoh Parade is not just a festival—it’s a spiritual and artistic expression of how the Balinese people confront and cleanse negativity before entering a new year. It’s one of Bali’s most unique and visually intense cultural events.",
-          image: "https://img.antarafoto.com/cache/1200x799/2025/03/21/lomba-ogoh-ogoh-di-denpasar-bali-1h63d-dom.jpg",
-          subtitle: "👹 What Are Ogoh-Ogoh?",
-          sublist: ["Ogoh-Ogoh are giant demonic effigies—often monstrous, grotesque, and mythological.", "They're handmade by local youth groups (sekaa teruna) in each village using bamboo, styrofoam, cloth, and paint.",],
-          subtitle2: "🚶 Parade & Rituals",
-          sublist2: ["Villagers perform the Ngrupuk ritual, meant to scare away evil spirits and purify the environment.", "At the end of the night, many Ogoh-Ogoh are ritually burned, symbolizing the destruction of evil before Nyepi."],
-          subtitle3: "🛑 The Day After: Nyepi",
-          sublist3: ["After the wild Ogoh-Ogoh parade comes Nyepi, a full day of silence and reflection", "No lights, No noise, No travel. It's a day for self-purification, meditation, and rest, both spiritually and environmentally."],
-        },
-      ],
+    funFact: [
+      {
+        title: "✨ Why It’s Special",
+        desc: "The Ogoh-Ogoh Parade is not just a festival—it’s a spiritual and artistic expression of how the Balinese people confront and cleanse negativity before entering a new year. It’s one of Bali’s most unique and visually intense cultural events.",
+        image:
+          "https://img.antarafoto.com/cache/1200x799/2025/03/21/lomba-ogoh-ogoh-di-denpasar-bali-1h63d-dom.jpg",
+        subtitle: "👹 What Are Ogoh-Ogoh?",
+        sublist: [
+          "Ogoh-Ogoh are giant demonic effigies—often monstrous, grotesque, and mythological.",
+          "They're handmade by local youth groups (sekaa teruna) in each village using bamboo, styrofoam, cloth, and paint.",
+        ],
+        subtitle2: "🚶 Parade & Rituals",
+        sublist2: [
+          "Villagers perform the Ngrupuk ritual, meant to scare away evil spirits and purify the environment.",
+          "At the end of the night, many Ogoh-Ogoh are ritually burned, symbolizing the destruction of evil before Nyepi.",
+        ],
+        subtitle3: "🛑 The Day After: Nyepi",
+        sublist3: [
+          "After the wild Ogoh-Ogoh parade comes Nyepi, a full day of silence and reflection",
+          "No lights, No noise, No travel. It's a day for self-purification, meditation, and rest, both spiritually and environmentally.",
+        ],
+      },
+    ],
   },
-  
+
   {
     id: 9,
     img: "https://isbi-tanahpapua.ac.id/public/img/informasi/berita/1720412760_8d3d462f95e80684bd7d.jpg",
@@ -257,19 +279,28 @@ export const events = [
       "A cultural celebration on Lake Sentani with traditional boat parades and tribal arts.",
     description:
       "The Sentani Lake Festival (Indonesian: Festival Danau Sentani) is a vibrant annual cultural event held near Lake Sentani, in Jayapura Regency, Papua, Indonesia. It celebrates the rich cultural heritage of the indigenous tribes living around the lake, while promoting tourism, unity, and environmental awareness in Papua.",
-      funFact: [
-        {
-          title: "🌊 About Lake Sentani",
-          desc: "Lake Sentani is the largest lake in Papua, located at the foot of Cyclops Mountains. It’s home to more than 20 indigenous communities, each with unique customs, dances, and crafts. The lake’s calm waters and stunning landscape make it a natural setting for cultural expression.",
-          image: "https://i1.wp.com/discoveryourindonesia.com/wp-content/uploads/2015/06/Lake-sentani-festival-dancers.jpg",
-          subtitle: "🚣 Water-Based Cultural Parade",
-          sublist: ["The festival opens with a massive water parade: dozens of traditional wooden boats (perahu adat) decorated with tribal symbols and Papuan art, rowed across the lake.", "Dancers perform on the boats, accompanied by rhythmic Papuan music—an unforgettable sight!"],
-          subtitle2: "💃 Traditional Dances & Music",
-          sublist2: ["Tribal dance groups perform on floating stages or lakefront areas, showcasing customs from Sentani, Asmat, Biak, Dani, and other Papuan ethnic groups.", "These performances often include body painting, feathers, and traditional attire made from bark and shells."],
-          subtitle3: "🍠 Papuan Culinary Fair",
-          sublist3: ["Try regional specialties like papeda (sago porridge), grilled fish, and sweet potatoes—staple foods of Papua.", "Community-based food stalls bring the traditional food scene to life."],
-        },
-      ],
-      
+    funFact: [
+      {
+        title: "🌊 About Lake Sentani",
+        desc: "Lake Sentani is the largest lake in Papua, located at the foot of Cyclops Mountains. It’s home to more than 20 indigenous communities, each with unique customs, dances, and crafts. The lake’s calm waters and stunning landscape make it a natural setting for cultural expression.",
+        image:
+          "https://i1.wp.com/discoveryourindonesia.com/wp-content/uploads/2015/06/Lake-sentani-festival-dancers.jpg",
+        subtitle: "🚣 Water-Based Cultural Parade",
+        sublist: [
+          "The festival opens with a massive water parade: dozens of traditional wooden boats (perahu adat) decorated with tribal symbols and Papuan art, rowed across the lake.",
+          "Dancers perform on the boats, accompanied by rhythmic Papuan music—an unforgettable sight!",
+        ],
+        subtitle2: "💃 Traditional Dances & Music",
+        sublist2: [
+          "Tribal dance groups perform on floating stages or lakefront areas, showcasing customs from Sentani, Asmat, Biak, Dani, and other Papuan ethnic groups.",
+          "These performances often include body painting, feathers, and traditional attire made from bark and shells.",
+        ],
+        subtitle3: "🍠 Papuan Culinary Fair",
+        sublist3: [
+          "Try regional specialties like papeda (sago porridge), grilled fish, and sweet potatoes—staple foods of Papua.",
+          "Community-based food stalls bring the traditional food scene to life.",
+        ],
+      },
+    ],
   },
 ];
