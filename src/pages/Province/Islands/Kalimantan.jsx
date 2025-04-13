@@ -4,6 +4,7 @@ import IslandsMaps from "../../../components/Province/Section/IslandsMaps";
 import kalimantan from "/assets/province/kalimantan2.svg";
 import AboutAllProvince from "../../../components/Province/Section/AboutAllProvince";
 import HeadingProvince from "../../../components/Province/HeadingProvince";
+import VideoAllProvince from "../../../components/Province/Section/VideoAllProvince";
 
 const Kalimantan = () => {
   return (
@@ -38,6 +39,10 @@ const Kalimantan = () => {
       text={"The cultural heritage of Kalimantan is very rich and diverse, reflecting the life of indigenous peoples that has lasted for centuries."}
       text2={"Delve deeper into Kalimantan's cultural heritage by visiting the Dayak Tribe, who call the jungle’s heart their home. Be invited into their traditional longhouses, where you can experience spiritual dances that reveal the profound cultural meanings passed down through generations."}
       />
+      <div className="pt-40">
+      <h1 className='text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20'>Let's Get to Know Kalimantan Culture Better</h1>
+      <VideoAllProvince/>
+      </div>
     </div>
   );
 };
