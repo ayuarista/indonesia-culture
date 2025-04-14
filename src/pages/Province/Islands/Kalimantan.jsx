@@ -28,25 +28,53 @@ const Kalimantan = () => {
       />
       <HeadingProvince title={"The Diverse Cultures of Kalimantan"} />
       <AboutAllProvince
-      img1={"https://images.unsplash.com/photo-1624605707211-7109c1899164?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3Dz"}
-      radius={"rounded-tr-4xl "}
-      img2={"https://images.unsplash.com/photo-1636363360621-18ef01dce195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"}
-      radius2={"rounded-tl-4xl rounded-br-4xl"}
-      img3={"https://images.unsplash.com/photo-1717412791373-3e038e525759?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"}
-      radius3={"rounded-bl-4xl"}
-      img4={"https://images.unsplash.com/photo-1717412286845-e6994bcfd3ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"}
-      radius4={"rounded-br-4xl"}
-      title={"Heritage of Indigenous Peoples of Kalimantan"}
-      text={"The cultural heritage of Kalimantan is very rich and diverse, reflecting the life of indigenous peoples that has lasted for centuries."}
-      text2={"Delve deeper into Kalimantan's cultural heritage by visiting the Dayak Tribe, who call the jungle’s heart their home. Be invited into their traditional longhouses, where you can experience spiritual dances that reveal the profound cultural meanings passed down through generations."}
+        img1={
+          "https://images.unsplash.com/photo-1624605707211-7109c1899164?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3Dz"
+        }
+        radius={"rounded-tr-4xl "}
+        img2={
+          "https://images.unsplash.com/photo-1636363360621-18ef01dce195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
+        }
+        radius2={"rounded-tl-4xl rounded-br-4xl"}
+        img3={
+          "https://images.unsplash.com/photo-1717412791373-3e038e525759?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
+        }
+        radius3={"rounded-bl-4xl"}
+        img4={
+          "https://images.unsplash.com/photo-1717412286845-e6994bcfd3ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
+        }
+        radius4={"rounded-br-4xl"}
+        title={"Heritage of Indigenous Peoples of Kalimantan"}
+        text={
+          "The cultural heritage of Kalimantan is very rich and diverse, reflecting the life of indigenous peoples that has lasted for centuries."
+        }
+        text2={
+          "Delve deeper into Kalimantan's cultural heritage by visiting the Dayak Tribe, who call the jungle’s heart their home. Be invited into their traditional longhouses, where you can experience spiritual dances that reveal the profound cultural meanings passed down through generations."
+        }
       />
       <div className="pt-38">
-      <h1 className='text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20'>Let's Get to Know Kalimantan Culture Better</h1>
-      <VideoAllProvince/>
+        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+          Let's Get to Know Kalimantan Culture Better
+        </h1>
+        <VideoAllProvince
+          video={
+            <iframe
+              width="720"
+              height="350"
+              src="https://www.youtube.com/embed/_mo7k_-oR_A?autoplay=1&si=g0PXT8-8pHMC5dwX"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              className="relative"
+            ></iframe>
+          }
+        />
       </div>
       <div className="mt-16">
-      <HeadingProvince title={"Let's Find Out About Other Cultures"} />
-      <ImageSliderProvince/>
+        <HeadingProvince title={"Let's Find Out About Other Cultures"} />
+        <ImageSliderProvince />
       </div>
     </div>
   );
