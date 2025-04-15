@@ -16,7 +16,7 @@ function CardCalenderEvents({
   const navigate = useNavigate();
 
   return (
-    <div className="mb-28">
+    <div className="mb-32">
       <div className="relative rounded-2xl shadow-lg bg-white">
         <div className="relative">
           <img
