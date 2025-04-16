@@ -1,7 +1,7 @@
 import muri from "/assets/home/muri.svg";
 const AboutMuriAwards = () => {
   return (
-    <section className="mt-24 lg:mt-0 flex flex-col items-center justify-center my-6 scroll-mt-32" id="muri">
+    <section className="mt-24 lg:mt-12 flex flex-col items-center justify-center my-6 scroll-mt-32" id="muri">
       <div className="flex items-center w-[80%] lg:w-1/2">
         <div className="flex-1 border-t-2 border-red-700"></div>
         <img src={muri} alt=""  className="mx-5"/>

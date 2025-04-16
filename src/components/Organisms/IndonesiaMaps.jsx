@@ -21,7 +21,7 @@ const IndonesiaMaps = ({padding, property}) => {
       <div className="flex justify-center mt-5">
         <Link
           to="/province"
-          className={`${property} bg-gradient-to-r from-0% hover:from-dark-red to-80% hover:to-light-red hover:text-white font-semibold w-1/4 p-2 text-center rounded-full border border-light-red text-light-red transition-all duration-300 text-sm`}
+          className={`${property} bg-gradient-to-r from-0% hover:from-dark-red to-80% hover:to-light-red hover:text-white font-semibold w-1/4 p-2 text-center rounded-full border border-light-red text-light-red transition-all duration-300 text-sm xl:text-[17px]`}
         >
           Explore Now
         </Link>

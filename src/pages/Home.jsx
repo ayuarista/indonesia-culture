@@ -17,7 +17,7 @@ const Home = () => {
       <ArticleAwards />
       <HomeGWR/>
       <HomeUnesco />
-      <IndonesiaMaps padding="pt-36"/>
+      <IndonesiaMaps padding="pt-40"/>
       <ProtectCulture/>
       <PreserveCulture/>
       <CardLatestArticle/>
