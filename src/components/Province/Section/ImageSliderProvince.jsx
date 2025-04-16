@@ -98,7 +98,7 @@ const ImageSliderProvince = () => {
               <div className="absolute bottom-4 left-0 right-0 px-5">
                 <Link
                   to={slide.path}
-                  className="border rounded-full hover:bg-light-red transition-all duration-300 border-white p-1 w-full text-white font-semibold text-[15px] text-center block"
+                  className="border rounded-full hover:bg-light-red transition-all duration-300 border-white p-1 w-full text-white font-semibold text-[15px] xl:text-[17px] text-center block"
                 >
                   {slide.title}
                 </Link>

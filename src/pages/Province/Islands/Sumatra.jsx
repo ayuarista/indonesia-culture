@@ -53,21 +53,22 @@ const Sumatra = () => {
         }
       />
 
-      <div className="pt-44">
+      <div className="pt-52 xl:pt-60">
         <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Sumatra Culture Better
         </h1>
         <VideoAllProvince
           video={
             <iframe
-              width="560"
-              height="315"
+              width="720"
+              height="350"
               src="https://www.youtube.com/embed/dHJMlo43GBg?autoplay=1&si=L6vgcfKyn-gFRg9u"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
+              className="relative"
             ></iframe>
           }
         />
