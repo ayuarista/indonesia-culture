@@ -10,7 +10,7 @@ const IndonesiaMaps = ({padding, property}) => {
       </p>
       <div className="flex items-center justify-center">
         <div className="flex-1 ml-28 border-t-2 border-red-700"></div>
-        <h2 className="mx-4 text-2xl md:text-3xl lg:text-[32px] xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold font-third">
+        <h2 className="mx-4 text-2xl md:text-3xl lg:text-[32px] xl:text-[38px] bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold font-third">
           Journey Through Indonesian Culture
         </h2>
         <div className="flex-1 mr-28 border-t-2 border-red-700"></div>

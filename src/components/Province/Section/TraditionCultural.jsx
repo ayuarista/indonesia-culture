@@ -2,15 +2,15 @@ import React from "react";
 
 const TraditionCultural = () => {
   return (
-    <div className="flex flex-col lg:flex-row xl:flex-row items-start justify-center gap-14 pt-28">
+    <div className="flex flex-col lg:flex-row xl:flex-row items-start justify-center gap-20 pt-28">
       <div>
-        <h1 className="text-3xl font-third font-bold bg-clip-text bg-gradient-to-r from-light-red to-dark-red text-transparent">
+        <h1 className="text-3xl xl:text-4xl font-third font-bold bg-clip-text bg-gradient-to-r from-light-red to-dark-red text-transparent">
           Tradition Cultural
         </h1>
-        <p className="text-abu mt-4 text-sm lg:max-w-md lg:text-[15px]/relaxed xl:text-lg">
+        <p className="text-pretty text-justify text-abu mt-4 text-sm lg:max-w-md lg:text-[15px]/relaxed xl:text-lg">
           Indonesian wedding ceremonies are rich in meaning and tradition.
         </p>
-        <p className="text-abu mt-4 text-sm lg:max-w-md lg:text-[15px]/relaxed xl:text-lg">
+        <p className="text-pretty text-justify text-abu mt-4 text-sm lg:max-w-md lg:text-[15px]/relaxed xl:text-lg">
         More
           than just uniting two people, marriage is a sacred cultural event with
           deep philosophical values, carried out through meaningful traditional

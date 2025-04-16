@@ -15,23 +15,23 @@ const SectionWonderedIndonesia = () => {
           <div className="absolute w-16 border-4 border-white bg-light-red p-1 -bottom-7 right-20 rounded-full shadow-[0px_4px_4px_2px_rgba(0,0,0,0.25)]"></div>
         </div>
         <div>
-          <h1 className="text-3xl font-third font-bold bg-clip-text bg-gradient-to-r from-light-red to-dark-red text-transparent">
+          <h1 className="text-3xl xl:text-4xl font-third font-bold bg-clip-text bg-gradient-to-r from-light-red to-dark-red text-transparent">
             Ever Wondered Why Indonesia <br /> Has So Much Culture?
           </h1>
-          <p className="text-abu mt-4 text-sm lg:max-w-xl lg:text-[15px]/relaxed xl:text-lg">
+          <p className="text-abu mt-4 text-sm text-pretty text-justify lg:max-w-xl lg:text-[15px]/relaxed xl:text-lg">
             Indonesia’s rich culture comes from its unique geography and
             history. As an archipelago of over 17,000 islands, it has become
             home to more than 300 ethnic groups, each with their own traditions,
             languages, beliefs, and art forms.
           </p>
-          <p className="text-abu mt-4 text-sm lg:max-w-xl lg:text-[15px]/relaxed xl:text-lg">
+          <p className="text-abu mt-4 text-sm text-pretty text-justify lg:max-w-xl lg:text-[15px]/relaxed xl:text-lg">
             For centuries, Indonesia has also been a crossroads of civilizations
             — influenced by Indian, Chinese, Arab, and European cultures through
             trade, migration, and colonization. These outside influences blended
             beautifully with local wisdom, creating a vibrant cultural mosaic
             that lives on today.
           </p>
-          <p className="text-abu mt-4 text-sm lg:max-w-xl lg:text-[15px]/relaxed xl:text-lg">
+          <p className="text-abu mt-4 text-sm lg:max-w-xl text-pretty text-justify lg:text-[15px]/relaxed xl:text-lg">
           From the sacred rituals of Bali to the colorful festivals of Nusa Tenggara, every region in Indonesia offers a glimpse into a story that has been told for generations.
           </p>
         </div>
