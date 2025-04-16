@@ -1,6 +1,6 @@
 import React from "react";
 
-const IslandsMaps = ({heading, text, image, padding}) => {
+const IslandsMaps = ({heading, text, image, padding, width}) => {
   return (
     <div className={`flex flex-col lg:flex-row xl:flex-row items-center justify-center gap-x-20 ${padding}`}>
       <div>
@@ -11,7 +11,7 @@ const IslandsMaps = ({heading, text, image, padding}) => {
         {text}
         </p>
       </div>
-      <img src={image} alt="" className="w-[35%] object-cover"/>
+      <img src={image} alt="" className={`${width} lg:w-[35%] object-cover`}/>
     </div>
   );
 };

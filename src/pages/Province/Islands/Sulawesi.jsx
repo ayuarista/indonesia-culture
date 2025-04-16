@@ -2,6 +2,8 @@ import React from 'react'
 import HeroIslands from '../../../components/Province/Hero/HeroIslands'
 import IslandsMaps from '../../../components/Province/Section/IslandsMaps'
 import sulawesi from "/assets/province/sulawesi2.svg"
+import HeadingProvince from '../../../components/Province/HeadingProvince'
+import ImageSliderProvince from '../../../components/Province/Section/ImageSliderProvince'
 const Sulawesi = () => {
     return(
     <div>
@@ -14,7 +16,12 @@ const Sulawesi = () => {
      text={"Venture into rugged mountains and hidden valleys, where age-old ceremonies and architectural wonders reveal the soul of Sulawesi's people."}
      image={sulawesi}
         padding={"pt-6"}
+        width={"xl:w-[27%]"}
      />
+     <div className="mt-16">
+        <HeadingProvince title={"Let's Find Out About Other Cultures"} />
+        <ImageSliderProvince />
+      </div>
 </div>
     )
 };

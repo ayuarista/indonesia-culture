@@ -25,6 +25,7 @@ const Sumatra = () => {
         }
         image={sumatra}
         padding={"pt-6"}
+        width={"xl:w-[32%]"}
       />
       <HeadingProvince title={"Cultural Mosaic of Sumatra"} />
       <AboutAllProvince
