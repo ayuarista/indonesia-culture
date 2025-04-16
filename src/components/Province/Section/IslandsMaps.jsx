@@ -7,7 +7,7 @@ const IslandsMaps = ({heading, text, image, padding}) => {
         <h1 className="text-3xl max-w-sm font-bold bg-clip-text bg-gradient-to-r from-light-red to-dark-red text-transparent">
           {heading}
         </h1>
-        <p className="text-light-gray mt-4 text-sm lg:max-w-md lg:text-[15px]/relaxed xl:text-lg">
+        <p className="text-light-gray mt-4 text-sm lg:max-w-md xl:max-w-lg lg:text-[15px]/relaxed xl:text-lg">
         {text}
         </p>
       </div>

@@ -2,8 +2,9 @@ import React from 'react'
 
 const HeroIslands = ({image, islands, text}) => {
   return (
-    <div
-    className="w-full md:min-h-[20vh] min-h-[85vh] lg:min-h-[70vh] xl:min-h-[60vh] bg-cover bg-center flex justify-center items-center text-white bg-blend-multiply bg-black/40"
+    <div className='pt-[68px]'>
+      <div
+    className="w-full md:min-h-[20vh] min-h-[85vh] lg:min-h-[65vh] xl:min-h-[60vh] bg-cover bg-center flex justify-center items-center text-white bg-blend-multiply bg-black/40"
     style={{
       backgroundImage: `url(${image})`,
     }}
@@ -21,6 +22,7 @@ const HeroIslands = ({image, islands, text}) => {
       </div>
     </div>
   </div>
+    </div>
   )
 }
 
