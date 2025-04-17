@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import NavLink from "../Atoms/Navlink";
 import MobileHeader from "./MobileHeader";
 import NavDropdown from "../Atoms/NavDropdown";
+import NavProvince from "../Organisms/NavProvince";
 const Header = () => {
   return (
     <header className="w-full bg-white fixed p-5 text-black z-50">
@@ -22,7 +23,16 @@ const Header = () => {
                 { path: "/award/international", label: "International" },
               ]}
             />
-            <NavLink path="/province" nav="Province" />
+            <NavProvince nav="Province" path={"/province"}
+            links={[
+              {path: "/province/kalimantan"},
+              {path: "/province/sumatra"},
+              {path: "/province/java"},
+              {path: "/province/sulawesi"},
+              {path: "/province/bali-nusa-tenggara"},
+              {path: "/province/maluku-papua"},
+            ]}
+            />
             <NavDropdown
               navLink="Features"
               links={[

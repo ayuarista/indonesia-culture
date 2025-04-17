@@ -2,6 +2,7 @@ import { CgMenuLeftAlt } from "react-icons/cg";
 import { IoCloseOutline } from "react-icons/io5";
 import { useState, useRef, useEffect } from "react";
 import NavLink from "../Atoms/Navlink";
+import NavProvince from "../Organisms/NavProvince";
 
 const MobileHeader = () => {
   const [activeNav, setNavActive] = useState(false);
@@ -58,7 +59,17 @@ const MobileHeader = () => {
                 <NavLink path="/award/international" nav="International" />
               </div>
             </div>
-            <NavLink path="/province" nav="Province" />
+            {/* <NavLink path="/province" nav="Province" /> */}
+            <NavProvince nav="Province" path={"/province"}
+            links={[
+              {path: "/province/kalimantan"},
+              {path: "/province/sumatra"},
+              {path: "/province/java"},
+              {path: "/province/sulawesi"},
+              {path: "/province/bali-nusa-tenggara"},
+              {path: "/province/maluku-papua"},
+            ]}
+            />
             <div>
               <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Features</h1>
               <div className="ml-2 flex flex-col gap-3 border-l-2 px-2 border-gray-200">

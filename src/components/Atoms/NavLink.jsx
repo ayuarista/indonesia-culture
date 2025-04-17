@@ -1,13 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
-import PropTypes from "prop-types";
-
-// NavLink.propTypes = {
-//   path: PropTypes.isRequired,
-//   nav: PropTypes.isRequired,
-// };
 
 const NavLink = ({ path, nav }) => {
   const location = useLocation();
+
 
   function setNav() {
     if (location.pathname === path) {
