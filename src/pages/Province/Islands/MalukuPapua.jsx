@@ -29,30 +29,30 @@ const MalukuPapua = () => {
         padding={"pt-10"}
         width={"xl:w-[27%]"}
       />
-      <HeadingProvince title={"Cultural Heartbeat of Java"} />
+      <HeadingProvince title={"Echoes of Ancestral Culture from Papua to Maluku"} />
       <AboutAllProvince
         img1={
-          ""
+          "https://images.unsplash.com/photo-1522139350032-f32db164adfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
         }
-        radius={"rounded-tl-4xl "}
+        radius={"rounded-tr-4xl "}
         img2={
-          ""
+          "https://images.unsplash.com/photo-1652355069631-2bc25d4138cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
         }
-        radius2={"rounded-tr-4xl rounded-br-4xl"}
+        radius2={"rounded-tl-4xl rounded-br-4xl"}
         img3={
-          ""
+          "https://images.unsplash.com/photo-1623467896375-0a2da43e37d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
         }
         radius3={"rounded-bl-4xl"}
         img4={
-          ""
+          "https://images.unsplash.com/photo-1703769605297-93464fbf186f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
         }
         radius4={"rounded-br-4xl"}
-        title={""}
+        title={"Sacred Traditions of Papua and Maluku’s Indigenous Peoples"}
         text={
-          ""
+          "Refers to the traditional traditions that are considered sacred and passed down from generation to generation by the indigenous people in the Papua and Maluku regions. "
         }
         text2={
-          ""
+          "Examples include the Bakar Batu ritual as a symbol of togetherness in Papuan society, as well as the Cakalele dance and the Pela Gandong traditional ceremony in Maluku which reflect spiritual ties and respect for ancestors."
         }
       />
       <div className="mt-16">

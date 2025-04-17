@@ -5,6 +5,7 @@ import java from "/assets/province/java2.svg";
 import HeadingProvince from "../../../components/Province/HeadingProvince";
 import ImageSliderProvince from "../../../components/Province/Section/ImageSliderProvince";
 import AboutAllProvince from "../../../components/Province/Section/AboutAllProvince";
+import VideoAllProvince from "../../../components/Province/Section/VideoAllProvince";
 const Java = () => {
   return (
     <div>
@@ -53,7 +54,27 @@ const Java = () => {
           "Examples can be seen in the preservation of performing arts such as wayang kulit and gamelan, the tradition of batik which is passed down across generations as part of the cultural and spiritual identity of the Javanese people."
         }
       />
-      <div className="mt-36">
+      <div className="pt-40 xl:pt-60">
+        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+          Let's Get to Know Javanese Culture Better
+        </h1>
+        <VideoAllProvince
+          video={
+            <iframe
+              width="720"
+              height="350"
+              src="https://www.youtube.com/embed/uwhvQPK_Kfo?autoplay=1&mute=1&si=vnQjnhK5lmw4oqLa"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origPin-when-cross-origin"
+              allowfullscreen
+              className="relative"
+            ></iframe>
+          }
+        />
+      </div>
+      <div className="mt-16">
         <HeadingProvince title={"Let's Find Out About Other Cultures"} />
         <ImageSliderProvince />
       </div>

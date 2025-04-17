@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoAllProvince = ({video}) => {
   return (
-    <div className="flex flex-col items-center justify-center pt-10">
+    <div className="flex flex-col items-center justify-center pt-16">
       <div className="relative">
       <div className="absolute bg-gradient-to-b from-light-red to-dark-red h-[20.5rem] w-96 -top-4 -right-5"></div>
       <div className="absolute bg-gradient-to-b from-light-red to-dark-red h-40 w-68 -bottom-4 -left-5"></div>
