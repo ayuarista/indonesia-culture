@@ -30,7 +30,7 @@ const NationalDropdownFilter = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="lg:flex items-center justify-between w-full">
+      <div className="flex items-center justify-between w-full">
         <div className="mx-10 lg:mx-16 xl:mx-32">
         <h1 className="font-bold text-3xl xl:text-4xl text-light-red">{sortOption}</h1>
         </div>
@@ -50,7 +50,7 @@ const NationalDropdownFilter = () => {
           </button>
           </div>
           {showDropdown && (
-            <div className="absolute text-[15px] xl:text-[17px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
+            <div className="absolute text-[15px] md:text-[16px] xl:text-[17px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
               <button
                 onClick={() => handleSort("All")}
                 className="block w-full rounded-full text-left px-4 py-1 cursor-pointer hover:bg-light-red hover:text-white"

@@ -1,13 +1,10 @@
-import Gelombang from "/assets/footer/gelombang.png";
-import Awan from "/assets/footer/awan.png";
-import Wayang from "/assets/footer/wayang.png";
 import footer from "/assets/footer/footer.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="relative">
-      <img src={footer} alt="" className="absolute inset-0 w-full" />
-      <div className="absolute top-56 md:top-68 xl:top-96 left-0 right-0">
+    <div className="relative h-[90vh] md:h-[45vh] lg:h-screen">
+      <img src={footer} alt="" className="absolute inset-0 w-full h-full object-cover" />
+      <div className="absolute top-44 md:top-38 xl:top-96 left-10 md:left-0 right-0">
         <div className="flex flex-col md:flex-row items-start justify-center gap-x-20">
           <div>
             <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">PAGES</h1>
@@ -44,7 +41,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="mt-2 md:mt-0">
             <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">FEATURES</h1>
             <div className="flex flex-col gap-2 mt-5 text-sm md:text-base lg:text-base xl:text-xl">
               <Link
@@ -58,7 +55,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="mt-2 md:mt-0">
             <h1 className="font-bold text-xl md:text-2xl lg:text-2xl xl:text-3xl text-white">OUR TEAMS</h1>
             <div className="flex flex-col gap-2 mt-5 text-sm md:text-base lg:text-base xl:text-xl">
               <Link
