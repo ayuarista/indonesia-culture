@@ -5,7 +5,7 @@ const AboutRekorMuri = () => {
     <div className="mx-8 lg:mx-16 mt-40 lg:mt-0">
       <div className="flex items-center gap-3 xl:gap-5">
         <div>
-          <h1 className="bg-gradient-to-r font-bold text-xl md:text-2xl lg:text-3xl xl:text-4xl from-0% from-[#490303] to-60% to-[#AF0808] text-transparent bg-clip-text">
+          <h1 className="bg-gradient-to-r font-bold text-xl md:text-3xl lg:text-3xl xl:text-4xl from-0% from-[#490303] to-60% to-[#AF0808] text-transparent bg-clip-text">
             Indonesian Muri Record
           </h1>
         </div>
