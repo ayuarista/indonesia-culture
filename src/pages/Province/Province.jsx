@@ -11,7 +11,7 @@ const Province = () => {
       <HeroProvince/>
       <IndonesiaMaps padding="pt-16" property="hidden"/>
       <CardProvince/>
-      <div className="mt-20">
+      <div className="mt-16 lg:mt-20 xl:mt-20">
       <SectionWonderedIndonesia/>
       </div>
       <TraditionCultural/>
