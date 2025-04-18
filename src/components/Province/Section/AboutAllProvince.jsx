@@ -2,7 +2,7 @@ import React from 'react'
 const AboutAllProvince = ({img1, img2, img3, img4, title, text, text2, radius, radius2, radius3, radius4  }) => {
   return (
     <div className='pt-14'>
-        <div className=" flex flex-col lg:flex-row items-start justify-center gap-10 relative mx-32 xl:mx-58">
+        <div className="flex flex-col lg:flex-row items-start justify-center gap-10 relative mx-32 xl:mx-58">
             <div className="relative w-full lg:w-1/2">
                 <div className="absolute left-5 top-0">
                     <img src={img1} alt="" className={`object-cover w-48 h-68 xl:w-60 xl:h-80 ${radius}`}/>
