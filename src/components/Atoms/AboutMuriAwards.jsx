@@ -10,7 +10,7 @@ const AboutMuriAwards = () => {
       <h2 className="mx-4 text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-center bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent">
         Museum of Cultural Records - World Indonesia
       </h2>
-      <p className="text-center text-sm/5 xl:text-base text-pretty w-[80%] xl:w-[70%] mt-3 font-medium text-black">
+      <p className="text-center text-sm/relaxed xl:text-base text-pretty w-[80%] xl:w-[70%] mt-3 font-medium text-black">
         "The MURI Record shows the vibrant diversity of culture and various
         natural potentials of Indonesia, as well as the passion of the nation's
         children in carving out the best ideas and works of achievement in their

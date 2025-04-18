@@ -9,7 +9,7 @@ const SectionWonderedIndonesia = () => {
           <img
             src="https://images.unsplash.com/photo-1566409031818-9508be68fc74?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt=""
-            className="w-full h-[27rem] object-cover   relative"
+            className="w-full h-[27rem] object-cover  relative rounded-tr-3xl rounded-bl-3xl"
           />
           <div className="absolute w-32 border-4 border-white bg-light-red p-1 -bottom-7 rounded-full shadow-[0px_4px_4px_2px_rgba(0,0,0,0.25)]"></div>
           <div className="absolute w-16 border-4 border-white bg-light-red p-1 -bottom-7 right-20 rounded-full shadow-[0px_4px_4px_2px_rgba(0,0,0,0.25)]"></div>

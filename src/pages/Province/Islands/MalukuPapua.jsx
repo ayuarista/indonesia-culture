@@ -5,6 +5,7 @@ import maluku from "/assets/province/maluku_papua2.svg";
 import HeadingProvince from "../../../components/Province/HeadingProvince";
 import ImageSliderProvince from "../../../components/Province/Section/ImageSliderProvince";
 import AboutAllProvince from "../../../components/Province/Section/AboutAllProvince";
+import VideoAllProvince from "../../../components/Province/Section/VideoAllProvince";
 
 const MalukuPapua = () => {
   return (
@@ -29,7 +30,9 @@ const MalukuPapua = () => {
         padding={"pt-10"}
         width={"xl:w-[27%]"}
       />
-      <HeadingProvince title={"Echoes of Ancestral Culture from Papua to Maluku"} />
+      <HeadingProvince
+        title={"Echoes of Ancestral Culture from Papua to Maluku"}
+      />
       <AboutAllProvince
         img1={
           "https://images.unsplash.com/photo-1522139350032-f32db164adfb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fHw%3D"
@@ -55,6 +58,26 @@ const MalukuPapua = () => {
           "Examples include the Bakar Batu ritual as a symbol of togetherness in Papuan society, as well as the Cakalele dance and the Pela Gandong traditional ceremony in Maluku which reflect spiritual ties and respect for ancestors."
         }
       />
+      <div className="pt-40 xl:pt-60">
+        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+          Let's Get to Know Maluku & Papua Culture Better
+        </h1>
+        <VideoAllProvince
+          video={
+            <iframe
+              width="720"
+              height="320"
+              src="https://www.youtube.com/embed/X6Oaruks5Lk?autoplay=1&mute=1&si=yxwraVfQUj9BPsSJ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+              className="relative"
+            ></iframe>
+          }
+        />
+      </div>
       <div className="mt-16">
         <HeadingProvince title={"Let's Find Out About Other Cultures"} />
         <ImageSliderProvince />

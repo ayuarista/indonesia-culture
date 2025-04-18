@@ -5,6 +5,7 @@ import bali from "/assets/province/bali_ntt2.svg";
 import HeadingProvince from "../../../components/Province/HeadingProvince";
 import ImageSliderProvince from "../../../components/Province/Section/ImageSliderProvince";
 import AboutAllProvince from "../../../components/Province/Section/AboutAllProvince";
+import VideoAllProvince from "../../../components/Province/Section/VideoAllProvince";
 const BaliNusa = () => {
   return (
     <div>
@@ -53,6 +54,26 @@ const BaliNusa = () => {
           "For example, religious ceremonies in Balinese temples are filled with sacred dances and offerings, as well as the typical Nusa Tenggara ikat weaving art which is not only beautiful, but also full of symbolic meaning in every motif and color."
         }
       />
+      <div className="pt-40 xl:pt-60">
+        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+        Let's Get to Know Bali & Nusa Tenggara Culture Better
+        </h1>
+      <VideoAllProvince
+        video={
+          <iframe
+            width="720"
+            height="350"
+            src="https://www.youtube.com/embed/-TYOYSu6Xjg?autoplay=1&mute=1&si=2nDisHg_bYr1EskR"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            className="relative"
+          ></iframe>
+        }
+      />
+      </div>
       <div className="mt-24">
         <HeadingProvince title={"Let's Find Out About Other Cultures"} />
         <ImageSliderProvince />
