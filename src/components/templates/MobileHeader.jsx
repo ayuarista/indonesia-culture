@@ -30,7 +30,7 @@ const MobileHeader = () => {
   return (
     <>
       <button
-        className="text-[27px] cursor-pointer text-black bg-gray-200 p-1.5 rounded-full"
+        className="text-[27px] cursor-pointer text-black bg-gray-100 p-1.5 rounded-full"
         onClick={toggleNav}
       >
         <CgMenuLeftAlt />
@@ -38,13 +38,13 @@ const MobileHeader = () => {
 
       <div
         ref={menuRef}
-        className={`fixed top-20 left-5 w-52 border rounded-tr-xl rounded-b-xl border-gray-300 bg-white shadow-lg transform transition-all duration-500 ease-in-out z-50
+        className={`fixed top-20 left-5 w-54 border rounded-tr-xl rounded-b-xl border-gray-300 bg-white shadow-lg transform transition-all duration-500 ease-in-out z-50
           ${activeNav ? "scale-100 opacity-100" : "scale-95 opacity-0 pointer-events-none"}
         `}
       >
         <div className="p-4">
           <button
-            className="text-[27px] text-black mb-4 cursor-pointer"
+            className="text-[27px] md:text-3xl text-black mb-4 cursor-pointer"
             onClick={toggleNav}
           >
             <IoCloseOutline />
@@ -53,13 +53,12 @@ const MobileHeader = () => {
           <nav className="flex flex-col gap-3 text-black">
             <NavLink path="/" nav="Home" />
             <div>
-              <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Awards</h1>
+              <h1 className="text-[0.90rem] md:text-[0.95rem] font-medium mx-3 mb-3">Awards</h1>
               <div className="ml-2 flex flex-col gap-3 border-l-2 px-2 border-gray-200">
                 <NavLink path="/award/national" nav="National" />
                 <NavLink path="/award/international" nav="International" />
               </div>
             </div>
-            {/* <NavLink path="/province" nav="Province" /> */}
             <NavProvince nav="Province" path={"/province"}
             links={[
               {path: "/province/kalimantan"},
@@ -71,7 +70,7 @@ const MobileHeader = () => {
             ]}
             />
             <div>
-              <h1 className="text-[0.90rem] font-medium mx-3 mb-3">Features</h1>
+              <h1 className="text-[0.90rem] md:text-[0.95rem] font-medium mx-3 mb-3">Features</h1>
               <div className="ml-2 flex flex-col gap-3 border-l-2 px-2 border-gray-200">
                 <NavLink path="/features/calender-events" nav="Calender Events" />
                 <NavLink path="/features/quiz" nav="Quiz" />

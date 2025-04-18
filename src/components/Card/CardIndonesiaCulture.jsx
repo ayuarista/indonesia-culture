@@ -3,7 +3,7 @@ const CardIndonesiaCulture = () => {
     <div className="p-5 w-96 lg:w-[30rem] xl:w-[48rem] h-44 bg-gradient-to-r from-[#430304] to-[#A90809] rounded-tr-full rounded-br-full relative">
         <div className="absolute left-12 lg:left-20 xl:left-52 -top-20">
             <div className="w-40 lg:w-52 xl:w-60">
-            <img src="https://images.unsplash.com/photo-1670179716487-5acdf98c9646?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGluZG9uZXNpYW4lMjBjdWx0dXJlfGVufDB8fDB8fHww" alt=""  className="w-full h-72 lg:h-[21rem] xl:h-96 object-cover border-l-[8px] border-white rounded-full"
+            <img src="https://images.unsplash.com/photo-1670179716487-5acdf98c9646?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fGluZG9uZXNpYW4lMjBjdWx0dXJlfGVufDB8fDB8fHww" alt=""  className="w-full h-72 lg:h-[29rem] xl:h-96 object-cover border-l-[8px] border-white rounded-full"
             />
             </div>
             <div className="absolute bottom-2 lg:bottom-3 xl:bottom-2 p-8 w-10 rounded-full bg-[#A90809] border-8 border-white"></div>
