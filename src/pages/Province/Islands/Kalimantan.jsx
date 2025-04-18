@@ -58,17 +58,17 @@ const Kalimantan = () => {
         </h1>
         <VideoAllProvince
           video={
-            <iframe
-              width="720"
-              height="350"
-              src="https://www.youtube.com/embed/_mo7k_-oR_A?autoplay=1&si=g0PXT8-8pHMC5dwX"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-              className="relative"
-            ></iframe>
+              <iframe
+                // width="720"
+                // height="350"
+                src="https://www.youtube.com/embed/_mo7k_-oR_A?autoplay=1&si=g0PXT8-8pHMC5dwX"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                className="relative w-[300px] h-[350px] md:w-[520px] md:h-[350px] lg:w-[720px] lg:h-[350px]"
+              ></iframe>
           }
         />
       </div>
