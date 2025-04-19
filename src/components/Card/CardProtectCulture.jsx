@@ -1,4 +1,4 @@
-const CardProtectCulture = ({image, title, desc, place}) => {
+const CardProtectCulture = ({image, title, desc, place,path}) => {
   return (
       <div className="flex flex-col justify-center items-center">
         <div className="relative overflow-hidden rounded-t-full border-white border-[8px]">
@@ -16,9 +16,9 @@ const CardProtectCulture = ({image, title, desc, place}) => {
             </div>
           </div>
         </div>
-        <button className="px-5 py-1 xl:px-7 xl:py-2 xl:text-lg font-medium cursor-pointer bg-white text-light-red rounded-full mt-4 border border-light-red shadow-md">
+        <a href={path} className="px-5 py-1 xl:px-7 xl:py-2 xl:text-lg font-medium cursor-pointer bg-white text-light-red rounded-full mt-4 border border-light-red shadow-md">
           {place}
-        </button>
+        </a>
       </div>
   );
 };

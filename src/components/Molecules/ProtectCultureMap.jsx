@@ -10,6 +10,7 @@ const ProtectCultureMap = () => {
           title={item.title}
           desc={item.desc}
           place={item.place}
+          path={item.path}
         />
       ))}
     </div>
