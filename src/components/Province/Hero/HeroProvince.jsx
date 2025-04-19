@@ -5,7 +5,7 @@ const HeroProvince = () => {
     <div
     className="w-full min-h-[50vh]  md:min-h-[30vh] lg:min-h-[70vh] xl:min-h-[60vh] bg-cover bg-center flex justify-center items-center text-white bg-blend-multiply bg-black/60"
     style={{
-      backgroundImage: `url(${"https://images.unsplash.com/photo-1513415756790-2ac1db1297d0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"})`,
+      backgroundImage: `url(${"https://images.unsplash.com/photo-1619681216575-d6b3964fc278?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"})`,
     }}
   >
     <div className="lg:px-6 text-center">

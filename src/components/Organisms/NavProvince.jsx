@@ -16,7 +16,7 @@ const NavProvince = ({ nav, path, links }) => {
     <div>
       <Link
         to={path}
-        className={`text-[0.90rem] md:text-[0.95rem] xl:text-[1rem] font-medium rounded-box transition  ease-in-out duration-300 px-4 py-1 ${setNav()}`}
+        className={`text-[0.90rem] md:text-[0.95rem] xl:text-[1rem] font-medium rounded-box transition ease-in-out duration-300 px-4 py-1 ${setNav()}`}
       >
         {nav}
       </Link>

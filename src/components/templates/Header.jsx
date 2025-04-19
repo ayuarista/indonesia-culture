@@ -13,7 +13,7 @@ const Header = () => {
         <div className="block lg:hidden">
           <MobileHeader/>
         </div>
-        <nav className="hidden md:hidden lg:block xl:block">
+        <n  av className="hidden md:hidden lg:block xl:block">
           <ul className="flex items-center gap-6">
             <NavLink path="/" nav="Home" />
             <NavDropdown
@@ -42,7 +42,7 @@ const Header = () => {
             />
             <NavLink path="/article" nav="Article" />
           </ul>
-        </nav>
+        </n>
       </div>
     </header>
   );
