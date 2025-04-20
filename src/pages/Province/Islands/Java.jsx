@@ -54,7 +54,7 @@ const Java = () => {
           "Examples can be seen in the preservation of performing arts such as wayang kulit and gamelan, the tradition of batik which is passed down across generations as part of the cultural and spiritual identity of the Javanese people."
         }
       />
-      <div className="pt-40 xl:pt-60">
+      <div className="pt-32 xl:pt-36">
         <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Javanese Culture Better
         </h1>

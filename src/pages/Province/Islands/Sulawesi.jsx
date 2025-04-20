@@ -57,7 +57,7 @@ const Sulawesi = () => {
           "Examples can be seen from the tongkonan houses of the Toraja tribe in the highlands, to the sailing traditions, marriage systems, and stilt house architecture of the Bugis and Mandar tribes in the coastal areas."
         }
       />
-      <div className="pt-40 xl:pt-60">
+      <div className="pt-28 xl:pt-48">
         <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Sulawesi Culture Better
         </h1>

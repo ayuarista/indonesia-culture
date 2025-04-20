@@ -28,7 +28,7 @@ const MalukuPapua = () => {
         }
         image={maluku}
         padding={"pt-10"}
-        width={"xl:w-[27%]"}
+        width={"md:w-[62%] md:mt-3 xl:w-[27%]"}
       />
       <HeadingProvince
         title={"Echoes of Ancestral Culture from Papua to Maluku"}
@@ -58,8 +58,8 @@ const MalukuPapua = () => {
           "Examples include the Bakar Batu ritual as a symbol of togetherness in Papuan society, as well as the Cakalele dance and the Pela Gandong traditional ceremony in Maluku which reflect spiritual ties and respect for ancestors."
         }
       />
-      <div className="pt-40 xl:pt-60">
-        <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+      <div className="pt-32 xl:pt-36">
+        <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md xl:max-w-lg lg:mx-20">
           Let's Get to Know Maluku & Papua Culture Better
         </h1>
         <VideoAllProvince

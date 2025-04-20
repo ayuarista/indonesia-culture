@@ -54,7 +54,7 @@ const BaliNusa = () => {
           "For example, religious ceremonies in Balinese temples are filled with sacred dances and offerings, as well as the typical Nusa Tenggara ikat weaving art which is not only beautiful, but also full of symbolic meaning in every motif and color."
         }
       />
-      <div className="pt-40 xl:pt-60">
+      <div className="pt-32 xl:pt-36">
         <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
         Let's Get to Know Bali & Nusa Tenggara Culture Better
         </h1>

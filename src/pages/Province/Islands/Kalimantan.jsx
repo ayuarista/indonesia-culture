@@ -52,7 +52,7 @@ const Kalimantan = () => {
           "Delve deeper into Kalimantan's cultural heritage by visiting the Dayak Tribe, who call the jungle’s heart their home. Be invited into their traditional longhouses, where you can experience spiritual dances that reveal the profound cultural meanings passed down through generations."
         }
       />
-      <div className="pt-38">
+      <div className="pt-28">
         <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Kalimantan Culture Better
         </h1>
