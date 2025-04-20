@@ -70,9 +70,9 @@ export const events = [
     img: "https://getlost.id/wp-content/uploads/2020/02/cap-go-meh_1318520849.jpg",
     name: "Cap Go Meh",
     date: "2024-02-24",
-    location: "West Kalimantan",
+    location: "Kalimantan",
     cardDesc:
-      "Cap Go Meh Festival is a lively and colorful cultural celebration held by the Chinese-Indonesian community.",
+      "Cap Go Meh Festival is a lively and colorful cultural celebration held by Chindo.",
     description:
       'Cap Go Meh Festival is a lively and colorful cultural celebration held by the Chinese-Indonesian community, especially in cities like Singkawang (West Kalimantan), Pontianak, and Medan. The name "Cap Go Meh" literally means "the fifteenth night" in Hokkien, marking the 15th day after Chinese New Year, which is the official end of the Lunar New Year celebrations. The most iconic part of Cap Go Meh in Singkawang is the Tatung Parade. Tatung are spiritual mediums believed to be possessed by deities or ancestral spirits.',
     funFact: [
@@ -103,7 +103,7 @@ export const events = [
     img: "https://i.pinimg.com/originals/ad/cb/90/adcb90989579a59c3c4d83fa937201d9.jpg",
     name: "Tabuik Pariaman",
     date: "2025-04-05",
-    location: "West Sumatra",
+    location: "Sumatra",
     cardDesc:
       "Tabuik Festival is a traditional cultural and religious event held every year in Pariaman, West Sumatra, Indonesia.",
     description:
@@ -169,7 +169,7 @@ export const events = [
     img: "https://bisniswisata.co.id/wp-content/uploads/2018/08/Festival-Krakatau.jpg",
     name: "Lampung Krakatau Festival",
     date: "2024-09-12",
-    location: "East Java",
+    location: "Java",
     cardDesc:
       "The Krakatau Festival (called the Lampung Krakatau Festival) is an annual cultural, and historical event held in Lampung.",
     description:
@@ -204,7 +204,7 @@ export const events = [
     img: "https://www.sardanagroup.co.id/HP/production/images/news/festival-danau-toba.jpg_1663920107.jpg",
     name: "Lake Toba Festival",
     date: "2025-01-15",
-    location: "North Sumatra",
+    location: "Sumatra",
     cardDesc:
       "Festival Danau Toba is an annual event organized around Lake Toba, North Sumatra, Indonesia.",
     description:
