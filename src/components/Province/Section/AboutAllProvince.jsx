@@ -3,9 +3,9 @@ import React from 'react'
 const AboutAllProvince = ({ img1, img2, img3, img4, title, text, text2, radius, radius2, radius3, radius4 }) => {
   return (
     <div className='pt-14'>
-      <div className="flex flex-col lg:flex-row items-start justify-center gap-10 relative mx-5 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-58">
+      <div className="flex flex-col lg:flex-row items-start justify-center gap-10 relative mx-5 md:mx-20 lg:mx-32 xl:mx-58">
         
-        <div className="relative w-full lg:w-1/2 order-1 lg:order-none min-h-[32rem]">
+        <div className="relative w-full lg:w-1/2 order-1 md:order-none min-h-[32rem]">
           <div className="absolute left-5 top-0">
             <img src={img1} alt="" className={`object-cover w-48 h-68 xl:w-60 xl:h-80 ${radius}`} />
           </div>
@@ -25,10 +25,10 @@ const AboutAllProvince = ({ img1, img2, img3, img4, title, text, text2, radius, 
           <h1 className='text-2xl md:text-3xl lg:text-2xl xl:text-[33px] bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-xs xl:max-w-sm'>
             {title}
           </h1>
-          <p className='text-light-gray mt-4 text-sm lg:max-w-xs xl:max-w-sm text-pretty text-justify lg:text-[15px]/relaxed xl:text-lg'>
+          <p className='text-light-gray mt-4 text-sm/relaxed md:text-[15px]/relaxed lg:max-w-xs xl:max-w-sm text-pretty text-justify lg:text-[15px]/relaxed xl:text-lg'>
             {text}
           </p>
-          <p className='text-light-gray mt-4 text-sm lg:max-w-xs xl:max-w-sm text-pretty text-justify lg:text-[15px]/relaxed xl:text-lg'>
+          <p className='text-light-gray mt-4 text-sm/relaxed md:text-[15px]/relaxed lg:max-w-xs xl:max-w-sm text-pretty text-justify lg:text-[15px]/relaxed xl:text-lg'>
             {text2}
           </p>
         </div>

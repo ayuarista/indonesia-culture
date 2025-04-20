@@ -58,21 +58,19 @@ const Sulawesi = () => {
         }
       />
       <div className="pt-40 xl:pt-60">
-        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+        <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Sulawesi Culture Better
         </h1>
         <VideoAllProvince
           video={
             <iframe
-              width="720"
-              height="350"
               src="https://www.youtube.com/embed/s_Rvxq_v-Ao?autoplay=1&si=lUOeF76Y1CSINr5R"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
-              className="relative"
+              className="relative w-[300px] h-[350px] md:w-[520px] md:h-[350px] lg:w-[720px] lg:h-[350px]"
             ></iframe>
           }
         />

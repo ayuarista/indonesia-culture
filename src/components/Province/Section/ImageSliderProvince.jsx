@@ -72,7 +72,8 @@ const ImageSliderProvince = () => {
         }`}
       ></div>
     ),
-    dotsClass: "slick-dots flex justify-center mt-4",responsive: [
+    dotsClass: "slick-dots flex justify-center mt-4",
+    responsive: [
       {
         breakpoint: 480,
         settings: {
@@ -86,7 +87,7 @@ const ImageSliderProvince = () => {
   };
 
   return (
-    <div className="mx-6 lg:mx-16 mt-14 relative">
+    <div className="mx-8 lg:mx-16 mt-14 relative">
       <div className="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-b blur-2xl from-0% via-40% to-100% from-light-red via-[#A90809]/50 to-transparent p-5 flex items-end"></div>
       <div className="absolute top-0 left-0 right-0 h-64 bg-gradient-to-t blur-2xl from-0% via-40% to-100% from-light-red via-[#A90809]/50 to-transparent p-5 flex items-end"></div>
       <Slider {...settings}>

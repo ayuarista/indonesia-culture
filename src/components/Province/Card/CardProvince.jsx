@@ -42,13 +42,13 @@ const CardProvince = () => {
   ];
 
   return (
-    <div className="grid grid-cols-3 lg:max-w-5xl xl:max-w-7xl gap-4 mt-10 xl:mt-20 mx-8 lg:mx-auto">
+    <div className="grid  grid-cols-2 md:grid-cols-3 max-w-4xl md:max-w-5xl xl:max-w-7xl gap-4 mt-10 xl:mt-20 mx-8 lg:mx-auto">
       {provinces.map((prov, index) => (
         <div key={index} className="relative mb-8">
           <img
             src={prov.image}
             alt={prov.location}
-            className="w-full h-80 object-right object-cover rounded-lg"
+            className="w-full h-54 md:h-80 object-right object-cover rounded-lg"
           />
           <div className="absolute bottom-0 left-0 right-0 w-full">
             <ButtonProvince path={prov.path} location={prov.location} />

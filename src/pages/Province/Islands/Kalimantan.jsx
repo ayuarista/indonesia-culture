@@ -53,14 +53,12 @@ const Kalimantan = () => {
         }
       />
       <div className="pt-38">
-        <h1 className="text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
+        <h1 className="mx-8 text-2xl text-left md:text-3xl lg:text-3xl xl:text-4xl bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent font-bold max-w-md lg:mx-20">
           Let's Get to Know Kalimantan Culture Better
         </h1>
         <VideoAllProvince
           video={
               <iframe
-                // width="720"
-                // height="350"
                 src="https://www.youtube.com/embed/_mo7k_-oR_A?autoplay=1&si=g0PXT8-8pHMC5dwX"
                 title="YouTube video player"
                 frameborder="0"

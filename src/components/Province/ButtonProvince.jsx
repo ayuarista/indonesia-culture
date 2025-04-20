@@ -16,7 +16,7 @@ const ButtonProvince = ({ path, location }) => {
         onClick={handleClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        className={`relative h-10 md:px-12 lg:px-16 rounded-full flex items-center justify-between cursor-pointer overflow-hidden transition-all duration-500 ${
+        className={`relative h-10 md:px-12 lg:px-16 w-full rounded-full flex items-center justify-between cursor-pointer overflow-hidden transition-all duration-500 ${
           isHovered
             ? "bg-gradient-to-r from-light-red from-10% to-transparent"
             : "bg-gradient-to-r from-light-red from-10% to-transparent"
@@ -29,7 +29,7 @@ const ButtonProvince = ({ path, location }) => {
         >
           <IoIosArrowForward
             className={`transition-all duration-500 ${
-              isHovered ? "text-light-red" : "text-light-red"
+              isHovered ? "text-transparent" : "text-light-red"
             }`}
           />
         </span>
