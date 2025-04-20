@@ -40,7 +40,7 @@ function App() {
         <Route path="/article" element={<Article/>}/>
         <Route path="*" element={<PagesNotFound />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   )
 }

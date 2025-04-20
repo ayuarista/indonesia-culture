@@ -10,7 +10,7 @@ import HomeGWR from "../components/Molecules/HomeGWR";
 import IndonesiaMaps from "../components/Organisms/IndonesiaMaps";
 const Home = () => {
   return (
-    <div className="pt-16">
+    <div className="pt-0">
       <HeroHome />
       <IndonesiaCulture />
       <RekorMuri />

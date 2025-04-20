@@ -2,7 +2,7 @@ import CardIndonesiaCulture from "../Card/CardIndonesiaCulture";
 import AboutIndonesiaCulture from "../Atoms/AboutIndonesiaCulture";
 const IndonesiaCulture = () => {
     return(
-        <div className="flex justify-between flex-col lg:flex-row overflow-hidden lg:overflow-visible lg:pt-32">
+        <div className="flex justify-between flex-col lg:flex-row overflow-hidden lg:overflow-visible pt-32">
         <div className="w-full">
         <CardIndonesiaCulture/>
         </div>

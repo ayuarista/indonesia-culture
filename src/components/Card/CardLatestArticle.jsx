@@ -2,7 +2,7 @@ import ArticleCard from "./ArticleCard";
 import ArticleTitle from "../Atoms/ArticleTitle";
 const CardLatestArticle = () => {
   return (
-    <div className="mt-16 lg:mt-20 mx-8 lg:mx-16">
+    <div className="mt-16 mb-10 lg:mt-20 mx-8 lg:mx-16">
       <ArticleTitle title="Latest Article" />
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
         <ArticleCard
