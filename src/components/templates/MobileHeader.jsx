@@ -38,7 +38,7 @@ const MobileHeader = () => {
 
       <div
         ref={menuRef}
-        className={`fixed top-20 left-5 w-54 border rounded-tr-xl rounded-b-xl border-gray-300 bg-white shadow-lg transform transition-all duration-500 ease-in-out z-50
+        className={`fixed top-20 left-5 w-54 border rounded-tr-xl rounded-b-xl border-gray-300 bg-white shadow-lg transform transition-all duration-300 ease-in-out z-50
           ${activeNav ? "scale-100 opacity-100" : "scale-95 opacity-0 pointer-events-none"}
         `}
       >

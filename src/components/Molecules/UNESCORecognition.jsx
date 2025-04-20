@@ -17,7 +17,7 @@ const UNESCORecognition = () => {
         
       />
       <div className="mt-10">
-      <h1 className="ml-16 font-bold text-base md:text-xl lg:text-[23px] xl:text-[28px]  text-light-red">
+      <h1 className="ml-16 font-bold text-lg md:text-xl lg:text-[23px] xl:text-[28px]  text-light-red">
       Intangible Cultural Heritage
       </h1>
       </div>
@@ -34,7 +34,7 @@ const UNESCORecognition = () => {
         ))}
       </div>
       <div className="mt-10">
-      <h1 className="font-bold text-base md:text-xl lg:text-[23px] xl:text-[28px] text-light-red ml-16">
+      <h1 className="font-bold text-lg md:text-xl lg:text-[23px] xl:text-[28px] text-light-red ml-16">
       World Heritage Sites
       </h1>
       </div>

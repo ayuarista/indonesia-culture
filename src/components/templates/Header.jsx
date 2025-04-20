@@ -9,7 +9,7 @@ const Header = () => {
     <header className="w-full bg-white fixed p-5 text-black z-50">
       <div className="flex justify-between lg:justify-center w-full items-center">
         <div className="absolute left-20 lg:mb-0 lg:left-12">
-          <img src={logo} alt="" className="w-24"/>
+          <img src={logo} alt="" className="w-20 md:w-24"/>
         </div>
         <div className="block lg:hidden">
           <MobileHeader/>

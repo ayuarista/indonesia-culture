@@ -9,7 +9,7 @@ const HeaderInternationalAwards = ({image, title, desc}) => {
       <h2 className="mx-4 mt-3 text-2xl md:text-3xl lg:text-[32px] xl:text-[37px] font-bold bg-gradient-to-r from-0% from-dark-red to-80% to-light-red bg-clip-text text-transparent text-center">
         {title}
       </h2>
-      <p className="text-center text-[13px] md:text-sm lg:text-[15px] xl:text-lg whitespace-pre-wrap text-pretty w-[70%] xl:w-[50%] mt-3 text-black">
+      <p className="text-center font-medium text-[13px] md:text-sm lg:text-[15px] xl:text-lg whitespace-pre-wrap text-pretty w-[70%] xl:w-[50%] mt-3 text-black">
         {desc}
       </p>
     </div>

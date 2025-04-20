@@ -15,7 +15,7 @@ const ProtectCulture = () => {
                 <ProtectCultureMap/>
             </div>
             </div>
-            <img src={gelombang} alt="" className="absolute -bottom-28 md:-bottom-56 lg:-bottom-80 xl:-bottom-72 w-full"/>
+            <img src={gelombang} alt="" className="absolute -bottom-24 md:-bottom-52 lg:-bottom-80 xl:-bottom-72 w-full"/>
         </div>
     )
 }

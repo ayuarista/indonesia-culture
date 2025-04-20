@@ -37,7 +37,7 @@ const PopupDesign = ({ isOpen, closeModal, image, title, date, desc }) => {
                   {date}
                 </p>
               </div>
-              <p className="font-medium text-black mt-5 text-justify text-sm lg:text-[15px]/6 xl:text-base/relaxed mb-5">
+              <p className="font-medium text-black mt-5 text-justify text-sm/relaxed lg:text-[15px]/relaxed xl:text-base/relaxed mb-5">
                 {desc}
               </p>
               <div className="absolute -bottom-3 right-2 lg:-bottom-2 xl:-bottom-4 lg:right-3 text-sm">

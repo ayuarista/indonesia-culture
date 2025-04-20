@@ -15,10 +15,10 @@ const NationalDropdownFilter = () => {
     let sortedData = [...data];
 
     if (option === "Latest") {
-      sortedData.sort((a, b) => new Date(b.date) - new Date(a.date)); 
+      sortedData.sort((a, b) => new Date(b.date) - new Date(a.date));
       setFilteredData(sortedData.slice(0, 6));
     } else if (option === "Previous") {
-      sortedData.sort((a, b) => new Date(a.date) - new Date(b.date)); 
+      sortedData.sort((a, b) => new Date(a.date) - new Date(b.date));
       setFilteredData(sortedData.slice(0, 6));
     } else if (option === "Popular") {
       sortedData.sort((a, b) => b.views - a.views);
@@ -30,24 +30,26 @@ const NationalDropdownFilter = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="flex items-center justify-between w-full">
+      <div className="md:flex items-center justify-between w-full">
         <div className="mx-10 lg:mx-16 xl:mx-32">
-        <h1 className="font-bold text-3xl xl:text-4xl text-light-red">{sortOption}</h1>
+          <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl text-light-red">
+            {sortOption}
+          </h1>
         </div>
         <div className="relative text-black mx-10 lg:mx-16 mt-2 lg:mt-0">
           <div className="flex items-center gap-3">
-          <h1>Sort by:</h1>
-          <button
-            onClick={() => setShowDropdown(!showDropdown)}
-            className="border cursor-pointer border-light-red xl:text-lg font-semibold text-light-red px-4 py-1 rounded-full w-48 text-left flex items-center justify-between"
+              <h1>Sort by:</h1>
+            <button
+              onClick={() => setShowDropdown(!showDropdown)}
+              className="border cursor-pointer border-light-red xl:text-lg font-semibold text-light-red px-4 py-1 rounded-full w-40 md:w-48 text-left flex items-center justify-between"
             >
-            {sortOption}
-            <IoIosArrowDown
-              className={`ml-2 transform transition-transform duration-300 ${
-                showDropdown ? "rotate-180" : ""
-              }`}
+              {sortOption}
+              <IoIosArrowDown
+                className={`ml-2 transform transition-transform duration-300 ${
+                  showDropdown ? "rotate-180" : ""
+                }`}
               />
-          </button>
+            </button>
           </div>
           {showDropdown && (
             <div className="absolute text-[15px] md:text-[16px] xl:text-[17px] bg-white rounded-lg mt-2 w-full shadow-2xl z-10 p-2">
