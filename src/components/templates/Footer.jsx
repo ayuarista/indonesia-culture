@@ -2,7 +2,7 @@ import footer from "/assets/footer/footer.svg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="relative h-[90vh] md:h-[45vh] lg:h-screen xl:h-screen">
+    <div className="relative h-[75vh] md:h-[45vh] lg:h-screen xl:h-screen">
       <img src={footer} alt="" className="absolute inset-0 w-full h-full object-cover" />
       <div className="absolute top-44 md:top-38 xl:top-96 left-10 md:left-0 right-0">
         <div className="flex flex-col md:flex-row items-start justify-center gap-x-20">
