@@ -72,7 +72,17 @@ const ImageSliderProvince = () => {
         }`}
       ></div>
     ),
-    dotsClass: "slick-dots flex justify-center mt-4",
+    dotsClass: "slick-dots flex justify-center mt-4",responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      }
+    ]
+
   };
 
   return (
